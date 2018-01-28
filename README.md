@@ -30,14 +30,15 @@ Or install it yourself as:
 => #<Jikan::Anime:0x0168c4e0>
 
 >> yurucamp.raw
-=> {"mal_id"=>34798,
- "link_canonical"=>"https://myanimelist.net/anime/34798/Yuru_Camp△",
- "title"=>"Yuru Camp△",
- "title_english"=>"Laid-Back Camp",
- "title_japanese"=>"ゆるキャン△",
- "title_synonyms"=>"Yurukyan, Laid-Back Camp△",
- ...
-}
+=> {
+    "mal_id"=>34798,
+    "link_canonical"=>"https://myanimelist.net/anime/34798/Yuru_Camp△",
+    "title"=>"Yuru Camp△",
+    "title_english"=>"Laid-Back Camp",
+    "title_japanese"=>"ゆるキャン△",
+    "title_synonyms"=>"Yurukyan, Laid-Back Camp△",
+    ...
+   }
 
 >> yurucamp.title
 => "Yuru Camp△"
@@ -54,15 +55,16 @@ Or install it yourself as:
 => #<Jikan::Character:0x0134b080>
 
 >> ikaruga.raw # only raw method is available for now for both character and people
-=> {"mal_id"=>16521,
- "link_canonical"=>"https://myanimelist.net/character/16521/Kagome_Ikaruga",
- "name"=>"Kagome Ikaruga",
- "name_kanji"=>"(斑鳩かごめ)",
- "nicknames"=>"Kagome  Ikaruga",
- "about"=>
-  "10 years old and the youngest of the Ikaruga sisters. She has bigger breast than Ayame so she covers them. She seems to like Masashi.",
-...
-}
+=> {
+    "mal_id"=>16521,
+    "link_canonical"=>"https://myanimelist.net/character/16521/Kagome_Ikaruga",
+    "name"=>"Kagome Ikaruga",
+    "name_kanji"=>"(斑鳩かごめ)",
+    "nicknames"=>"Kagome  Ikaruga",
+    "about"=>
+      "10 years old and the youngest of the Ikaruga sisters. She has bigger breast than Ayame so she covers them. She seems to like Masashi.",
+    ...
+  }
 ```
 
 **Search**
@@ -73,28 +75,32 @@ Or install it yourself as:
 
 >> railgun.raw # only raw method is available for now
 => {"result"=>
-    [{"id"=>6213,
+    [
+      { 
+        "id"=>6213,
         "url"=>"https://myanimelist.net/anime/6213/Toaru_Kagaku_no_Railgun",
         "image_url"=>
         "https://myanimelist.cdn-dena.com/r/100x140/images/anime/8/53581.jpg?s=4003b92ef0e723389087b69a8a08d742",
         "title"=>"Toaru Kagaku no Railgun",
         ...
-        },
-        {"id"=>16049,
+      },
+      {
+        "id"=>16049,
         "url"=>"https://myanimelist.net/anime/16049/Toaru_Kagaku_no_Railgun_S",
         "image_url"=>
         "https://myanimelist.cdn-dena.com/r/100x140/images/anime/7/75610.jpg?s=ca85d87b5ff134c73f03184d111604c0",
         "title"=>"Toaru Kagaku no Railgun S"
         ...
-        }
+      }
     ]
+  }
 ```
 
 ## To-Do
 - [ ] Add test suites
-- [ ] Add search feature
-- [ ] Refactoring
-- [ ] Break down the hashes into consumable classes.
+- [X] Add search feature
+- [X] Refactoring 
+- [ ] Break down hashes into consumable classes
 
 ## Development
 
