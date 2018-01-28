@@ -25,10 +25,10 @@ Or install it yourself as:
 Will be updated.
 
 ## To-Do
-[] Add test suites
-[] Add search feature
-[] Refactoring
-[] Break down the hashes into consumable classes.
+- [ ] Add test suites
+- [ ] Add search feature
+- [ ] Refactoring
+- [ ] Break down the hashes into consumable classes.
 
 ## Development
 
