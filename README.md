@@ -1,6 +1,6 @@
-# Jikan
+# Jikan.rb
 
-This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired heavily by [JikanPy](https://github.com/AWConant/jikanpy). This is pretty much work in progress and by any means not to be used in production. Documentation will be updated as the work progresses.
+This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy). This is pretty much work in progress and by any means not to be used in production. Documentation will be updated as the work progresses.
 
 ## Installation
 
@@ -26,11 +26,14 @@ Or install it yourself as:
 
 ```ruby
 # https://myanimelist.net/anime/34798/Yuru_Camp
->> yurucamp = Jikan::Query.anime_id 34798 # manga_id for manga
+>> qry = Jikan::Query.new
+=> #<Jikan::Query:0x026ed9d0>
+
+>> yurucamp = qry.anime_id 34798 # manga_id for manga
 => #<Jikan::Anime:0x0168c4e0>
 
 >> yurucamp.raw
-=> {
+=>{
     "mal_id"=>34798,
     "link_canonical"=>"https://myanimelist.net/anime/34798/Yuru_Camp△",
     "title"=>"Yuru Camp△",
@@ -38,7 +41,7 @@ Or install it yourself as:
     "title_japanese"=>"ゆるキャン△",
     "title_synonyms"=>"Yurukyan, Laid-Back Camp△",
     ...
-   }
+  }
 
 >> yurucamp.title
 => "Yuru Camp△"
@@ -51,11 +54,14 @@ Or install it yourself as:
 
 ```ruby
 # https://myanimelist.net/character/16521/Kagome_Ikaruga
->> ikaruga = Jikan::Query.character_id 16521
+>> qry = Jikan::Query.new
+=> #<Jikan::Query:0x027554b8>
+
+>> ikaruga = qry.character_id 16521
 => #<Jikan::Character:0x0134b080>
 
 >> ikaruga.raw # only raw method is available for now for both character and people
-=> {
+=>{
     "mal_id"=>16521,
     "link_canonical"=>"https://myanimelist.net/character/16521/Kagome_Ikaruga",
     "name"=>"Kagome Ikaruga",
@@ -69,12 +75,14 @@ Or install it yourself as:
 
 **Search**
 ``` ruby
+>> qry = Jikan::Query.new
+=> #<Jikan::Query:0x027d70e8>
 
->> railgun = Jikan::Query.search("railgun", :anime) # other parameter tokens are :manga, :character, :person
+>> railgun = qry.search("railgun", :anime) # other parameter tokens are :manga, :character, :person
 => #<Jikan::Search:0x016fd760>
 
 >> railgun.raw # only raw method is available for now
-=> {"result"=>
+=>{"result"=>
     [
       { 
         "id"=>6213,

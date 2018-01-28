@@ -7,29 +7,34 @@ require 'jikan/search'
 
 module Jikan
   class Query
-    def self.anime_id(id, ext=nil)
-      json = Jikan::API.new.get("anime", id, ext)
-      Jikan::Anime.new(json)
+
+    def initialize
+      @json = nil
     end
 
-    def self.manga_id(id)
-      json = Jikan::API.new.get("manga", id)
-      Jikan::Manga.new(json)
+    def anime_id(id, ext=nil)
+      @json = Jikan::API.new.get("anime", id, ext)
+      Jikan::Anime.new(@json)
     end
 
-    def self.character_id(id, ext=nil)
-      json = Jikan::API.new.get("character", id)
-      Jikan::Character.new(json)
+    def manga_id(id, ext=nil)
+      @json = Jikan::API.new.get("manga", id, ext)
+      Jikan::Manga.new(@json)
     end
 
-    def self.person_id(id, ext=nil)
-      Jikan::API.new.get("person", id)
-      Jikan::Person.new(json)
+    def character_id(id, ext=nil)
+      @json = Jikan::API.new.get("character", id, ext)
+      Jikan::Character.new(@json)
     end
 
-    def self.search(title, type=:anime, page=1)
-      json = Jikan::API.new.get("search", page, type, title)
-      Jikan::Search.new(json)
+    def person_id(id, ext=nil)
+      @json = Jikan::API.new.get("person", id, ext)
+      Jikan::Person.new(@json)
+    end
+
+    def search(title, type=:anime, page=1)
+      @json = Jikan::API.new.get("search", page, type, title)
+      Jikan::Search.new(@json)
     end
     
 	end
