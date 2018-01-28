@@ -31,6 +31,10 @@ module Jikan
       raw['episodes']
     end
 
+    def eps_list
+      raw['episode']
+    end
+
     def licensor
       raw['licensor']
     end

@@ -1,13 +1,12 @@
 module Jikan
   class BaseEntity
 
+    attr_reader :raw
+
     def initialize(json)
       @raw = json
     end
 
-    def raw
-      @raw
-    end
   end
 
   class MediaEntity < BaseEntity

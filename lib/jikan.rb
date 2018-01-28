@@ -1,31 +1,14 @@
-require 'jikan/anime'
-require 'jikan/api'
-require 'jikan/character'
-require 'jikan/manga'
-require 'jikan/version'
+require 'jikan/query'
 
 module Jikan
+  BASE_URL = "http://api.jikan.me"
+  BASE_URL_SSL = "https://api.jikan.me"
 
-  def self.anime_id(id, ext=nil)
-    json = Jikan::API.new.get("anime", id, ext)
-    Jikan::Anime.new(json)
-  end
-
-  def self.manga_id(id)
-    json = Jikan::API.new.get("manga", id)
-    Jikan::Manga.new(json)
-  end
-
-  def self.character_id(id, ext=nil)
-    json = Jikan::API.new.get("character", id)
-    Jikan::Character.new(json)
-  end
-
-  def self.person_id(id, ext=nil)
-    Jikan::API.new.get("person", id)
-  end
-
-  def self.user_list_id(id, ext=nil)
-    Jikan::API.new.get("user_list", id)
-  end
+  FLAGS = {
+    'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats ],
+    'manga' => [ :character, :news, :pictures, :stats ],
+    'character' => [ :pictures ],
+    'person' => [ :pictures ],
+    'search' => [:anime, :manga, :person, :character]
+  }
 end
