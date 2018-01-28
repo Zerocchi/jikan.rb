@@ -25,7 +25,7 @@ module Jikan
 			@selected_base = if use_ssl then BASE_URL_SSL else BASE_URL end
 		end
 
-		def anime(id, ext="")
+		def anime(id, ext=nil)
 			get("anime", id, ext)
 		end
 
@@ -33,15 +33,15 @@ module Jikan
 			get("manga", id)
 		end
 
-		def character(id)
+		def character(id, ext=nil)
 			get("character", id)
 		end
 
-		def person(id)
+		def person(id, ext=nil)
 			get("person", id)
 		end
 
-		def user_list(id)
+		def user_list(id, ext=nil)
 			get("user_list", id)
 		end
 
@@ -52,7 +52,7 @@ module Jikan
 			@id = id
 			@ext = ext
 			@url = "#{@selected_base}/#{@endpoint}/#{@id}"
-			unless @ext.empty?
+			unless @ext.nil?
 				unless EXTENSIONS[@endpoint].include? @ext
 					raise 'Extensions not supported'
 				end
