@@ -12,23 +12,23 @@ module Jikan
       @json = nil
     end
 
-    def anime_id(id, ext=nil)
-      @json = Jikan::API.new.get("anime", id, ext)
+    def anime_id(id, flag=nil)
+      @json = Jikan::API.new.get("anime", id, flag)
       Jikan::Anime.new(@json)
     end
 
-    def manga_id(id, ext=nil)
-      @json = Jikan::API.new.get("manga", id, ext)
+    def manga_id(id, flag=nil)
+      @json = Jikan::API.new.get("manga", id, flag)
       Jikan::Manga.new(@json)
     end
 
-    def character_id(id, ext=nil)
-      @json = Jikan::API.new.get("character", id, ext)
+    def character_id(id, flag=nil)
+      @json = Jikan::API.new.get("character", id, flag)
       Jikan::Character.new(@json)
     end
 
-    def person_id(id, ext=nil)
-      @json = Jikan::API.new.get("person", id, ext)
+    def person_id(id, flag=nil)
+      @json = Jikan::API.new.get("person", id, flag)
       Jikan::Person.new(@json)
     end
 

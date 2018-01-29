@@ -7,14 +7,14 @@ module Jikan
     def initialize(use_ssl=true)
 			@endpoint = ""
 			@id = nil
-			@ext = nil
+			@flag = nil
 			@selected_base = if use_ssl then Jikan::BASE_URL_SSL else Jikan::BASE_URL end
 		end
 
-		def get(endpoint, id, ext=nil, qry='')
+		def get(endpoint, id, flag=nil, qry='')
 			@endpoint = endpoint
 			@id = id
-			@ext = ext
+			@flag = flag
       @query = qry
 
 			construct_url
@@ -28,18 +28,18 @@ module Jikan
       @url = "#{@end_url}/#{@id}"
 
       if @endpoint.eql?('search')
-				unless Jikan::FLAGS[@endpoint].include? @ext
-					raise Jikan::ExtensionError, 'Extensions not supported'
+				unless Jikan::FLAGS[@endpoint].include? @flag
+					raise Jikan::FlagError, 'Flag not supported'
 				else
-					@url = "#{@end_url}/#{@ext.to_s}/#{@query}/#{@id}"
+					@url = "#{@end_url}/#{@flag.to_s}/#{@query}/#{@id}"
 				end
       end
 
-			unless @ext.nil? || @endpoint.eql?('search')
-				unless Jikan::FLAGS[@endpoint].include? @ext
-					raise Jikan::ExtensionError, 'Extensions not supported'
+			unless @flag.nil? || @endpoint.eql?('search')
+				unless Jikan::FLAGS[@endpoint].include? @flag
+					raise Jikan::FlagError, 'Flag not supported'
 				end
-				@url << "/#{@ext.to_s}"
+				@url << "/#{@flag.to_s}"
 			end
 		end
 

@@ -1,6 +1,6 @@
 # Jikan.rb
 
-This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy). This is pretty much work in progress and by any means not to be used in production. Documentation will be updated as the work progresses.
+This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
 
 ## Installation
 
@@ -30,6 +30,9 @@ Or install it yourself as:
 => #<Jikan::Query:0x026ed9d0>
 
 >> yurucamp = qry.anime_id 34798 # manga_id for manga
+# You can also specify flag as second parameter
+# >> yurucamp = qry.anime_id 34798, :episodes
+# All flags are symbol, please refer https://jikan.me/docs#chaining-methods to see all available flags
 => #<Jikan::Anime:0x0168c4e0>
 
 >> yurucamp.raw
@@ -105,10 +108,10 @@ Or install it yourself as:
 ```
 
 ## To-Do
-- [ ] Add test suites
+- [X] Add test suites
 - [X] Add search feature
-- [X] Refactoring 
-- [ ] Break down hashes into consumable classes
+- [ ] Refactoring 
+- [X] Break down hashes into consumable classes
 
 ## Development
 

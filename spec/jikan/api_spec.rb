@@ -22,7 +22,7 @@ RSpec.describe Jikan::API do
       end
     end
 
-    it "return result based on token/ext" do
+    it "return result based on flag given" do
       VCR.use_cassette "raw anime ext" do
         @anime = @api.get('anime', 34798, :episodes)
         episodes = @anime['episode']
@@ -63,11 +63,11 @@ RSpec.describe Jikan::API do
       end
     end
     
-    it "raise exception for invalid token" do
+    it "raise exception for invalid flag" do
       expect { @api.get('anime', 34798, :invalid) }
-        .to raise_error(Jikan::ExtensionError)
+        .to raise_error(Jikan::FlagError)
       expect { @api.get('search', 1, :invalid, 'Yuru') }
-        .to raise_error(Jikan::ExtensionError)  
+        .to raise_error(Jikan::FlagError)  
     end
 
     it "raise exception for invalid request" do
