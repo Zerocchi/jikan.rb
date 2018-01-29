@@ -4,12 +4,10 @@ This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy
 
 ## Installation
 
-**NOTE: This does not work yet until the gem is uploaded.**
-
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jikan'
+gem 'jikan.rb'
 ```
 
 And then execute:
@@ -18,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jikan
+    $ gem install jikan.rb
 
 ## Usage
 
