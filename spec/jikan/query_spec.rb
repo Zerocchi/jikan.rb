@@ -6,7 +6,7 @@ RSpec.describe Jikan::Query do
     @query = Jikan::Query.new
   end
 
-  describe "query" do
+  describe ".query" do
     it "return Query object" do
       expect(@query).to be_a_kind_of(Jikan::Query)
     end

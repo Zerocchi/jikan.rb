@@ -6,7 +6,7 @@ RSpec.describe Jikan::API do
     @api = Jikan::API.new
   end
 
-  describe "api" do
+  describe ".api" do
     it "return API object" do
       expect(@api).to be_a_kind_of(Jikan::API)
     end

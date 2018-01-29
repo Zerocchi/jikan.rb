@@ -60,7 +60,7 @@ module Jikan
     end
 
     def link
-      raw['link-canonical']
+      raw['link_canonical']
     end
 
     def title
@@ -68,11 +68,15 @@ module Jikan
     end
 
     def title_en
-      raw['title-english']
+      raw['title_english']
     end
 
     def title_jp
       raw['japanese']
+    end
+
+    def title_synonyms
+      raw['title_synonyms']
     end
 
     def type
