@@ -36,6 +36,12 @@ RSpec.describe Jikan::Query do
       end
     end
 
+    it "raise exception when using invalid token" do
+      VCR.use_cassette "raw anime" do
+        expect { @query.anime_id 34798, :invalid }
+        .to raise_error(Jikan::ExtensionError)
+      end
+    end
   end
 
   describe "#manga_id" do
@@ -70,7 +76,7 @@ RSpec.describe Jikan::Query do
     end
   end
 
-  describe "search" do
+  describe "#search" do
     it "return anime search result" do
       VCR.use_cassette "search anime" do
         @anime_search = @query.search("Railgun", :anime)
@@ -83,7 +89,7 @@ RSpec.describe Jikan::Query do
     it "raise exception on invalid token", :vcr do
       VCR.use_cassette "search anime" do
         expect { @query.search("Railgun", :invalid) }
-        .to raise_error
+        .to raise_error(Jikan::ExtensionError)
       end
     end
   end

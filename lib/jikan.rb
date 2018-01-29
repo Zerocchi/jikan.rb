@@ -1,6 +1,9 @@
 require 'jikan/query'
 
 module Jikan
+  class ExtensionError < StandardError; end
+  class ClientError < StandardError; end
+
   BASE_URL = "http://api.jikan.me"
   BASE_URL_SSL = "https://api.jikan.me"
 

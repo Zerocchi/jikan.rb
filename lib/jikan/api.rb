@@ -17,28 +17,36 @@ module Jikan
 			@ext = ext
       @query = qry
 
-			@end_url = "#{@selected_base}/#{@endpoint}"
-      @url = "#{@end_url}/#{@id}"
-
-      if @endpoint.eql?('search')
-        @url = "#{@end_url}/#{@ext.to_s}/#{@query}/#{@id}"
-      end
-
-			unless @ext.nil? || @endpoint.eql?('search')
-				unless Jikan::FLAGS[@endpoint].include? @ext
-					raise 'Extensions not supported'
-				end
-				@url << "/#{@ext.to_s}"
-			end
+			construct_url
 			get_data
 		end
 
     private
 
+		def construct_url
+			@end_url = "#{@selected_base}/#{@endpoint}"
+      @url = "#{@end_url}/#{@id}"
+
+      if @endpoint.eql?('search')
+				unless Jikan::FLAGS[@endpoint].include? @ext
+					raise Jikan::ExtensionError, 'Extensions not supported'
+				else
+					@url = "#{@end_url}/#{@ext.to_s}/#{@query}/#{@id}"
+				end
+      end
+
+			unless @ext.nil? || @endpoint.eql?('search')
+				unless Jikan::FLAGS[@endpoint].include? @ext
+					raise Jikan::ExtensionError, 'Extensions not supported'
+				end
+				@url << "/#{@ext.to_s}"
+			end
+		end
+
 		def get_data
 			res = HTTP.get(@url)
 			if res.status >= 400
-				raise "#{res.status}: error for id #{@id} on endpoint #{@endpoint}"
+				raise ClientError, "#{res.status}: error on endpoint #{@endpoint}"
 			end
 
 			JSON.parse(res.body)
