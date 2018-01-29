@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.me/character/32512
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.me
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jan 2018 07:06:51 GMT
+      Server:
+      - Apache/2.4.27 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - no-cache, private
+      Vary:
+      - Host,Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: '{"mal_id":32512,"link_canonical":"https:\/\/myanimelist.net\/character\/32512\/Violate_Behemoth","name":"Violate
+        Behemoth","name_kanji":null,"nicknames":"Violate  Behemoth","about":null,"member_favorites":3,"image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/characters\/13\/114528.jpg","animeography":[{"mal_id":6171,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/anime\/6171\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/anime\/8\/75546.jpg?s=a532cddc9e84b080f4e0aecbde9330ab"}],"mangaography":[{"mal_id":1047,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/manga\/1047\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/manga\/5\/163126.jpg?s=c60e699264cceec96b6cb2094d483b43"}],"voice_actor":[{"mal_id":41,"name":"Honda,
+        Takako","url":"https:\/\/myanimelist.net\/people\/41\/Takako_Honda","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49689v.jpg","language":"Japanese"},{"mal_id":43652,"name":"Cezar,
+        Mabel","url":"https:\/\/myanimelist.net\/people\/43652\/Mabel_Cezar","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/1\/47823v.jpg","language":"Brazilian"},{"mal_id":46119,"name":"Giuliani,
+        Vanessa","url":"https:\/\/myanimelist.net\/people\/46119\/Vanessa_Giuliani","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49578v.jpg","language":"Italian"}]}'
+    http_version: 
+  recorded_at: Mon, 29 Jan 2018 07:06:52 GMT
+recorded_with: VCR 4.0.0

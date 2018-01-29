@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.me/person/2211
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.me
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jan 2018 07:45:59 GMT
+      Server:
+      - Apache/2.4.27 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - no-cache, private
+      Vary:
+      - Host,Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: '{"mal_id":2211,"link_canonical":"https:\/\/myanimelist.net\/people\/2211\/Makoto_Tateno","name":"Makoto
+        Tateno","given_name":"\u771f\u7434","family_name":null,"alternate_name":null,"birthday":"Mar  23,
+        ","website_url":"http:\/\/makoto-egg.com\/","member_favorites":126,"more":"Also
+        writes under the pen-name of Shinjuku Tango.\\n\\nBirthplace: Toyama, Toyama,
+        Japan\\nZodiac: Aries\\nBlood Type: A\\nFemale\\n\\nMakoto Tateno is an extremely
+        prolific mangaka, having created 30+ series of manga in the shoujo demographic,
+        including many titles in the BL genre. She debuted in 1986 with the short
+        story \"Yuraete Tamago Boys,\" published by Hana to Yume. ","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/1850.jpg","voice_acting_role":[],"anime_staff_position":[],"published_manga":[{"manga":{"mal_id":202,"name":"9th
+        Sleep","url":"https:\/\/myanimelist.net\/manga\/202\/9th_Sleep","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/5959.jpg?s=14332663c59c56f1b3348eb90f3355a0"},"role":"Story
+        & Art"},{"manga":{"mal_id":21107,"name":"Ai to Okane","url":"https:\/\/myanimelist.net\/manga\/21107\/Ai_to_Okane","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/33866.jpg?s=3fea4978ccf72b067c116093198ae206"},"role":"Story
+        & Art"},{"manga":{"mal_id":11325,"name":"Angelic Runes","url":"https:\/\/myanimelist.net\/manga\/11325\/Angelic_Runes","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/15303.jpg?s=75cbeb2dd826be870d93c14f7da0bb03"},"role":"Story
+        & Art"},{"manga":{"mal_id":1967,"name":"Aoi Hitsuji no Yume","url":"https:\/\/myanimelist.net\/manga\/1967\/Aoi_Hitsuji_no_Yume","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/168467.jpg?s=f66acdd9fbbbf53c7293af27220e0953"},"role":"Story
+        & Art"},{"manga":{"mal_id":3163,"name":"Card no Ousama","url":"https:\/\/myanimelist.net\/manga\/3163\/Card_no_Ousama","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/3459.jpg?s=619f98051072bbc604a2a75a06ec8b62"},"role":"Story
+        & Art"},{"manga":{"mal_id":2145,"name":"CUTE X GUY","url":"https:\/\/myanimelist.net\/manga\/2145\/CUTE_X_GUY","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/2342.jpg?s=f3c9a39ddcaa2b7f46b4f03ab5788099"},"role":"Story
+        & Art"},{"manga":{"mal_id":92521,"name":"Dakasete Kurenai ka?","url":"https:\/\/myanimelist.net\/manga\/92521\/Dakasete_Kurenai_ka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/163513.jpg?s=a488bd96b87c7a3526f34345c93a8b84"},"role":"Story
+        & Art"},{"manga":{"mal_id":1969,"name":"Gerbera","url":"https:\/\/myanimelist.net\/manga\/1969\/Gerbera","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/164432.jpg?s=99a51756d16bfa248f822b5860cd9b83"},"role":"Story
+        & Art"},{"manga":{"mal_id":44915,"name":"Gyakukousen","url":"https:\/\/myanimelist.net\/manga\/44915\/Gyakukousen","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/194893.jpg?s=04191e4ed289ac089e606e2d6d63c203"},"role":"Story
+        & Art"},{"manga":{"mal_id":8934,"name":"Happy Boys","url":"https:\/\/myanimelist.net\/manga\/8934\/Happy_Boys","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/29139.jpg?s=b5924393a5a46c709d8495c5cc6814a4"},"role":"Story
+        & Art"},{"manga":{"mal_id":49425,"name":"Heart wo Nusumu no wa Dare da","url":"https:\/\/myanimelist.net\/manga\/49425\/Heart_wo_Nusumu_no_wa_Dare_da","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/87315.jpg?s=0c9b29d85db96e0a482f00e70e43b5bb"},"role":"Story
+        & Art"},{"manga":{"mal_id":255,"name":"Hero Heel: Eiyuu to Akkan","url":"https:\/\/myanimelist.net\/manga\/255\/Hero_Heel__Eiyuu_to_Akkan","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/193140.jpg?s=58359198da066164798e7db990bbd30b"},"role":"Story
+        & Art"},{"manga":{"mal_id":9116,"name":"Hosutan he Youkoso","url":"https:\/\/myanimelist.net\/manga\/9116\/Hosutan_he_Youkoso","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/12461.jpg?s=8e6009143db30d5eeaa8151445c45d55"},"role":"Story
+        & Art"},{"manga":{"mal_id":260,"name":"Kashinfuu","url":"https:\/\/myanimelist.net\/manga\/260\/Kashinfuu","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/6066.jpg?s=b9452d28e11675cb95e25938476f4886"},"role":"Story
+        & Art"},{"manga":{"mal_id":50243,"name":"Kenshuui wa Koakuma to Odoru","url":"https:\/\/myanimelist.net\/manga\/50243\/Kenshuui_wa_Koakuma_to_Odoru","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/88753.jpg?s=029db0a1c06e6558c003f8e729aa13aa"},"role":"Story
+        & Art"},{"manga":{"mal_id":15465,"name":"Killer Street","url":"https:\/\/myanimelist.net\/manga\/15465\/Killer_Street","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/22486.jpg?s=7a07804da17695f7c9066d5b5ddac4ce"},"role":"Story
+        & Art"},{"manga":{"mal_id":1029,"name":"Kirai Kiraimo","url":"https:\/\/myanimelist.net\/manga\/1029\/Kirai_Kiraimo","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/37384.jpg?s=db0a4feb982d5d94caed521ec55bf410"},"role":"Story
+        & Art"},{"manga":{"mal_id":8653,"name":"Koyoi wa Kimi to Chi no Kisu wo","url":"https:\/\/myanimelist.net\/manga\/8653\/Koyoi_wa_Kimi_to_Chi_no_Kisu_wo","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/48465.jpg?s=f724f19f4ac65e0df58fe43e0f9a5d3c"},"role":"Story
+        & Art"},{"manga":{"mal_id":14460,"name":"Lecture","url":"https:\/\/myanimelist.net\/manga\/14460\/Lecture","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/20685.jpg?s=dc8ed6088ee24e0c1fd8f29dd86ff9fe"},"role":"Story
+        & Art"},{"manga":{"mal_id":37259,"name":"Marry Max!","url":"https:\/\/myanimelist.net\/manga\/37259\/Marry_Max","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/67311.jpg?s=2b4739f2faf6d3e28fdec270f194e07c"},"role":"Story
+        & Art"},{"manga":{"mal_id":1971,"name":"Martini Kouryakuhou","url":"https:\/\/myanimelist.net\/manga\/1971\/Martini_Kouryakuhou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/28395.jpg?s=935b9339132bbf360cc4770dbcd0ef06"},"role":"Story
+        & Art"},{"manga":{"mal_id":2185,"name":"Muse no Gakuen de Aou","url":"https:\/\/myanimelist.net\/manga\/2185\/Muse_no_Gakuen_de_Aou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/5\/12066.jpg?s=88538280bd4019a62a0ab74ee74789c2"},"role":"Story
+        & Art"},{"manga":{"mal_id":8539,"name":"Night Head","url":"https:\/\/myanimelist.net\/manga\/8539\/Night_Head","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/11686.jpg?s=0922778396335def7453ba07d0f18d1d"},"role":"Art"},{"manga":{"mal_id":8226,"name":"Oniichan
+        Lab.","url":"https:\/\/myanimelist.net\/manga\/8226\/Oniichan_Lab","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/30001.jpg?s=adf43e592ac440a5c16deace88ad003a"},"role":"Story
+        & Art"},{"manga":{"mal_id":3538,"name":"Red Angel","url":"https:\/\/myanimelist.net\/manga\/3538\/Red_Angel","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/3923.jpg?s=79e70256ddfb400340a6aee0dc998753"},"role":"Story
+        & Art"},{"manga":{"mal_id":12894,"name":"Romeo x Romeo","url":"https:\/\/myanimelist.net\/manga\/12894\/Romeo_x_Romeo","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/30328.jpg?s=e393ecbcdcbf18e0768b39a05a9540ec"},"role":"Story
+        & Art"},{"manga":{"mal_id":13665,"name":"Side Car Seigyohou","url":"https:\/\/myanimelist.net\/manga\/13665\/Side_Car_Seigyohou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/19297.jpg?s=183015aa4566a05afbc1a52937e2e005"},"role":"Story
+        & Art"},{"manga":{"mal_id":8229,"name":"Sorya Naize Baby","url":"https:\/\/myanimelist.net\/manga\/8229\/Sorya_Naize_Baby","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/11252.jpg?s=5add55703b2bebb2c6ad39e477566be7"},"role":"Story
+        & Art"},{"manga":{"mal_id":1973,"name":"Steal Moon","url":"https:\/\/myanimelist.net\/manga\/1973\/Steal_Moon","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/168476.jpg?s=8170292beca9bc919a5621c5ae01959f"},"role":"Story
+        & Art"},{"manga":{"mal_id":36465,"name":"Takatsukasake no Ninja","url":"https:\/\/myanimelist.net\/manga\/36465\/Takatsukasake_no_Ninja","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/65865.jpg?s=d972ee3dd6071d367e8cc27e09d5800c"},"role":"Story
+        & Art"},{"manga":{"mal_id":8228,"name":"Tama yori Hayaku!!","url":"https:\/\/myanimelist.net\/manga\/8228\/Tama_yori_Hayaku","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/11251.jpg?s=93b079f3a46dafee4f43d10a96bcd1a3"},"role":"Story
+        & Art"},{"manga":{"mal_id":50241,"name":"Toaru Gekai to Naikai no.","url":"https:\/\/myanimelist.net\/manga\/50241\/Toaru_Gekai_to_Naikai_no","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/88751.jpg?s=ca6f9cf9d83797f7ec02373a31ee6d02"},"role":"Story
+        & Art"},{"manga":{"mal_id":87489,"name":"Trattoria Yamiichi","url":"https:\/\/myanimelist.net\/manga\/87489\/Trattoria_Yamiichi","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/152765.jpg?s=31d13159b5536b69b7777892d7914706"},"role":"Story
+        & Art"},{"manga":{"mal_id":4796,"name":"Tsuki ni Hoero!","url":"https:\/\/myanimelist.net\/manga\/4796\/Tsuki_ni_Hoero","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/5942.jpg?s=b3c098acdc4b959bf084b84c747a0993"},"role":"Story
+        & Art"},{"manga":{"mal_id":32209,"name":"Wakareta Otoko wa Ikaga desu ka?","url":"https:\/\/myanimelist.net\/manga\/32209\/Wakareta_Otoko_wa_Ikaga_desu_ka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/84641.jpg?s=b7200f4a6cb1bf3befcd0de891825308"},"role":"Story
+        & Art"},{"manga":{"mal_id":767,"name":"Yellow","url":"https:\/\/myanimelist.net\/manga\/767\/Yellow","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/139.jpg?s=e4a2f189f30c733017798fa50f596644"},"role":"Story
+        & Art"},{"manga":{"mal_id":16758,"name":"Yellow\/R","url":"https:\/\/myanimelist.net\/manga\/16758\/Yellow_R","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/2\/142099.jpg?s=ebec9ce040cc67cb52b56fb108ccaa5d"},"role":"Story
+        & Art"},{"manga":{"mal_id":13338,"name":"Yokan EX Noise","url":"https:\/\/myanimelist.net\/manga\/13338\/Yokan_EX_Noise","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/1\/18665.jpg?s=169c3e74086ee0937d7f1b22cfe50b90"},"role":"Story
+        & Art"},{"manga":{"mal_id":1972,"name":"Yokan Premonition","url":"https:\/\/myanimelist.net\/manga\/1972\/Yokan_Premonition","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/31403.jpg?s=a64b898a8bd6afdbfa9c46995300fbf3"},"role":"Story
+        & Art"}]}'
+    http_version: 
+  recorded_at: Mon, 29 Jan 2018 07:45:59 GMT
+recorded_with: VCR 4.0.0

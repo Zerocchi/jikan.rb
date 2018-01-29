@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.me/anime/34798/episodes
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.me
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jan 2018 00:04:02 GMT
+      Server:
+      - Apache/2.4.27 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - no-cache, private
+      Vary:
+      - Host,Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: '{"mal_id":34798,"link_canonical":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","title":"Yuru
+        Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan,
+        Laid-Back Camp\u25b3","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Currently
+        Airing","airing":true,"aired_string":"Jan 4, 2018 to ?","aired":{"from":"2018-01-04","to":null},"duration":"23
+        min. per ep.","rating":"PG-13 - Teens 13 or older","score":7.82,"scored_by":7030,"rank":838,"popularity":1536,"members":46344,"favorites":153,"synopsis":"Nadeshiko,
+        a high school student who had moved from Shizuoka to Yamanashi, decides to
+        see the famous, 1000 yen-bill-featured Mount Fuji. Even though she manages
+        to bike all the way to Motosu, she&#039;s forced to turn back because of worsening
+        weather. Unable to set her eyes on her goal, she faints partway to her destination.
+        When she wakes up, it&#039;s night, in a place she&#039;s never been before,
+        with no way of knowing how to get home. Nadeshiko is saved when she encounters
+        Rin, a girl who is out camping by herself. This outdoorsy girls story begins
+        with this first encounter between Nadeshiko and Rin. (Source: Crunchyroll)","background":null,"premiered":"Winter
+        2018","broadcast":"Thursdays at 23:00 (JST)","related":{"Adaptation":[{"mal_id":94376,"type":"manga","url":"https:\/\/myanimelist.net\/manga\/94376\/Yuru_Camp\u25b3","title":"Yuru
+        Camp\u25b3"}]},"producer":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X","name":"AT-X"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications","name":"Sony
+        Music Communications"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/963\/MAGES","name":"MAGES."},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1185\/81_Produce","name":"81
+        Produce"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1416\/BS11","name":"BS11"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1590\/Furyu","name":"Furyu"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1784\/Crunchyroll_SC_Anime_Fund","name":"Crunchyroll
+        SC Anime Fund"}],"licensor":[],"studio":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station","name":"C-Station"}],"genre":[{"url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life","name":"Slice
+        of Life"},{"url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy","name":"Comedy"}],"opening_theme":["\"SHINY
+        DAYS\" by Asaka"],"ending_theme":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
+        by Eri Sasaki"],"episode":[{"id":1,"title":"Mount Fuji and Curry Noodles","title_japanese":null,"title_romanji":null,"aired":false,"filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/1","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1696912"},{"id":2,"title":"Welcome
+        to the Outdoor Activities Club","title_japanese":null,"title_romanji":null,"aired":false,"filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/2","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1698701"},{"id":3,"title":"Mount
+        Fuji and Relaxed Hot Pot Camp","title_japanese":null,"title_romanji":null,"aired":false,"filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/3","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1700404"},{"id":4,"title":"The
+        Outdoor Activities Club and the Solo Camping Girl","title_japanese":null,"title_romanji":null,"aired":false,"filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/4","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1702099"}],"episode_last_page":1}'
+    http_version: 
+  recorded_at: Mon, 29 Jan 2018 00:04:02 GMT
+recorded_with: VCR 4.0.0
