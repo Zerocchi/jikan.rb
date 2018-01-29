@@ -1,5 +1,7 @@
 # Jikan.rb
 
+[![Gem Version](https://img.shields.io/gem/v/jikan.rb.svg)](https://rubygems.org/gems/jikan.rb) [![Total Downloads](https://img.shields.io/gem/dt/jikan.rb.svg?colorB=6495ed)](https://rubygems.org/gems/jikan.rb) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![Dart](https://img.shields.io/badge/language-Ruby-red.svg)](https://www.ruby-lang.org/) 
+
 This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
 
 ## Installation
