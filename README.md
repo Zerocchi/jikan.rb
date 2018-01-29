@@ -33,7 +33,7 @@ Or install it yourself as:
 # You can also specify flag as second parameter
 # >> yurucamp = qry.anime_id 34798, :episodes
 # All flags are symbol, please refer https://jikan.me/docs#chaining-methods to see all available flags
-=> #<Jikan::Anime:0x0168c4e0>
+=> <Jikan::Anime:0x0168c4e0>
 
 >> yurucamp.raw
 =>{
