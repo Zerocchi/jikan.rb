@@ -22,6 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
+**Add to your codebase**
+``ruby
+require 'jikan'
+````
+
 **Get anime and manga information based on their ID**
 
 ```ruby
