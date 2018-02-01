@@ -23,7 +23,9 @@ Or install it yourself as:
 ## Usage
 
 ```diff
-- NOTE: As per documentation there's a rate limit of 2000 requests per IP per day, and two concurrent requests per second. This wrapper does not have any attempt of blocking the limit so please use it wisely. More information available at https://jikan.docs.apiary.io/#introduction/information
+- NOTE: As per documentation there's a rate limit of 2000 requests per IP per day, and two concurrent requests 
+- per second. This wrapper does not have any attempt of blocking the limit so please use it wisely. 
+- More information available at https://jikan.docs.apiary.io/#introduction/information
 ```
 
 **Get anime and manga information based on their ID**
