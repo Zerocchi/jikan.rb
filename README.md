@@ -84,7 +84,7 @@ Or install it yourself as:
 >> railgun = qry.search("railgun", :anime) # other parameter tokens are :manga, :character, :person
 => #<Jikan::Search:0x016fd760>
 
->> railgun.raw # only raw method is available for now
+>> railgun.raw # return raw result
 =>{"result"=>
     [
       { 
@@ -105,6 +105,20 @@ Or install it yourself as:
       }
     ]
   }
+
+>> res = railgun.result # return each result items wrapped in Jikan::Anime object
+=> [#<Jikan::Anime:0x0196c968, #<Jikan::Anime:0x0196c950, #<Jikan::Anime:0x019f1610, #<Jikan::Anime:0x019f15f8
+...]
+
+>> res[0].title
+=> "Toaru Kagaku no Railgun"
+
+>> res[0].image # method name follow Jikan::Anime object so it will slighly differ from raw result keys e.g. raw result key is image_url but Jikan::Anime method is image.
+=> "https://myanimelist.cdn-dena.com/r/100x140/images/anime/8/53581.jpg?s=4003b92ef0e723389087b69a8a08d742"
+
+>> res[0].synopsis # same goes to description which is truncated in search result. We use synopsis method instead.
+=> "The student-filled Academy City is at the forefront of scientific advancement and home to the esper development program. The seven \"Level 5\" espers are the most powerful in Academy City, and ranked th..."
+
 ```
 
 ## To-Do

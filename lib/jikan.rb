@@ -15,7 +15,7 @@ module Jikan
     'search' => [:anime, :manga, :person, :character]
   }
 
-  # shorcut methods
+  # shortcut methods
   def self.anime(id, flag=nil)
     Jikan::Query.new.anime_id(id, flag)
   end

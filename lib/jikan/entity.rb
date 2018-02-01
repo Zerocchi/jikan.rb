@@ -19,8 +19,12 @@ module Jikan
       raw['genre']
     end
 
+    def id
+      raw['id']
+    end
+
     def image
-      raw['image']
+      raw['image'] || raw['image_url']
     end
 
     def members
@@ -56,11 +60,11 @@ module Jikan
     end
 
     def synopsis
-      raw['synopsis']
+      raw['synopsis'] || raw['description']
     end
 
     def link
-      raw['link_canonical']
+      raw['link_canonical'] || raw['url']
     end
 
     def title
