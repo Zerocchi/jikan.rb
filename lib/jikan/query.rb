@@ -34,7 +34,7 @@ module Jikan
 
     def search(title, type=:anime, page=1)
       @json = Jikan::API.new.get("search", page, type, title)
-      Jikan::Search.new(@json)
+      Jikan::Search.new(@json, type)
     end
     
 	end

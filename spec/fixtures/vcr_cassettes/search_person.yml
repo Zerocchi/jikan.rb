@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.me/search/person/Satou%20Rina/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.me
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 01 Feb 2018 01:32:07 GMT
+      Server:
+      - Apache/2.4.27 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - no-cache, private
+      Vary:
+      - Host,Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":[{"id":40775,"url":"https:\/\/myanimelist.net\/\/people\/40775\/Sanpei_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Sanpei","nicknames":"Yukikazu Satou,  \u4f50\u85e4 \u5e78\u4e00"},{"id":46792,"url":"https:\/\/myanimelist.net\/\/people\/46792\/Sugar_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Sugar","nicknames":"Toshio Satou,  \u4f50\u85e4 \u5229\u592b,  Grotesque Satou,  \u30b0\u30ed\u30c6\u30b9\u30af\u4f50\u85e4"},{"id":2368,"url":"https:\/\/myanimelist.net\/\/people\/2368\/Fumiya_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/40125.jpg?s=e6f72b7aec3fcd4a07aefffc05a75185","name":"Satou,
+        Fumiya","nicknames":"\u4f50\u85e4 \u6587\u5b50,  Satou Fumiko"},{"id":2844,"url":"https:\/\/myanimelist.net\/\/people\/2844\/Shouji_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/30803.jpg?s=b9626db6b17c45f6ac8bc0694ceda0f2","name":"Satou,
+        Shouji","nicknames":"Shoji Sato,  Satou Inazuma,  INAZUMA\u4f50\u85e4,  \u30a4\u30ca\u30ba\u30de,  Gebokudou,  \u4e0b\u50d5\u5802,  Digital
+        Accel Works,  \u30c7\u30b8\u30bf\u30eb\u30a2\u30af\u30bb\u30eb\u30ef\u30fc\u30af\u30b9"},{"id":5365,"url":"https:\/\/myanimelist.net\/\/people\/5365\/Ai_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/15877.jpg?s=73cfa657f939f8c7831048a1d3e53225","name":"Satou,
+        Ai","nicknames":null},{"id":25971,"url":"https:\/\/myanimelist.net\/\/people\/25971\/Kei_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Kei","nicknames":null},{"id":19926,"url":"https:\/\/myanimelist.net\/\/people\/19926\/Gen_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/3\/22415.jpg?s=071f0c974b551affc12616ea2cc28ab9","name":"Satou,
+        Gen","nicknames":null},{"id":29273,"url":"https:\/\/myanimelist.net\/\/people\/29273\/Eri_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Eri","nicknames":null},{"id":37117,"url":"https:\/\/myanimelist.net\/\/people\/37117\/Yuu_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Yuu","nicknames":null},{"id":38019,"url":"https:\/\/myanimelist.net\/\/people\/38019\/Ken_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Ken","nicknames":null},{"id":40108,"url":"https:\/\/myanimelist.net\/\/people\/40108\/Nao_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Nao","nicknames":null},{"id":46461,"url":"https:\/\/myanimelist.net\/\/people\/46461\/Mato_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Mato","nicknames":null},{"id":3054,"url":"https:\/\/myanimelist.net\/\/people\/3054\/Shio_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Shio","nicknames":null},{"id":241,"url":"https:\/\/myanimelist.net\/\/people\/241\/Rina_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/2\/43718.jpg?s=6b96ee9decedc2fd087829c9ef236d7d","name":"Satou,
+        Rina","nicknames":"Suzune Asakura,  \u671d\u5009 \u9234\u97f3"},{"id":41542,"url":"https:\/\/myanimelist.net\/\/people\/41542\/Saya_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/45185.jpg?s=d7b008aaa8ba3d51af52f398b39d0416","name":"Satou,
+        Saya","nicknames":null},{"id":46605,"url":"https:\/\/myanimelist.net\/\/people\/46605\/Anko_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Anko","nicknames":"Anko Chatou"},{"id":30329,"url":"https:\/\/myanimelist.net\/\/people\/30329\/Rika_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Rika","nicknames":null},{"id":20214,"url":"https:\/\/myanimelist.net\/\/people\/20214\/Mito_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Mito","nicknames":null},{"id":26797,"url":"https:\/\/myanimelist.net\/\/people\/26797\/Ryou_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Ryou","nicknames":null},{"id":11717,"url":"https:\/\/myanimelist.net\/\/people\/11717\/Yuri_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/2\/10903.jpg?s=3c81c49619959a456848f562a9bf1056","name":"Satou,
+        Yuri","nicknames":null},{"id":8776,"url":"https:\/\/myanimelist.net\/\/people\/8776\/Chie_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/26919.jpg?s=457a8d31887c583d4732a754111791a3","name":"Satou,
+        Chie","nicknames":null},{"id":23455,"url":"https:\/\/myanimelist.net\/\/people\/23455\/Hana_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/3\/30123.jpg?s=ac6b88a7ba81f7da2595af5e576abbe2","name":"Satou,
+        Hana","nicknames":null},{"id":10748,"url":"https:\/\/myanimelist.net\/\/people\/10748\/Maki_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Maki","nicknames":null},{"id":26831,"url":"https:\/\/myanimelist.net\/\/people\/26831\/Satoru_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Satoru","nicknames":null},{"id":36941,"url":"https:\/\/myanimelist.net\/\/people\/36941\/Masato_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Masato","nicknames":null},{"id":11543,"url":"https:\/\/myanimelist.net\/\/people\/11543\/Hiromu_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Hiromu","nicknames":null},{"id":10610,"url":"https:\/\/myanimelist.net\/\/people\/10610\/Masaru_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Masaru","nicknames":null},{"id":44816,"url":"https:\/\/myanimelist.net\/\/people\/44816\/Takumi_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/2\/48146.jpg?s=6497bb730b87a5af58ae9f438aba9e54","name":"Satou,
+        Takumi","nicknames":null},{"id":5391,"url":"https:\/\/myanimelist.net\/\/people\/5391\/Tatsuo_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/43496.jpg?s=a9b4ea27a42a116f86220f12ad1589c5","name":"Satou,
+        Tatsuo","nicknames":null},{"id":42226,"url":"https:\/\/myanimelist.net\/\/people\/42226\/Taeko_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Taeko","nicknames":null},{"id":7582,"url":"https:\/\/myanimelist.net\/\/people\/7582\/Nanki_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Nanki","nicknames":"\u4f50\u85e4 \u5357\u7d00"},{"id":8042,"url":"https:\/\/myanimelist.net\/\/people\/8042\/Sugama_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Sugama","nicknames":null},{"id":15691,"url":"https:\/\/myanimelist.net\/\/people\/15691\/Hitomi_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/3\/17285.jpg?s=a6bb1a52fc43f99919707e30b1ffa928","name":"Satou,
+        Hitomi","nicknames":null},{"id":28163,"url":"https:\/\/myanimelist.net\/\/people\/28163\/Izumi_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Izumi","nicknames":null},{"id":15305,"url":"https:\/\/myanimelist.net\/\/people\/15305\/Mahiro_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Mahiro","nicknames":"\u4f50\u85e4 \u307e\u3072\u308d"},{"id":18607,"url":"https:\/\/myanimelist.net\/\/people\/18607\/Kaede_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Kaede","nicknames":null},{"id":16245,"url":"https:\/\/myanimelist.net\/\/people\/16245\/Sumire_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/1\/45825.jpg?s=e865b9ed50936420059150b91477f840","name":"Satou,
+        Sumire","nicknames":null},{"id":20741,"url":"https:\/\/myanimelist.net\/\/people\/20741\/Megumi_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/2\/23523.jpg?s=d9d60900ea684d454dac365b030991ff","name":"Satou,
+        Megumi","nicknames":null},{"id":12779,"url":"https:\/\/myanimelist.net\/\/people\/12779\/Kanami_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/3\/44258.jpg?s=89e62f05cd40a869f7c44c4264edac7b","name":"Satou,
+        Kanami","nicknames":null},{"id":21871,"url":"https:\/\/myanimelist.net\/\/people\/21871\/Takako_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Takako","nicknames":null},{"id":22545,"url":"https:\/\/myanimelist.net\/\/people\/22545\/Hajime_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Hajime","nicknames":null},{"id":17589,"url":"https:\/\/myanimelist.net\/\/people\/17589\/Toshio_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Toshio","nicknames":"Kyomu no Uta"},{"id":6202,"url":"https:\/\/myanimelist.net\/\/people\/6202\/Masatou_Ibu","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/2\/3834.jpg?s=78755b0272d4b759ca2b51f733c3a7d7","name":"Ibu,
+        Masatou","nicknames":null},{"id":6858,"url":"https:\/\/myanimelist.net\/\/people\/6858\/Yuuko_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Yuuko","nicknames":null},{"id":41903,"url":"https:\/\/myanimelist.net\/\/people\/41903\/Yuuya_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Yuuya","nicknames":null},{"id":38842,"url":"https:\/\/myanimelist.net\/\/people\/38842\/Miyuki_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Miyuki","nicknames":null},{"id":11608,"url":"https:\/\/myanimelist.net\/\/people\/11608\/Kouta_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/voiceactors\/3\/10678.jpg?s=273a7829ea78f2096de996133a847b27","name":"Satou,
+        Kouta","nicknames":null},{"id":21513,"url":"https:\/\/myanimelist.net\/\/people\/21513\/Youko_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Youko","nicknames":null},{"id":19924,"url":"https:\/\/myanimelist.net\/\/people\/19924\/Michio_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Michio","nicknames":null},{"id":37440,"url":"https:\/\/myanimelist.net\/\/people\/37440\/Hiroko_Satou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Satou,
+        Hiroko","nicknames":null}],"result_last_page":4}'
+    http_version: 
+  recorded_at: Thu, 01 Feb 2018 01:32:07 GMT
+recorded_with: VCR 4.0.0

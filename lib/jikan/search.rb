@@ -1,6 +1,11 @@
 module Jikan
   class Search < BaseEntity
 
+    def initialize(json, type)
+      super(json)
+      @type = type
+    end
+
     def id
       iter { |i| i['id'] }
     end
@@ -13,9 +18,18 @@ module Jikan
       iter { |i| i['url'] }
     end
 
-    # returns Jikan::Anime object in each result items
+    # returns each result items wrapped in their respective objects
     def result
-      iter { |i| Jikan::Anime.new(i) }
+      case @type
+      when :anime
+        iter { |i| Jikan::Anime.new(i) }
+      when :manga
+        iter { |i| Jikan::Manga.new(i) }
+      when :character
+        raise ClientError, "Character only return raw result for now."
+      when :person
+        raise ClientError, "Person only return raw result for now."
+      end
     end
 
     private
