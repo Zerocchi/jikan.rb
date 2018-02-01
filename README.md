@@ -22,14 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-<<<<<<< HEAD
 ```diff
 - NOTE: As per documentation there's a rate limit of 2000 requests per IP per day, and two concurrent requests per second. This wrapper does not have any attempt of blocking the limit so please use it wisely. More information available at https://jikan.docs.apiary.io/#introduction/information
-=======
-**Add to your codebase**
-```ruby
-require 'jikan'
->>>>>>> a074a031e6f718a7e1a4fa467cb1b27e147989b2
 ```
 
 **Get anime and manga information based on their ID**
