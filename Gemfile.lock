@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jikan (0.0.1)
+    jikan.rb (0.0.1)
       http (~> 3.0.0)
 
 GEM
@@ -59,7 +59,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  jikan!
+  jikan.rb!
   pry
   rake (~> 10.0)
   rspec (~> 3.0)
