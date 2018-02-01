@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 28 Jan 2018 23:57:49 GMT
+      - Thu, 01 Feb 2018 05:30:17 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -42,7 +42,7 @@ http_interactions:
         Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan,
         Laid-Back Camp\u25b3","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Currently
         Airing","airing":true,"aired_string":"Jan 4, 2018 to ?","aired":{"from":"2018-01-04","to":null},"duration":"23
-        min. per ep.","rating":"PG-13 - Teens 13 or older","score":7.82,"scored_by":7030,"rank":838,"popularity":1536,"members":46297,"favorites":153,"synopsis":"Nadeshiko,
+        min. per ep.","rating":"PG-13 - Teens 13 or older","score":7.83,"scored_by":7473,"rank":838,"popularity":1496,"members":48258,"favorites":167,"synopsis":"Nadeshiko,
         a high school student who had moved from Shizuoka to Yamanashi, decides to
         see the famous, 1000 yen-bill-featured Mount Fuji. Even though she manages
         to bike all the way to Motosu, she&#039;s forced to turn back because of worsening
@@ -60,5 +60,5 @@ http_interactions:
         DAYS\" by Asaka"],"ending_theme":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
         by Eri Sasaki"]}'
     http_version: 
-  recorded_at: Sun, 28 Jan 2018 23:57:49 GMT
+  recorded_at: Thu, 01 Feb 2018 05:30:17 GMT
 recorded_with: VCR 4.0.0

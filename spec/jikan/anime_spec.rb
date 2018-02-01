@@ -7,6 +7,10 @@ RSpec.describe Jikan::Anime do
       @query = Jikan::Query.new.anime_id 34798
       @anime = Jikan::Anime.new @query.raw
     end
+
+    VCR.use_cassette "search anime" do
+      @search_anime = Jikan::search("Railgun").result[0]
+    end
   end
 
   describe ".anime" do
@@ -30,6 +34,15 @@ RSpec.describe Jikan::Anime do
 
     it "show link" do
       expect(@anime.link).to eq "https://myanimelist.net/anime/34798/Yuru_Camp△"
+    end
+
+    it "parse full information and return new Anime object" do
+      expect(@search_anime.full).to be_a_kind_of Jikan::Anime
+      expect(@search_anime.full.opening).to be_a_kind_of Array
+    end
+
+    it "raise exception if full method is used in already full Anime object" do
+      expect { @anime.full }.to raise_error(NoMethodError)
     end
   end
 end

@@ -4,6 +4,11 @@ module Jikan
     def initialize(json, type)
       super(json)
       @type = type
+      @search = true
+    end
+
+    def is_search?
+      @search
     end
 
     def id

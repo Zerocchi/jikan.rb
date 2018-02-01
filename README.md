@@ -22,6 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
+```diff
+- NOTE: As per documentation there's a rate limit of 2000 requests per IP per day, and two concurrent requests per second. This wrapper does not have any attempt of blocking the limit so please use it wisely. More information available at https://jikan.docs.apiary.io/#introduction/information
+```
+
 **Get anime and manga information based on their ID**
 
 ```ruby
@@ -107,22 +111,40 @@ Or install it yourself as:
     ]
   }
 
-# return each result items wrapped in their respective object 
+# Return each result items wrapped in their respective object 
 # :person and :character only return raw objects for now so this method isn't available for those flags
 >> res = railgun.result 
 => [<Jikan::Anime:0x0196c968>, <Jikan::Anime:0x0196c950>, <Jikan::Anime:0x019f1610>, <Jikan::Anime:0x019f15f8>, ...]
 
->> res[0].title
+>> first_anime = res[0]
+=> <Jikan::Anime:0x0196c968>
+
+>> first_anime.title
 => "Toaru Kagaku no Railgun"
 
-# method name follow Jikan::Anime object so it will slighly differ from raw result keys
+# Method name follow Jikan::Anime object so it will slighly differ from raw result keys
 # e.g. raw result key is image_url but Jikan::Anime method is image.
->> res[0].image
+>> first_anime.image
 => "https://myanimelist.cdn-dena.com/r/100x140/images/anime/8/53581.jpg?s=4003b92ef0e723389087b69a8a08d742"
 
->> res[0].synopsis # same goes to description which is truncated in search result. We use synopsis method instead.
+>> first_anime.synopsis # same goes to description which is truncated in search result. We use synopsis method instead.
 => "The student-filled Academy City is at the forefront of scientific advancement and home to the esper 
 development program. The seven \"Level 5\" espers are the most powerful in Academy City, and ranked th..."
+
+# Eventhough the result method return specific objects array, it is still bound to the raw result above.
+# So you don't get full information the same way when you do Jikan::anime(id)
+>> first_anime.opening # this will return nil because search result doesn't have opening information
+=> nil
+
+# To get full anime information you can assign full method on search result object.
+# This method will call Jikan::Anime(id) or equivalent and get full information from the API and return new object.
+# You can also pass flag as you would do in normal Query or shortcut methods.
+>> full_info = first_anime.full
+=> <Jikan::Anime:0x01ad4170>
+
+>> full_info.opening
+>> first_anime.full.opening # shorter way but this will call the API again if you change the rightmost method
+=> ["#1: \"only my railgun\" by fripSide (eps 2-14)", "#2: \"LEVEL 5 -judgelight-\" by fripSide (eps 15-23)"]
 
 ```
 

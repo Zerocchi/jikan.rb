@@ -31,7 +31,12 @@ module Jikan
 				unless Jikan::FLAGS[@endpoint].include? @flag
 					raise Jikan::FlagError, 'Flag not supported'
 				else
-					@url = "#{@end_url}/#{@flag.to_s}/#{@query}/#{@id}"
+					# This is inconsistencies in the API.
+					if @flag == :anime || @flag == :manga
+						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.delete(' ')}/#{@id}"
+					elsif @flag == :character || @flag == :person
+						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase}/#{@id}"
+					end
 				end
       end
 
@@ -46,7 +51,7 @@ module Jikan
 		def get_data
 			res = HTTP.get(@url)
 			if res.status >= 400
-				raise ClientError, "#{res.status}: error on endpoint #{@endpoint}"
+				raise ClientError, "#{res.status}: error on endpoint #{@endpoint} (URL: #{@url})"
 			end
 
 			JSON.parse(res.body)

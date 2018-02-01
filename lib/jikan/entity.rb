@@ -20,7 +20,7 @@ module Jikan
     end
 
     def id
-      raw['id']
+      raw['id'] || raw['mal_id']
     end
 
     def image

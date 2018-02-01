@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 29 Jan 2018 06:59:03 GMT
+      - Thu, 01 Feb 2018 05:30:27 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -45,5 +45,5 @@ http_interactions:
         and Mikasa","background":null,"related":[],"genre":[{"url":"https:\/\/myanimelist.net\/manga\/genre\/22\/Romance","name":"Romance"},{"url":"https:\/\/myanimelist.net\/manga\/genre\/23\/School","name":"School"},{"url":"https:\/\/myanimelist.net\/manga\/genre\/25\/Shoujo","name":"Shoujo"}],"author":[{"url":"https:\/\/myanimelist.net\/people\/5370\/Mikiko_Satsuki","name":"Satsuki,
         Mikiko"}],"serialization":[{"url":"https:\/\/myanimelist.net\/manga\/magazine\/170\/ChuChu","name":"ChuChu"}]}'
     http_version: 
-  recorded_at: Mon, 29 Jan 2018 06:59:03 GMT
+  recorded_at: Thu, 01 Feb 2018 05:30:27 GMT
 recorded_with: VCR 4.0.0

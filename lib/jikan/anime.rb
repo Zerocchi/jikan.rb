@@ -24,7 +24,7 @@ module Jikan
     end
 
     def ending
-      raw['ending-theme']
+      raw['ending_theme']
     end
 
     def episodes
@@ -35,12 +35,22 @@ module Jikan
       raw['episode']
     end
 
+    def full(flag=nil)
+      if
+        opening.nil? || studio.nil?
+      then 
+        Jikan::anime id, flag
+      else 
+        raise NoMethodError, "Method only available for Jikan::Search results."
+      end
+    end
+
     def licensor
       raw['licensor']
     end
 
     def opening
-      raw['opening-theme']
+      raw['opening_theme']
     end
 
     def premiered

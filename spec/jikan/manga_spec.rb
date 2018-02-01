@@ -7,6 +7,10 @@ RSpec.describe Jikan::Manga do
       @query = Jikan::Query.new.manga_id 15434
       @manga = Jikan::Manga.new @query.raw
     end
+
+    VCR.use_cassette "search manga" do
+      @search_manga = Jikan::search("Railgun", :manga).result[0]
+    end
   end
 
   describe ".manga" do
@@ -31,5 +35,15 @@ RSpec.describe Jikan::Manga do
     it "show link" do
       expect(@manga.link).to eq "https://myanimelist.net/manga/15434/Koi_Puzzle"
     end
+
+    it "parse full information and return new Manga object" do
+      expect(@search_manga.full).to be_a_kind_of Jikan::Manga
+      expect(@search_manga.full.published).to be_a_kind_of Hash
+    end
+
+    it "raise exception if full method is used in already full Anime object" do
+      expect { @manga.full }.to raise_error(NoMethodError)
+    end
   end
 end
+

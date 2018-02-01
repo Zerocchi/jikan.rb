@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 29 Jan 2018 07:06:51 GMT
+      - Thu, 01 Feb 2018 05:30:28 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -46,5 +46,5 @@ http_interactions:
         Mabel","url":"https:\/\/myanimelist.net\/people\/43652\/Mabel_Cezar","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/1\/47823v.jpg","language":"Brazilian"},{"mal_id":46119,"name":"Giuliani,
         Vanessa","url":"https:\/\/myanimelist.net\/people\/46119\/Vanessa_Giuliani","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49578v.jpg","language":"Italian"}]}'
     http_version: 
-  recorded_at: Mon, 29 Jan 2018 07:06:52 GMT
+  recorded_at: Thu, 01 Feb 2018 05:30:28 GMT
 recorded_with: VCR 4.0.0

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 29 Jan 2018 07:45:59 GMT
+      - Thu, 01 Feb 2018 05:30:29 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -87,5 +87,5 @@ http_interactions:
         & Art"},{"manga":{"mal_id":1972,"name":"Yokan Premonition","url":"https:\/\/myanimelist.net\/manga\/1972\/Yokan_Premonition","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/31403.jpg?s=a64b898a8bd6afdbfa9c46995300fbf3"},"role":"Story
         & Art"}]}'
     http_version: 
-  recorded_at: Mon, 29 Jan 2018 07:45:59 GMT
+  recorded_at: Thu, 01 Feb 2018 05:30:30 GMT
 recorded_with: VCR 4.0.0
