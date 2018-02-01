@@ -27,7 +27,7 @@ Or install it yourself as:
 ```ruby
 # https://myanimelist.net/anime/34798/Yuru_Camp
 >> qry = Jikan::Query.new
-=> #<Jikan::Query:0x026ed9d0>
+=> <Jikan::Query:0x026ed9d0>
 
 >> yurucamp = qry.anime_id 34798 # manga_id for manga
 # You can also specify flag as second parameter
@@ -58,10 +58,10 @@ Or install it yourself as:
 ```ruby
 # https://myanimelist.net/character/16521/Kagome_Ikaruga
 >> qry = Jikan::Query.new
-=> #<Jikan::Query:0x027554b8>
+=> <Jikan::Query:0x027554b8>
 
 >> ikaruga = qry.character_id 16521
-=> #<Jikan::Character:0x0134b080>
+=> <Jikan::Character:0x0134b080>
 
 >> ikaruga.raw # only raw method is available for now for both character and people
 =>{
@@ -79,10 +79,10 @@ Or install it yourself as:
 **Search**
 ``` ruby
 >> qry = Jikan::Query.new
-=> #<Jikan::Query:0x027d70e8>
+=> <Jikan::Query:0x027d70e8>
 
 >> railgun = qry.search("railgun", :anime) # other parameter tokens are :manga, :character, :person
-=> #<Jikan::Search:0x016fd760>
+=> <Jikan::Search:0x016fd760>
 
 >> railgun.raw # return raw result
 =>{"result"=>
@@ -107,7 +107,7 @@ Or install it yourself as:
   }
 
 >> res = railgun.result # return each result items wrapped in Jikan::Anime object
-=> [#<Jikan::Anime:0x0196c968, #<Jikan::Anime:0x0196c950, #<Jikan::Anime:0x019f1610, #<Jikan::Anime:0x019f15f8
+=> [<Jikan::Anime:0x0196c968>, <Jikan::Anime:0x0196c950>, <Jikan::Anime:0x019f1610>, <Jikan::Anime:0x019f15f8>
 ...]
 
 >> res[0].title
