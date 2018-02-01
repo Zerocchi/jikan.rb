@@ -31,9 +31,9 @@ module Jikan
       when :manga
         iter { |i| Jikan::Manga.new(i) }
       when :character
-        raise ClientError, "Character only return raw result for now."
+        raise NoMethodError, "Character only return raw result for now."
       when :person
-        raise ClientError, "Person only return raw result for now."
+        raise NoMethodError, "Person only return raw result for now."
       end
     end
 

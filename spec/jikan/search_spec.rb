@@ -68,8 +68,8 @@ RSpec.describe Jikan::Search do
       end
 
       it "raise exception for :character and :person results" do
-        expect { @character_search.result }.to raise_error(Jikan::ClientError)
-        expect { @person_search.result }.to raise_error(Jikan::ClientError)
+        expect { @character_search.result }.to raise_error(NoMethodError)
+        expect { @person_search.result }.to raise_error(NoMethodError)
       end
     end
   end
