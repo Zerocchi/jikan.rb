@@ -36,13 +36,13 @@ RSpec.describe Jikan::Manga do
       expect(@manga.link).to eq "https://myanimelist.net/manga/15434/Koi_Puzzle"
     end
 
-    it "parse full information and return new Manga object" do
-      expect(@search_manga.full).to be_a_kind_of Jikan::Manga
-      expect(@search_manga.full.published).to be_a_kind_of Hash
+    it "parse details information and return new Manga object" do
+      expect(@search_manga.details).to be_a_kind_of Jikan::Manga
+      expect(@search_manga.details.published).to be_a_kind_of Hash
     end
 
     it "raise exception if full method is used in already full Anime object" do
-      expect { @manga.full }.to raise_error(NoMethodError)
+      expect { @manga.details }.to raise_error(NoMethodError)
     end
   end
 end

@@ -136,14 +136,14 @@ development program. The seven \"Level 5\" espers are the most powerful in Acade
 >> first_anime.opening # this will return nil because search result doesn't have opening information
 => nil
 
-# To get full anime information you can assign full method on search result object.
-# This method will call Jikan::Anime(id) or equivalent and get full information from the API and return new object.
+# To get detailed anime information you can assign special details method on search result object.
+# This method will call Jikan::Anime(id) or equivalent and get detailed information from the API and return new object.
 # You can also pass flag as you would do in normal Query or shortcut methods.
->> full_info = first_anime.full
+>> full_info = first_anime.details
 => <Jikan::Anime:0x01ad4170>
 
 >> full_info.opening
->> first_anime.full.opening # shorter way but this will call the API again if you change the rightmost method
+>> first_anime.details.opening # shorter way but this will call the API again if you change the rightmost method
 => ["#1: \"only my railgun\" by fripSide (eps 2-14)", "#2: \"LEVEL 5 -judgelight-\" by fripSide (eps 15-23)"]
 
 ```

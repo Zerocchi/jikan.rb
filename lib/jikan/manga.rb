@@ -9,13 +9,11 @@ module Jikan
       raw['chapters']
     end
     
-    def full(flag=nil)
-      if
-        published.nil? || popularity.nil?
-      then 
+    def details(flag=nil)
+      unless raw.has_key?('published') || raw.has_key?('popularity') 
         Jikan::manga id, flag 
       else 
-        raise NoMethodError, "Method only available for Jikan::Search results."
+        raise NoMethodError, "Method only available for Manga object within Jikan::Search results."
       end
     end
 

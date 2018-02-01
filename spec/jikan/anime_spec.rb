@@ -36,13 +36,13 @@ RSpec.describe Jikan::Anime do
       expect(@anime.link).to eq "https://myanimelist.net/anime/34798/Yuru_Camp△"
     end
 
-    it "parse full information and return new Anime object" do
-      expect(@search_anime.full).to be_a_kind_of Jikan::Anime
-      expect(@search_anime.full.opening).to be_a_kind_of Array
+    it "parse detailed information and return new Anime object" do
+      expect(@search_anime.details).to be_a_kind_of Jikan::Anime
+      expect(@search_anime.details.opening).to be_a_kind_of Array
     end
 
-    it "raise exception if full method is used in already full Anime object" do
-      expect { @anime.full }.to raise_error(NoMethodError)
+    it "raise exception if details method is used in already full Anime object" do
+      expect { @anime.details }.to raise_error(NoMethodError)
     end
   end
 end

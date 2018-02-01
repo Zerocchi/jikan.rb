@@ -35,13 +35,11 @@ module Jikan
       raw['episode']
     end
 
-    def full(flag=nil)
-      if
-        opening.nil? || studio.nil?
-      then 
+    def details(flag=nil)
+      unless raw.has_key?('opening') || raw.has_key?('studio') 
         Jikan::anime id, flag
       else 
-        raise NoMethodError, "Method only available for Jikan::Search results."
+        raise NoMethodError, "Method only available for Anime object within Jikan::Search results."
       end
     end
 
