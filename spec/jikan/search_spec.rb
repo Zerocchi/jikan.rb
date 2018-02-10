@@ -55,15 +55,15 @@ RSpec.describe Jikan::Search do
     end
 
     describe "#result" do
-      it "wrap default search result into Jikan::Anime objects" do
+      it "wrap default search result into Jikan::AnimeResult objects" do
         expect(@anime_search.result).to be_a_kind_of Array
-        expect(@anime_search.result[0]).to be_a_kind_of Jikan::Anime
+        expect(@anime_search.result[0]).to be_a_kind_of Jikan::AnimeResult
         expect(@anime_search.result[0].title).to eq "Toaru Kagaku no Railgun"
       end
 
-      it "wrap :manga search result into Jikan::Manga objects" do
+      it "wrap :manga search result into Jikan::MangaResult objects" do
         expect(@manga_search.result).to be_a_kind_of Array
-        expect(@manga_search.result[0]).to be_a_kind_of Jikan::Manga
+        expect(@manga_search.result[0]).to be_a_kind_of Jikan::MangaResult
         expect(@manga_search.result[0].title).to eq "Toaru Majutsu no Index Gaiden: Toaru Kagaku no Railgun"
       end
 

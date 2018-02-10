@@ -41,7 +41,7 @@ RSpec.describe Jikan::Manga do
       expect(@search_manga.details.published).to be_a_kind_of Hash
     end
 
-    it "raise exception if full method is used in already full Anime object" do
+    it "raise exception if full method is used in Manga object" do
       expect { @manga.details }.to raise_error(NoMethodError)
     end
   end

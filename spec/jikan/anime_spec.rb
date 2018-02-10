@@ -41,7 +41,7 @@ RSpec.describe Jikan::Anime do
       expect(@search_anime.details.opening).to be_a_kind_of Array
     end
 
-    it "raise exception if details method is used in already full Anime object" do
+    it "raise exception if details method is used in Anime object" do
       expect { @anime.details }.to raise_error(NoMethodError)
     end
   end
