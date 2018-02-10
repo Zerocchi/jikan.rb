@@ -27,9 +27,9 @@ module Jikan
     def result
       case @type
       when :anime
-        iter { |i| Jikan::Anime.new(i) }
+        iter { |i| Jikan::AnimeResult.new(i) }
       when :manga
-        iter { |i| Jikan::Manga.new(i) }
+        iter { |i| Jikan::MangaResult.new(i) }
       when :character
         raise NoMethodError, "Character only return raw result for now."
       when :person

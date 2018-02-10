@@ -34,15 +34,7 @@ module Jikan
     def eps_list
       raw['episode']
     end
-
-    def details(flag=nil)
-      unless raw.has_key?('opening') || raw.has_key?('studio') 
-        Jikan::anime id, flag
-      else 
-        raise NoMethodError, "Method only available for Anime object within Jikan::Search results."
-      end
-    end
-
+    
     def licensor
       raw['licensor']
     end
@@ -71,4 +63,10 @@ module Jikan
       raw['studio']
     end
   end
+
+	class AnimeResult < Anime
+		def details(flag=nil)
+      Jikan::anime id, flag
+		end
+	end
 end
