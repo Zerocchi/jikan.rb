@@ -4,6 +4,8 @@
 
 This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
 
+**NOTE: Jikan API changed their base URL to *api.jikan.moe*. Old endpoints will continue to work until May 12th, 2018  ([Announcement](https://jikan.docs.apiary.io/) | [Issue #1](https://github.com/Zerocchi/jikan.rb/issues/1)) so it's strongly suggested that you update the gem to latest version.**
+
 ## Installation
 
 Add this line to your application's Gemfile:

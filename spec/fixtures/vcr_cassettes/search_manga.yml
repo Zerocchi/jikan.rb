@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.me/search/manga/railgun/1
+    uri: https://api.jikan.moe/search/manga/railgun/1
     body:
       encoding: UTF-8
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - api.jikan.me
+      - api.jikan.moe
       User-Agent:
       - http.rb/3.0.0
   response:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 01 Feb 2018 05:30:32 GMT
+      - Thu, 12 Apr 2018 06:19:58 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -39,163 +39,166 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"result":[{"id":7776,"url":"https:\/\/myanimelist.net\/manga\/7776\/Toaru_Majutsu_no_Index_Gaiden__Toaru_Kagaku_no_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/149212.jpg?s=2bb169ab59a448c29ecaf8ccd5fe4c06","title":"Toaru
-        Majutsu no Index Gaiden: Toaru Kagaku no Railgun","description":"Welcome to
-        a world where mysticism and science collide, and supernatural powers are derived
-        from either science or religion. At the heart of this world is Academy City,
-        an advanced metropolis whose po...","type":"Manga","score":8.27,"volumes":0,"members":16563},{"id":27843,"url":"https:\/\/myanimelist.net\/manga\/27843\/Toaru_Kagaku_no_Railgun_SS","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/186943.jpg?s=83b1b9b40d4bb75a6a2d7b00862f52d0","title":"Toaru
+        Majutsu no Index Gaiden: Toaru Kagaku no Railgun","description":"Thirty years
+        ahead of the rest of the world scientifically and home to millions of students
+        enrolled in the esper development program, Academy City never sees a dull
+        moment. Here, espers are given one...","type":"Manga","score":8.26,"volumes":0,"members":16930},{"id":27843,"url":"https:\/\/myanimelist.net\/manga\/27843\/Toaru_Kagaku_no_Railgun_SS","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/186943.jpg?s=83b1b9b40d4bb75a6a2d7b00862f52d0","title":"Toaru
         Kagaku no Railgun SS","description":"Toaru Kagaku no Railgun is a short story
         in Arts and Sciences City that takes place in the time period between September
         3 and 10. Academy City has a exchange program with the rest of the world that
-        a...","type":"Novel","score":7.87,"volumes":8,"members":1577},{"id":28973,"url":"https:\/\/myanimelist.net\/manga\/28973\/Toaru_Kagaku_no_Railgun_SS2","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/46479.jpg?s=e799b926d4351d75b39521dd7ea5c814","title":"Toaru
+        a...","type":"Novel","score":7.88,"volumes":8,"members":1608},{"id":28973,"url":"https:\/\/myanimelist.net\/manga\/28973\/Toaru_Kagaku_no_Railgun_SS2","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/46479.jpg?s=e799b926d4351d75b39521dd7ea5c814","title":"Toaru
         Kagaku no Railgun SS2","description":"Side-story novel to the Index\/Railgun.
         Misaka Mikoto is invited to Russia to demonstrate the abilities of Level Five
-        in a shopping mall. There she meets a girl named Lessar","type":"Novel","score":7.86,"volumes":1,"members":1126},{"id":47483,"url":"https:\/\/myanimelist.net\/manga\/47483\/Toaru_Kagaku_no_Railgun__Giten_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/149214.jpg?s=6178dca619cf500fb948ce8e817a7314","title":"Toaru
+        in a shopping mall. There she meets a girl named Lessar","type":"Novel","score":7.86,"volumes":1,"members":1152},{"id":47483,"url":"https:\/\/myanimelist.net\/manga\/47483\/Toaru_Kagaku_no_Railgun__Giten_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/149214.jpg?s=6178dca619cf500fb948ce8e817a7314","title":"Toaru
         Kagaku no Railgun: Giten Railgun","description":"Separate 114-page volume
         bundled with the special edition of the Toaru Kagaku no Railgun manga volume
         5. It contains special illustrations, comics and 2 mini-novels. See more info
-        for details","type":"Manga","score":7.48,"volumes":1,"members":549},{"id":105912,"url":"https:\/\/myanimelist.net\/manga\/105912\/Toaru_Kagaku_no_Railgun_Gaiden__Astral_Buddy","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/203897.jpg?s=e775202b0b6910ce711937cc82042b71","title":"Toaru
-        Kagaku no Railgun Gaiden: Astral Buddy","description":"","type":"Manga","score":7.51,"volumes":0,"members":370},{"id":106935,"url":"https:\/\/myanimelist.net\/manga\/106935\/Seikaisuru_Kado__Aoi_Haru_to_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/198496.jpg?s=194a499529c4a9e8551bf9da160ddff0","title":"Seikaisuru
+        for details","type":"Manga","score":7.46,"volumes":1,"members":573},{"id":105912,"url":"https:\/\/myanimelist.net\/manga\/105912\/Toaru_Kagaku_no_Railgun_Gaiden__Astral_Buddy","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/203897.jpg?s=e775202b0b6910ce711937cc82042b71","title":"Toaru
+        Kagaku no Railgun Gaiden: Astral Buddy","description":"A spin-off story centred
+        around Hokaze Junko, the second-in-command of Shokuhou Misaki&#039;s faction.
+        Hokaze meets a ghost after helping Shirai Kuroko and the two eventually become
+        friends","type":"Manga","score":7.56,"volumes":0,"members":431},{"id":106935,"url":"https:\/\/myanimelist.net\/manga\/106935\/Seikaisuru_Kado__Aoi_Haru_to_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/198496.jpg?s=194a499529c4a9e8551bf9da160ddff0","title":"Seikaisuru
         Kado: Aoi Haru to Railgun","description":"The manga takes place immediately
         after the end of episode five of the anime series, and tells another story
         not told in the anime. The manga follows high school students whose lives
-        are completely ch...","type":"Manga","score":0,"volumes":1,"members":62},{"id":36561,"url":"https:\/\/myanimelist.net\/manga\/36561\/Toaru_Kagaku_no_Railgun_SS__Dasoku_Mata_wa_Toaru_Jiken_no_Shuusoku","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/66039.jpg?s=72cb77dd3041f849d12c1bce8d19c741","title":"Toaru
+        are completely ch...","type":"Manga","score":0,"volumes":1,"members":65},{"id":36561,"url":"https:\/\/myanimelist.net\/manga\/36561\/Toaru_Kagaku_no_Railgun_SS__Dasoku_Mata_wa_Toaru_Jiken_no_Shuusoku","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/66039.jpg?s=72cb77dd3041f849d12c1bce8d19c741","title":"Toaru
         Kagaku no Railgun SS: Dasoku, Mata wa Toaru Jiken no Shuusoku","description":"This
         SS was published in PSP Toaru Kagaku no Railgun: The Complete Visual Guide,
-        and acts as an epilogue for the Railgun PSP game.","type":"Novel","score":7.44,"volumes":1,"members":628},{"id":59857,"url":"https:\/\/myanimelist.net\/manga\/59857\/4-koma_Koushiki_Anthology__Toaru_Kagaku_no_Railgun_x_Toaru_Majutsu_no_Index","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/103169.jpg?s=fad2b2eb1c8a0b2e3db76aa6e4c1e7c1","title":"4-koma
+        and acts as an epilogue for the Railgun PSP game.","type":"Novel","score":7.44,"volumes":1,"members":646},{"id":59857,"url":"https:\/\/myanimelist.net\/manga\/59857\/4-koma_Koushiki_Anthology__Toaru_Kagaku_no_Railgun_x_Toaru_Majutsu_no_Index","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/103169.jpg?s=fad2b2eb1c8a0b2e3db76aa6e4c1e7c1","title":"4-koma
         Koushiki Anthology: Toaru Kagaku no Railgun x Toaru Majutsu no Index","description":"A
-        4-koma anthology of the Toaru series","type":"Manga","score":7.58,"volumes":3,"members":623},{"id":75497,"url":"https:\/\/myanimelist.net\/manga\/75497\/Tale_of_Fairy_Tail__Ice_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/164272.jpg?s=4b2c87789d39535b7319280dacbf308d","title":"Tale
+        4-koma anthology of the Toaru series","type":"Manga","score":7.56,"volumes":3,"members":647},{"id":75497,"url":"https:\/\/myanimelist.net\/manga\/75497\/Tale_of_Fairy_Tail__Ice_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/164272.jpg?s=4b2c87789d39535b7319280dacbf308d","title":"Tale
         of Fairy Tail: Ice Trail","description":"Following the death of his master
         Ul, Gray Fullbuster sets out on his own to see the world and strengthen the
         skills he learnt from her. While trudging through wild weather and heavy snow,
-        he comes ac...","type":"Manga","score":7.14,"volumes":2,"members":9674},{"id":10814,"url":"https:\/\/myanimelist.net\/manga\/10814\/Baccano_1931_The_Grand_Punk_Railroad","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/4\/84135.jpg?s=c6008f9f27c7f97a6c8b040cc030d864","title":"Baccano!
+        he comes ac...","type":"Manga","score":7.13,"volumes":2,"members":9944},{"id":10814,"url":"https:\/\/myanimelist.net\/manga\/10814\/Baccano_1931_The_Grand_Punk_Railroad","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/4\/84135.jpg?s=c6008f9f27c7f97a6c8b040cc030d864","title":"Baccano!
         1931 The Grand Punk Railroad","description":"In 1711, a group of alchemists
         seeking eternal life gathered on a boat to summon the \"demon\" that held
         the secret. The demon agreed to give them what they wanted\u2014an elixir
-        of life, the method to creat...","type":"Manga","score":7.43,"volumes":2,"members":1768},{"id":64391,"url":"https:\/\/myanimelist.net\/manga\/64391\/Rail_Wars_Nihon_Kokuyuu_Tetsudou_Kouantai","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/110071.jpg?s=ca1eb96f9af1311e393a738388e40d41","title":"Rail
+        of life, the method to creat...","type":"Manga","score":7.44,"volumes":2,"members":1798},{"id":64391,"url":"https:\/\/myanimelist.net\/manga\/64391\/Rail_Wars_Nihon_Kokuyuu_Tetsudou_Kouantai","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/110071.jpg?s=ca1eb96f9af1311e393a738388e40d41","title":"Rail
         Wars! Nihon Kokuyuu Tetsudou Kouantai","description":"The \"dream railway
         paradise entertainment\" story is set in a parallel world where Japan did
         not privatize its national railways. Naohito Takayama is an ordinary high
-        school boy who dreams of a comfort...","type":"Novel","score":0,"volumes":0,"members":446},{"id":93224,"url":"https:\/\/myanimelist.net\/manga\/93224\/\u0100trail__Nisekai-teki_Nichijou_to_Senmetsu_Element","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/171981.jpg?s=1da3db8bb4b7d45f4a4d9195246e1444","title":"\u0100trail:
+        school boy who dreams of a comfort...","type":"Novel","score":0,"volumes":0,"members":467},{"id":93224,"url":"https:\/\/myanimelist.net\/manga\/93224\/\u0100trail__Nisekai-teki_Nichijou_to_Senmetsu_Element","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/171981.jpg?s=1da3db8bb4b7d45f4a4d9195246e1444","title":"\u0100trail:
         Nisekai-teki Nichijou to Senmetsu Element","description":"The manga centers
         on Iori Shijima, an ordinary high school student blessed with a good, common
         life. He has a cute childhood friend, lots of friends he can rely on, and
-        a nice and beautiful mother. Ad...","type":"Manga","score":6.83,"volumes":0,"members":469},{"id":598,"url":"https:\/\/myanimelist.net\/manga\/598\/Fairy_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/198604.jpg?s=99842391527f97cc938c4ea37f64b749","title":"Fairy
+        a nice and beautiful mother. Ad...","type":"Manga","score":6.76,"volumes":0,"members":487},{"id":598,"url":"https:\/\/myanimelist.net\/manga\/598\/Fairy_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/198604.jpg?s=99842391527f97cc938c4ea37f64b749","title":"Fairy
         Tail","description":"In the mystical realm of Earth Land, magic exists at
         the core of everyday life for its inhabitants, from transportation to utilities
-        and everything in between. However, even with all its benefits, mag...","type":"Manga","score":7.92,"volumes":63,"members":177696},{"id":3283,"url":"https:\/\/myanimelist.net\/manga\/3283\/Dollgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/148175.jpg?s=83c7c035a29b7a8906cfd5f9b559954f","title":"Dollgun","description":"The
+        and everything in between. However, even with all its benefits, mag...","type":"Manga","score":7.89,"volumes":63,"members":182967},{"id":3283,"url":"https:\/\/myanimelist.net\/manga\/3283\/Dollgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/148175.jpg?s=83c7c035a29b7a8906cfd5f9b559954f","title":"Dollgun","description":"The
         day a young boy was born was the day that the legendary thief died. The many
         battles that revolve around the treasure left behind by him. Here, the curtains
-        are pulled and the story starts","type":"Manga","score":7.18,"volumes":9,"members":1508},{"id":64389,"url":"https:\/\/myanimelist.net\/manga\/64389\/Rail_Wars_Nihon_Kokuyuu_Tetsudou_Kouantai_-_The_Revolver","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/110069.jpg?s=9f9298a30913972bc0f1baf2553f7637","title":"Rail
+        are pulled and the story starts","type":"Manga","score":7.18,"volumes":9,"members":1517},{"id":64389,"url":"https:\/\/myanimelist.net\/manga\/64389\/Rail_Wars_Nihon_Kokuyuu_Tetsudou_Kouantai_-_The_Revolver","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/110069.jpg?s=9f9298a30913972bc0f1baf2553f7637","title":"Rail
         Wars! Nihon Kokuyuu Tetsudou Kouantai - The Revolver","description":"Takayama
         Naoto, 2nd-year student at Kiryu Tetsudou High School, has been selected to
         intern at the infamous \"Public Rail Road Security Corps,\" much to Naoto&#039;s
-        chagrin. He only wanted to be assigned to...","type":"Manga","score":7.38,"volumes":3,"members":367},{"id":768,"url":"https:\/\/myanimelist.net\/manga\/768\/Gunnm","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/145619.jpg?s=faafa0c00608ddda83894937770215d6","title":"Gunnm","description":"The
+        chagrin. He only wanted to be assigned to...","type":"Manga","score":7.37,"volumes":3,"members":378},{"id":768,"url":"https:\/\/myanimelist.net\/manga\/768\/Gunnm","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/145619.jpg?s=faafa0c00608ddda83894937770215d6","title":"Gunnm","description":"The
         people and cyborgs of the Scrapyard live beneath the floating city of Tiphares,
         whose inhabitants dump their junk in the Scrapyard and rule above its inhabitants.
-        One day Ido, a former Tipharean c...","type":"Manga","score":8.51,"volumes":9,"members":28409},{"id":108461,"url":"https:\/\/myanimelist.net\/manga\/108461\/Fairy_Tail_S","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/198591.jpg?s=66c0aba04ab18991e8258ae368907565","title":"Fairy
+        One day Ido, a former Tipharean c...","type":"Manga","score":8.5,"volumes":9,"members":30050},{"id":108461,"url":"https:\/\/myanimelist.net\/manga\/108461\/Fairy_Tail_S","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/198591.jpg?s=66c0aba04ab18991e8258ae368907565","title":"Fairy
         Tail S","description":"Compilation of side stories not included in the main
-        entry","type":"Manga","score":7.52,"volumes":2,"members":12954},{"id":4260,"url":"https:\/\/myanimelist.net\/manga\/4260\/Mail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/4939.jpg?s=8e1a04002e10ad038c8f1949f3419fb7","title":"Mail","description":"Private
+        entry","type":"Manga","score":7.51,"volumes":2,"members":13110},{"id":4260,"url":"https:\/\/myanimelist.net\/manga\/4260\/Mail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/4939.jpg?s=8e1a04002e10ad038c8f1949f3419fb7","title":"Mail","description":"Private
         detective Reiji Akiba has a theory about those awkward moments and weird coincidences
         we all encounter in life. They are actually encounters with the dead; it&#039;s
-        their way of sending us a messa...","type":"Manga","score":7.21,"volumes":3,"members":1663},{"id":15012,"url":"https:\/\/myanimelist.net\/manga\/15012\/Railroad","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/21732.jpg?s=0aa8917008d97701b511994bc73a5e0e","title":"Railroad","description":"A
+        their way of sending us a messa...","type":"Manga","score":7.19,"volumes":3,"members":1702},{"id":15012,"url":"https:\/\/myanimelist.net\/manga\/15012\/Railroad","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/21732.jpg?s=0aa8917008d97701b511994bc73a5e0e","title":"Railroad","description":"A
         childhood dream has led Ha Min to work as a conductor for Pidgeon-ho, a slow-train
         in a backwater country. But the life of the slow-train is unexpectedly ending
-        and Ha Min must transfer to another t...","type":"Manhwa","score":6.86,"volumes":3,"members":369},{"id":69903,"url":"https:\/\/myanimelist.net\/manga\/69903\/Fairy_Tail_Zer\u00f8","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/167384.jpg?s=d0af07807a3f8b72978851a8a76daf0a","title":"Fairy
+        and Ha Min must transfer to another t...","type":"Manhwa","score":6.83,"volumes":3,"members":373},{"id":69903,"url":"https:\/\/myanimelist.net\/manga\/69903\/Fairy_Tail_Zer\u00f8","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/167384.jpg?s=d0af07807a3f8b72978851a8a76daf0a","title":"Fairy
         Tail Zer\u00f8","description":"Long before she would found Fairy Tail, first
         master Mavis Vermillion is left under the care of the Red Lizard guild. Abused
-        and belittled at every opportunity, she is forced to complete difficult cho...","type":"Manga","score":8.12,"volumes":1,"members":30039},{"id":78003,"url":"https:\/\/myanimelist.net\/manga\/78003\/Fairy_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/140795.jpg?s=6690b4831d96aabe8b0be6d9414412ec","title":"Fairy
+        and belittled at every opportunity, she is forced to complete difficult cho...","type":"Manga","score":8.11,"volumes":1,"members":31261},{"id":78003,"url":"https:\/\/myanimelist.net\/manga\/78003\/Fairy_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/140795.jpg?s=6690b4831d96aabe8b0be6d9414412ec","title":"Fairy
         Tail","description":"Light novel side stories of the Fairy Tail series. Volume
         1. Kokoro ni Yadoru Color (The Color Residing Within the Heart) Volume 2.
-        Dai Matou Enbu Sonogo, Sorezore no 1-nichi (After the Grand Magic Ga...","type":"Novel","score":7.96,"volumes":0,"members":2442},{"id":357,"url":"https:\/\/myanimelist.net\/manga\/357\/Wolfs_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/181408.jpg?s=d9337f367f8e3feded16e511c0ce8e6c","title":"Wolf&#039;s
+        Dai Matou Enbu Sonogo, Sorezore no 1-nichi (After the Grand Magic Ga...","type":"Novel","score":7.93,"volumes":0,"members":2553},{"id":357,"url":"https:\/\/myanimelist.net\/manga\/357\/Wolfs_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/181408.jpg?s=d9337f367f8e3feded16e511c0ce8e6c","title":"Wolf&#039;s
         Rain","description":"Humans thought the wolves died off two centuries ago
         in this bleak post-apocalyptic wasteland. But some survivors lurk among the
-        humans by mentally cloaking their animal bodies. One white wolf, Kiba,...","type":"Manga","score":7.26,"volumes":2,"members":9560},{"id":5245,"url":"https:\/\/myanimelist.net\/manga\/5245\/Land_of_Silver_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/6587.jpg?s=6f600c4a5e96d03e714c4a6140ba44f8","title":"Land
+        humans by mentally cloaking their animal bodies. One white wolf, Kiba,...","type":"Manga","score":7.25,"volumes":2,"members":9734},{"id":5245,"url":"https:\/\/myanimelist.net\/manga\/5245\/Land_of_Silver_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/6587.jpg?s=6f600c4a5e96d03e714c4a6140ba44f8","title":"Land
         of Silver Rain","description":"Abandoned in a cabbage patch as a baby, Misty-Rain
         is saved from certain death by a witch who brings her up as her own. Far from
-        the company of humans, she is raised as one of the Dokebi, a magical ra...","type":"Manhwa","score":7.22,"volumes":7,"members":1003},{"id":69415,"url":"https:\/\/myanimelist.net\/manga\/69415\/Fairy_Tail_","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/118931.jpg?s=668f8807d69cea16e4358e2a9fbd445e","title":"Fairy
+        the company of humans, she is raised as one of the Dokebi, a magical ra...","type":"Manhwa","score":7.19,"volumes":7,"members":1020},{"id":69415,"url":"https:\/\/myanimelist.net\/manga\/69415\/Fairy_Tail_","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/118931.jpg?s=668f8807d69cea16e4358e2a9fbd445e","title":"Fairy
         Tail+","description":"This artbook contains 3 side stories that were not included
         in the main volumes. 1. Mira-sensei no Henshin Mahou Lesson (Mira-Sensei&#039;s
-        Transforming Magic Class) 2. Yousei no Izumi e Youkoso! (Welcome...","type":"Manga","score":7.34,"volumes":0,"members":2807},{"id":1319,"url":"https:\/\/myanimelist.net\/manga\/1319\/GunSmith_Cats","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/186048.jpg?s=1772cdd37c4330ad6956b8939989172a","title":"GunSmith
+        Transforming Magic Class) 2. Yousei no Izumi e Youkoso! (Welcome...","type":"Manga","score":7.36,"volumes":0,"members":2902},{"id":1319,"url":"https:\/\/myanimelist.net\/manga\/1319\/GunSmith_Cats","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/186048.jpg?s=1772cdd37c4330ad6956b8939989172a","title":"GunSmith
         Cats","description":"Rally Vincent works by day in her Chicago gun store,
         GunSmith Cats. But at the drop of the hat, she hangs up the \"Gone Fishing\"
-        sign, straps on her guns and takes to the road in her muscle car to fulf...","type":"Manga","score":7.87,"volumes":8,"members":4690},{"id":61147,"url":"https:\/\/myanimelist.net\/manga\/61147\/Fate_Extra_CCC__Fox_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/120387.jpg?s=a1aad18d24597247f7d4344872bff791","title":"Fate\/Extra
+        sign, straps on her guns and takes to the road in her muscle car to fulf...","type":"Manga","score":7.87,"volumes":8,"members":4903},{"id":61147,"url":"https:\/\/myanimelist.net\/manga\/61147\/Fate_Extra_CCC__Fox_Tail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/120387.jpg?s=a1aad18d24597247f7d4344872bff791","title":"Fate\/Extra
         CCC: Fox Tail","description":"The series is set on the Far Side of the Moon
         Cell, where BB used her abilities to create the Sakura Labyrinth. She brought
         over various Masters and Servants from the Moon Cell Holy Grail War on the
-        N...","type":"Manga","score":7.38,"volumes":0,"members":1233},{"id":104930,"url":"https:\/\/myanimelist.net\/manga\/104930\/World_Witches__Contrail_of_Witches","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/193297.jpg?s=f9c2fd1c23085723669554d7e2d05fd6","title":"World
+        N...","type":"Manga","score":7.36,"volumes":0,"members":1346},{"id":104930,"url":"https:\/\/myanimelist.net\/manga\/104930\/World_Witches__Contrail_of_Witches","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/193297.jpg?s=f9c2fd1c23085723669554d7e2d05fd6","title":"World
         Witches: Contrail of Witches","description":"An expansion of the Strike Witches
         series, World Witches: Contrail of Witches details the short stories of various
-        witches from areas of the European front of the Neuroi War","type":"Manga","score":0,"volumes":0,"members":75},{"id":38185,"url":"https:\/\/myanimelist.net\/manga\/38185\/To_Where_The_Rail_Goes","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/68519.jpg?s=133bd55254a99a111d7b955659e7b1d9","title":"To
+        witches from areas of the European front of the Neuroi War","type":"Manga","score":0,"volumes":3,"members":93},{"id":3444,"url":"https:\/\/myanimelist.net\/manga\/3444\/Raiden-18","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/3828.jpg?s=0b39ae96e519996a7db5b265eb70bfd4","title":"Raiden-18","description":"Taking
+        a break from her popular, brilliant, Fullmetal Alchemist; Arakawa-sensei drew
+        up a one-chapter humorous Shounen story about a Frankenstein tournament, for
+        mangazine GX to commerate their 5th ye...","type":"Manga","score":7.19,"volumes":0,"members":2037},{"id":91971,"url":"https:\/\/myanimelist.net\/manga\/91971\/Fairy_Tail_Gaiden","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/171669.jpg?s=c7339b6e5357e461d3602e0142769558","title":"Fairy
+        Tail Gaiden","description":"Fairy Tail Gaiden is a trilogy detailing the adventures
+        of Sting and Rogue, Gajeel and Levy, and Laxus and the Thunder Tribe in separate
+        volumes. Kengami no Souryuu Now the guild master of Sabertooth,...","type":"Manga","score":7.29,"volumes":3,"members":5921},{"id":38185,"url":"https:\/\/myanimelist.net\/manga\/38185\/To_Where_The_Rail_Goes","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/68519.jpg?s=133bd55254a99a111d7b955659e7b1d9","title":"To
         Where The Rail Goes","description":"They say when you end up seeing the train&#039;s
         smoke black you get your wish fulfilled. At least this is what Asahi truly
         believes. Read this cute oneshot to find out what happens next and also to
-        see \"w...","type":"One-shot","score":6.78,"volumes":0,"members":145},{"id":3444,"url":"https:\/\/myanimelist.net\/manga\/3444\/Raiden-18","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/3828.jpg?s=0b39ae96e519996a7db5b265eb70bfd4","title":"Raiden-18","description":"Taking
-        a break from her popular, brilliant, Fullmetal Alchemist; Arakawa-sensei drew
-        up a one-chapter humorous Shounen story about a Frankenstein tournament, for
-        mangazine GX to commerate their 5th ye...","type":"Manga","score":7.2,"volumes":0,"members":2016},{"id":91971,"url":"https:\/\/myanimelist.net\/manga\/91971\/Fairy_Tail_Gaiden","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/171669.jpg?s=c7339b6e5357e461d3602e0142769558","title":"Fairy
-        Tail Gaiden","description":"Fairy Tail Gaiden is a trilogy detailing the adventures
-        of Sting and Rogue, Gajeel and Levy, and Laxus and the Thunder Tribe in separate
-        volumes. Kengami no Souryuu Now the guild master of Sabertooth,...","type":"Manga","score":7.26,"volumes":3,"members":5652},{"id":64565,"url":"https:\/\/myanimelist.net\/manga\/64565\/Fairy_Tail_x_Nanatsu_no_Taizai_Christmas_Special","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/110375.jpg?s=b7e1193549d8ea58d5c7c8a8dc77b66a","title":"Fairy
-        Tail x Nanatsu no Taizai Christmas Special","description":"A small holiday
-        collaboration between Hiro Mashima and Nakaba Suzuki","type":"One-shot","score":6.78,"volumes":0,"members":6670},{"id":24812,"url":"https:\/\/myanimelist.net\/manga\/24812\/Mobile_Suit_Gundam_00_-_A_Wakening_of_the_Trailblazer","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/111843.jpg?s=1fe752f2f377097e78c057d18a323d66","title":"Mobile
-        Suit Gundam 00 - A Wakening of the Trailblazer","description":"The manga adaption
-        of the Gundam 00 movie","type":"Manga","score":7.18,"volumes":1,"members":202},{"id":61635,"url":"https:\/\/myanimelist.net\/manga\/61635\/Uncanny_Brains","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/106185.jpg?s=86226c674449ae7126a97ce43053e5f6","title":"Uncanny
+        see \"w...","type":"One-shot","score":6.77,"volumes":0,"members":147},{"id":61635,"url":"https:\/\/myanimelist.net\/manga\/61635\/Uncanny_Brains","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/106185.jpg?s=86226c674449ae7126a97ce43053e5f6","title":"Uncanny
         Brains","description":"High school girl Yui found a mysterious boy lying unconscious
         on the beach. This mysterious boy can&#039;t remember where he is from, only
-        that his name is \"Sid.\" After a confrontation with the locals, the...","type":"Manga","score":6.65,"volumes":2,"members":536},{"id":1030,"url":"https:\/\/myanimelist.net\/manga\/1030\/Gun_Blaze_West","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/204387.jpg?s=72e082eeb5d8a43e8e4a2669d4e71761","title":"Gun
+        that his name is \"Sid.\" After a confrontation with the locals, the...","type":"Manga","score":6.65,"volumes":2,"members":549},{"id":64565,"url":"https:\/\/myanimelist.net\/manga\/64565\/Fairy_Tail_x_Nanatsu_no_Taizai_Christmas_Special","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/110375.jpg?s=b7e1193549d8ea58d5c7c8a8dc77b66a","title":"Fairy
+        Tail x Nanatsu no Taizai Christmas Special","description":"A small holiday
+        collaboration between Hiro Mashima and Nakaba Suzuki","type":"One-shot","score":6.78,"volumes":0,"members":6882},{"id":1030,"url":"https:\/\/myanimelist.net\/manga\/1030\/Gun_Blaze_West","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/204387.jpg?s=72e082eeb5d8a43e8e4a2669d4e71761","title":"Gun
         Blaze West","description":"America, 19th century. Viu Bannes, a young and
         determined boy gets to know the legend of Gun Blaze West\u2014a perfect place,
-        where only the best gunmen can get. With his friend, the wanderer Marcus Homer,...","type":"Manga","score":6.82,"volumes":3,"members":1093},{"id":649,"url":"https:\/\/myanimelist.net\/manga\/649\/Gunslinger_Girl","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/160923.jpg?s=6befd079c0c59d83e59ce0ed036d2e7a","title":"Gunslinger
+        where only the best gunmen can get. With his friend, the wanderer Marcus Homer,...","type":"Manga","score":6.8,"volumes":3,"members":1111},{"id":24812,"url":"https:\/\/myanimelist.net\/manga\/24812\/Mobile_Suit_Gundam_00_-_A_Wakening_of_the_Trailblazer","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/111843.jpg?s=1fe752f2f377097e78c057d18a323d66","title":"Mobile
+        Suit Gundam 00 - A Wakening of the Trailblazer","description":"The manga adaption
+        of the Gundam 00 movie","type":"Manga","score":7.17,"volumes":1,"members":208},{"id":649,"url":"https:\/\/myanimelist.net\/manga\/649\/Gunslinger_Girl","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/160923.jpg?s=6befd079c0c59d83e59ce0ed036d2e7a","title":"Gunslinger
         Girl","description":"The Social Welfare Agency in Italy is not what it seems.
         Yes, it rescues young girls who have been brutalized, but it then brainwashes
-        them and turns them into ruthless killers for an elite and secret...","type":"Manga","score":8.16,"volumes":15,"members":12267},{"id":35261,"url":"https:\/\/myanimelist.net\/manga\/35261\/Tail_Star","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/128835.jpg?s=20b536c3432b52809c766045f3c9c84e","title":"Tail
+        them and turns them into ruthless killers for an elite and secret...","type":"Manga","score":8.15,"volumes":15,"members":12658},{"id":26048,"url":"https:\/\/myanimelist.net\/manga\/26048\/Go_Da_Gun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/41854.jpg?s=31717d72a65ebe932a2b54e5562cb74c","title":"Go
+        Da Gun","description":"This is all about a 16-year-old guy named Gan (family
+        name: Goda), who along with his various fighting-video-game-styled pals, opposes
+        the very naughty Hanged Cross gang on an alarmingly regular basis...","type":"Manga","score":7.16,"volumes":16,"members":254},{"id":54697,"url":"https:\/\/myanimelist.net\/manga\/54697\/Fairy_Tail__Houou_no_Miko_-_Hajimari_no_Asa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/97209.jpg?s=bc32dfec57709b894d41ee0fc7c50ab1","title":"Fairy
+        Tail: Houou no Miko - Hajimari no Asa","description":"Prologue of Fairy Tail
+        the Movie: Priestess of The Phoenix. An introduction of the movie&#039;s protagonist,
+        Eclaire and Momo, how they met and how they went on their journey","type":"One-shot","score":7.16,"volumes":0,"members":3084},{"id":35261,"url":"https:\/\/myanimelist.net\/manga\/35261\/Tail_Star","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/128835.jpg?s=20b536c3432b52809c766045f3c9c84e","title":"Tail
         Star","description":"Long ago, in the far reaches of space, there existed
         a world as pure and blue as the Earth. And on this world, there lived two
-        \"Queens\" with the power to control it. When the world is thrown into chao...","type":"Manga","score":7.38,"volumes":4,"members":2423},{"id":75495,"url":"https:\/\/myanimelist.net\/manga\/75495\/Fairy_Tail__Blue_Mistral","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/153098.jpg?s=c2dd0894bbf0adf9daf3af8fe44ca995","title":"Fairy
+        \"Queens\" with the power to control it. When the world is thrown into chao...","type":"Manga","score":7.38,"volumes":4,"members":2484},{"id":75495,"url":"https:\/\/myanimelist.net\/manga\/75495\/Fairy_Tail__Blue_Mistral","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/153098.jpg?s=c2dd0894bbf0adf9daf3af8fe44ca995","title":"Fairy
         Tail: Blue Mistral","description":"A mysterious request leads Wendy Marvell
         and her feline companion Charles to Nanalu Village, only to find that the
         job requester doesn&#039;t actually exist. Instead, Wendy becomes friends
-        with Yoshino: a...","type":"Manga","score":6.8,"volumes":4,"members":3987},{"id":513,"url":"https:\/\/myanimelist.net\/manga\/513\/Samurai_Deeper_Kyou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/157961.jpg?s=1639898d722962db179115c9c6cfc82d","title":"Samurai
+        with Yoshino: a...","type":"Manga","score":6.79,"volumes":4,"members":4124},{"id":513,"url":"https:\/\/myanimelist.net\/manga\/513\/Samurai_Deeper_Kyou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/157961.jpg?s=1639898d722962db179115c9c6cfc82d","title":"Samurai
         Deeper Kyou","description":"At the dawn of the 17th century, at the end of
         the era of civil wars, in a world of chaos, the epic Battle of Sekigahara
         was joined. One man emerged from the largest battle ever fought on Japanese
-        soi...","type":"Manga","score":7.8,"volumes":38,"members":17140},{"id":26048,"url":"https:\/\/myanimelist.net\/manga\/26048\/Go_Da_Gun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/41854.jpg?s=31717d72a65ebe932a2b54e5562cb74c","title":"Go
-        Da Gun","description":"This is all about a 16-year-old guy named Gan (family
-        name: Goda), who along with his various fighting-video-game-styled pals, opposes
-        the very naughty Hanged Cross gang on an alarmingly regular basis...","type":"Manga","score":7.2,"volumes":16,"members":242},{"id":54697,"url":"https:\/\/myanimelist.net\/manga\/54697\/Fairy_Tail__Houou_no_Miko_-_Hajimari_no_Asa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/97209.jpg?s=bc32dfec57709b894d41ee0fc7c50ab1","title":"Fairy
-        Tail: Houou no Miko - Hajimari no Asa","description":"Prologue of Fairy Tail
-        the Movie: Priestess of The Phoenix. An introduction of the movie&#039;s protagonist,
-        Eclaire and Momo, how they met and how they went on their journey","type":"One-shot","score":7.16,"volumes":0,"members":3021},{"id":5802,"url":"https:\/\/myanimelist.net\/manga\/5802\/Lost_Brain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/11468.jpg?s=7da6b4f6d0aa79e01aca1092d9b2d138","title":"Lost+Brain","description":"This
-        is the story of a very smart student called Hirama Ren who is used to always
-        getting the top results in his school, and is the chairman of the student&#039;s
-        council. One day, he walks past a group of...","type":"Manga","score":6.68,"volumes":3,"members":7314},{"id":7482,"url":"https:\/\/myanimelist.net\/manga\/7482\/Rainbow__Nisha_Rokubou_no_Shichinin","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/10241.jpg?s=31c0dccaf01a82345f0e4b61e7908357","title":"Rainbow:
+        soi...","type":"Manga","score":7.8,"volumes":38,"members":17470},{"id":7482,"url":"https:\/\/myanimelist.net\/manga\/7482\/Rainbow__Nisha_Rokubou_no_Shichinin","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/10241.jpg?s=31c0dccaf01a82345f0e4b61e7908357","title":"Rainbow:
         Nisha Rokubou no Shichinin","description":"Six minors (16 or 17 years) answering
         to the nicknames of Joe, Mario, Suppon, Baremoto, Heitai and Kyabetsu are
         put into a reformatory for offences such as aggravated assault, swindle, flight,
-        etc. Th...","type":"Manga","score":8.45,"volumes":22,"members":8895},{"id":10759,"url":"https:\/\/myanimelist.net\/manga\/10759\/Gift__Under_the_Rainbow","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/14479.jpg?s=c512f13b31918c54ba99762cc4dc3c0d","title":"Gift:
+        etc. Th...","type":"Manga","score":8.46,"volumes":22,"members":9413},{"id":5802,"url":"https:\/\/myanimelist.net\/manga\/5802\/Lost_Brain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/11468.jpg?s=7da6b4f6d0aa79e01aca1092d9b2d138","title":"Lost+Brain","description":"This
+        is the story of a very smart student called Hirama Ren who is used to always
+        getting the top results in his school, and is the chairman of the student&#039;s
+        council. One day, he walks past a group of...","type":"Manga","score":6.67,"volumes":3,"members":7447},{"id":10759,"url":"https:\/\/myanimelist.net\/manga\/10759\/Gift__Under_the_Rainbow","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/14479.jpg?s=c512f13b31918c54ba99762cc4dc3c0d","title":"Gift:
         Under the Rainbow","description":"Gift is a story that revolves around high
         school student Haruhiko Amami and his strong connection to the mysterious
-        power that surround the town of Narasakicho. It has two distinguishing characteristi...","type":"Manga","score":6.53,"volumes":2,"members":514},{"id":14580,"url":"https:\/\/myanimelist.net\/manga\/14580\/Young_Guns","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/152392.jpg?s=77e994ec74864096ab916e126a19eaf8","title":"Young
+        power that surround the town of Narasakicho. It has two distinguishing characteristi...","type":"Manga","score":6.51,"volumes":2,"members":519},{"id":14580,"url":"https:\/\/myanimelist.net\/manga\/14580\/Young_Guns","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/152392.jpg?s=77e994ec74864096ab916e126a19eaf8","title":"Young
         Guns","description":"A teenager&#039;s life is anything but a bed of roses
         and Yuan Jianping will be the first person to affirm that. A Pre-U freshman
         with a nose for trouble, Jianping begins his hectic misadventures on the fi...","type":"Manhua","score":0,"volumes":10,"members":63},{"id":2908,"url":"https:\/\/myanimelist.net\/manga\/2908\/GunSmith_Cats_Burst","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/1\/186045.jpg?s=1a995360ac6de6eaf643bdc5157574f6","title":"GunSmith
         Cats Burst","description":"Rally Vincent and Minnie-May Hopkins are two regular
         American girls. Regular American girls who own a gun shop, and might have
-        dabbled in prostitution, respectively. And who happen to be a crack shot...","type":"Manga","score":7.68,"volumes":5,"members":1494},{"id":4090,"url":"https:\/\/myanimelist.net\/manga\/4090\/Train_Train","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/4731.jpg?s=d4a51535c75bea391a19f694202a45be","title":"Train+Train","description":"On
+        dabbled in prostitution, respectively. And who happen to be a crack shot...","type":"Manga","score":7.69,"volumes":5,"members":1549},{"id":4090,"url":"https:\/\/myanimelist.net\/manga\/4090\/Train_Train","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/3\/4731.jpg?s=d4a51535c75bea391a19f694202a45be","title":"Train+Train","description":"On
         the distant planet of Deloca, teenagers enroll in an education system like
         no other \u2013 a mobile journey that takes place onboard a train. There are
-        standard School Trains for general studies...and t...","type":"Manga","score":7.23,"volumes":6,"members":362},{"id":12876,"url":"https:\/\/myanimelist.net\/manga\/12876\/Karin_Airmail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/196060.jpg?s=137711dea8d939b9db37970c1763f22b","title":"Karin
+        standard School Trains for general studies...and t...","type":"Manga","score":7.22,"volumes":6,"members":367},{"id":12876,"url":"https:\/\/myanimelist.net\/manga\/12876\/Karin_Airmail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/196060.jpg?s=137711dea8d939b9db37970c1763f22b","title":"Karin
         Airmail","description":"1. Gyakuten Komori! (Reverse Babysitting) 2. Daisuki
         na Hito wo Sagashiteimasu (Searching For My Beloved) 3. Karin Gaiden: Nishi
-        no Mori no Vampire (The Vampire Of The West Woods) 4. Karin Banga-hen:...","type":"Manga","score":7.36,"volumes":1,"members":1270},{"id":106694,"url":"https:\/\/myanimelist.net\/manga\/106694\/Gun_Dragon_\u03a3","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/195389.jpg?s=2c5711ff8acf191739bf08e9aa1ac7f3","title":"Gun
+        no Mori no Vampire (The Vampire Of The West Woods) 4. Karin Banga-hen:...","type":"Manga","score":7.35,"volumes":1,"members":1292},{"id":106694,"url":"https:\/\/myanimelist.net\/manga\/106694\/Gun_Dragon_\u03a3","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/195389.jpg?s=2c5711ff8acf191739bf08e9aa1ac7f3","title":"Gun
         Dragon \u03a3","description":"2030, the boundaries of spaces are officially
         opened. Visitors from different planets in the system are allowed to come
         to Earth. The government decides to limit trade to an artificial island of
         Dejim...","type":"Manga","score":0,"volumes":1,"members":18},{"id":109433,"url":"https:\/\/myanimelist.net\/manga\/109433\/Gun___Heaven","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/200474.jpg?s=926b1526a8e9085346f4035fe1ffafe1","title":"Gun
-        &amp; Heaven","description":"Included one-shot: Rin","type":"Manga","score":7.29,"volumes":1,"members":72},{"id":14472,"url":"https:\/\/myanimelist.net\/manga\/14472\/Blood_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/152389.jpg?s=18e42ada09b92e4d0db586e5fa345ab9","title":"Blood
+        &amp; Heaven","description":"Included one-shot: Rin","type":"Manga","score":7.16,"volumes":1,"members":92},{"id":14472,"url":"https:\/\/myanimelist.net\/manga\/14472\/Blood_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/manga\/2\/152389.jpg?s=18e42ada09b92e4d0db586e5fa345ab9","title":"Blood
         Rain","description":"Aihara Kumi is a young staff worker for an office. One
         night, a boy who was part of her baseball team from her high school days was
-        stabbed to death. It&#039;s the beginning of a long series of murders. (S...","type":"Manga","score":6.81,"volumes":9,"members":518}],"result_last_page":20}'
+        stabbed to death. It&#039;s the beginning of a long series of murders. (S...","type":"Manga","score":6.79,"volumes":9,"members":530}],"result_last_page":20}'
     http_version: 
-  recorded_at: Thu, 01 Feb 2018 05:30:32 GMT
+  recorded_at: Thu, 12 Apr 2018 06:19:57 GMT
 recorded_with: VCR 4.0.0

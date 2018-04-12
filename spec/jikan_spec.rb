@@ -4,8 +4,8 @@ RSpec.describe Jikan do
   end
 
   it "has correct url" do
-    expect(Jikan::BASE_URL).to eq "http://api.jikan.me"
-    expect(Jikan::BASE_URL_SSL).to eq "https://api.jikan.me"
+    expect(Jikan::BASE_URL).to eq "http://api.jikan.moe"
+    expect(Jikan::BASE_URL_SSL).to eq "https://api.jikan.moe"
   end
 
   describe ".anime" do

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.me/anime/34798
+    uri: https://api.jikan.moe/anime/34798
     body:
       encoding: UTF-8
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Connection:
       - close
       Host:
-      - api.jikan.me
+      - api.jikan.moe
       User-Agent:
       - http.rb/3.0.0
   response:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 01 Feb 2018 05:30:17 GMT
+      - Thu, 12 Apr 2018 06:19:47 GMT
       Server:
       - Apache/2.4.27 (Ubuntu)
       Access-Control-Allow-Origin:
@@ -39,26 +39,32 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"mal_id":34798,"link_canonical":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","title":"Yuru
-        Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan,
-        Laid-Back Camp\u25b3","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Currently
-        Airing","airing":true,"aired_string":"Jan 4, 2018 to ?","aired":{"from":"2018-01-04","to":null},"duration":"23
-        min. per ep.","rating":"PG-13 - Teens 13 or older","score":7.83,"scored_by":7473,"rank":838,"popularity":1496,"members":48258,"favorites":167,"synopsis":"Nadeshiko,
-        a high school student who had moved from Shizuoka to Yamanashi, decides to
-        see the famous, 1000 yen-bill-featured Mount Fuji. Even though she manages
-        to bike all the way to Motosu, she&#039;s forced to turn back because of worsening
-        weather. Unable to set her eyes on her goal, she faints partway to her destination.
-        When she wakes up, it&#039;s night, in a place she&#039;s never been before,
-        with no way of knowing how to get home. Nadeshiko is saved when she encounters
-        Rin, a girl who is out camping by herself. This outdoorsy girls story begins
-        with this first encounter between Nadeshiko and Rin. (Source: Crunchyroll)","background":null,"premiered":"Winter
+        Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Finished
+        Airing","airing":false,"aired_string":"Jan 4, 2018 to Mar 22, 2018","aired":{"from":"2018-01-04","to":"2018-03-22"},"duration":"23
+        min. per ep.","rating":"PG-13 - Teens 13 or older","score":8.37,"scored_by":35122,"rank":186,"popularity":860,"members":99657,"favorites":1387,"synopsis":"While
+        the perfect getaway for most girls her age might be a fancy vacation with
+        their loved ones, Rin Shima&#039;s ideal way of spending her days off is camping
+        alone at the base of Mount Fuji. From pitching her tent to gathering firewood,
+        she has always done everything by herself, and has no plans of leaving her
+        little solitary world. However, what starts off as one of Rin&#039;s usual
+        camping sessions somehow ends up as a surprise get-together for two when the
+        lost Nadeshiko Kagamihara is forced to take refuge at her campsite. Originally
+        intending to see the picturesque view of Mount Fuji for herself, Nadeshiko&#039;s
+        plans are disrupted when she ends up falling asleep partway to her destination.
+        Alone and with no other choice, she seeks help from the only other person
+        nearby. Despite their hasty introductions, the two girls nevertheless enjoy
+        the chilly night together, eating ramen and conversing while the campfire
+        keeps them warm. And even after Nadeshiko&#039;s sister finally picks her
+        up later that night, both girls silently ponder the possibility of another
+        camping trip together. [Written by MAL Rewrite]","background":null,"premiered":"Winter
         2018","broadcast":"Thursdays at 23:00 (JST)","related":{"Adaptation":[{"mal_id":94376,"type":"manga","url":"https:\/\/myanimelist.net\/manga\/94376\/Yuru_Camp\u25b3","title":"Yuru
-        Camp\u25b3"}]},"producer":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X","name":"AT-X"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications","name":"Sony
+        Camp\u25b3"}],"Side story":[{"mal_id":37341,"type":"anime","url":"https:\/\/myanimelist.net\/anime\/37341\/Yuru_Camp\u25b3_Specials","title":"Yuru
+        Camp\u25b3 Specials"}]},"producer":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X","name":"AT-X"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications","name":"Sony
         Music Communications"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/963\/MAGES","name":"MAGES."},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1185\/81_Produce","name":"81
         Produce"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1416\/BS11","name":"BS11"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1590\/Furyu","name":"Furyu"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1784\/Crunchyroll_SC_Anime_Fund","name":"Crunchyroll
-        SC Anime Fund"}],"licensor":[],"studio":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station","name":"C-Station"}],"genre":[{"url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life","name":"Slice
-        of Life"},{"url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy","name":"Comedy"}],"opening_theme":["\"SHINY
-        DAYS\" by Asaka"],"ending_theme":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
-        by Eri Sasaki"]}'
+        SC Anime Fund"}],"licensor":[],"studio":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station","name":"C-Station"}],"genre":[{"url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy","name":"Comedy"},{"url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life","name":"Slice
+        of Life"}],"opening_theme":["\"SHINY DAYS\" by Asaka"],"ending_theme":["\"Furu
+        Biyori (\u3075\u3086\u3073\u3088\u308a)\" by Eri Sasaki"]}'
     http_version: 
-  recorded_at: Thu, 01 Feb 2018 05:30:17 GMT
+  recorded_at: Thu, 12 Apr 2018 06:19:45 GMT
 recorded_with: VCR 4.0.0

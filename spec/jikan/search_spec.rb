@@ -18,10 +18,10 @@ RSpec.describe Jikan::Search do
       @character_search = Jikan::Search.new(@character_query.raw, :character)
     end
 
-    VCR.use_cassette "search person" do
-      @person_query = Jikan::Query.new.search("Satou Rina", :person)
-      @person_search = Jikan::Search.new(@person_query, :person)
-    end
+    #VCR.use_cassette "search person" do
+    #  @person_query = Jikan::Query.new.search("Satou Rina", :person)
+    #  @person_search = Jikan::Search.new(@person_query, :person)
+    #end
   end
 
   describe ".search" do

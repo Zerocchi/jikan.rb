@@ -4,8 +4,8 @@ module Jikan
   class FlagError < StandardError; end
   class ClientError < StandardError; end
 
-  BASE_URL = "http://api.jikan.me"
-  BASE_URL_SSL = "https://api.jikan.me"
+  BASE_URL = "http://api.jikan.moe"
+  BASE_URL_SSL = "https://api.jikan.moe"
 
   FLAGS = {
     'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats ],
