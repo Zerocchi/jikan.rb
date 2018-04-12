@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jikan.rb (0.0.3)
+    jikan.rb (0.0.4)
       http (~> 3.0.0)
 
 GEM
