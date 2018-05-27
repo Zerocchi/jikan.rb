@@ -19,32 +19,59 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 12 Apr 2018 06:19:55 GMT
+      - Sun, 27 May 2018 01:03:24 GMT
       Server:
-      - Apache/2.4.27 (Ubuntu)
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Host,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Vary:
-      - Host,Accept-Encoding
+      Content-Length:
+      - '3775'
       Connection:
       - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - application/json
     body:
       encoding: ASCII-8BIT
-      string: '{"mal_id":32512,"link_canonical":"https:\/\/myanimelist.net\/character\/32512\/Violate_Behemoth","name":"Violate
-        Behemoth","name_kanji":null,"nicknames":"Violate  Behemoth","about":null,"member_favorites":3,"image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/characters\/13\/114528.jpg","animeography":[{"mal_id":6171,"name":"Saint
-        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/anime\/6171\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/anime\/8\/75546.jpg?s=a532cddc9e84b080f4e0aecbde9330ab"}],"mangaography":[{"mal_id":1047,"name":"Saint
-        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/manga\/1047\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/manga\/5\/163126.jpg?s=c60e699264cceec96b6cb2094d483b43"}],"voice_actor":[{"mal_id":41,"name":"Honda,
+      string: '{"request_hash":"814d0aba3c35008d74c2820b9420538bdd872109","request_cached":true,"mal_id":32512,"link_canonical":"https:\/\/myanimelist.net\/character\/32512\/Violate_Behemoth","name":"Violate
+        Behemoth","name_kanji":null,"nicknames":"Violate  Behemoth","about":"Heavenly
+        Solitude Star, Behemoth  Violate (\u5929\u5b64\u661f\u30d9\u30d2\u30fc\u30e2\u30b9\u306e\u30d0\u30a4\u30aa\u30ec\u30fc\u30c8,
+        Tenkosei Beh\u012bmosu no Baior\u0113to?)  is the \"shadow\" that Pandora
+        put inside Alone''s shadow to guard him. This Specter has the ability to blend
+        completely into darkness, as she presents herself gushing out from her master''s
+        shadow and challenging Taurus Aldebaran, proving she is able to fight equally
+        at Taurus'' strength. She is also able to see through the shadows of others
+        as seen later in the storyline, when she is depicted kneeling before Garuda
+        Aiacos, as her right arm. Here she showed to be quite merciless, as she remained
+        indifferent while splattered with blood and viscera when Aiacos slaughtered
+        a nearby rebel Skeleton and a damned soul. Soon after, she was sent flying
+        by Aiacos'' Garuda Flap, withstanding its force and using it as a means to
+        assault the Saints, freezing most of them with her mere presence, where she
+        presented her first technique the Brutal Real (\u30d6\u30eb\u30fc\u30bf\u30eb\u30ea\u30a2\u30eb,
+        Bur\u016btaru Riaru?), a titanic stomp which destroys completely the ground
+        below Violate. She was stopped by Leo Regulus, whom she engaged in battle.
+        Violate''s apparent physical power was confirmed when she lifted bare-handed
+        the whole ship that the Saints were repairing. Violate manages to crush the
+        Leo Gold Cloth''s fist, and paralyzes the Gold Saint embracing his body with
+        a huge shadow, a technique called Shadow Sewing (\u5f71\u306c\u3044, Kagenui?).
+        When Regulus manages to see through her ability, it is explained that she
+        merges the dead from the 8th prison of Hell into the shadow so they can grab
+        the enemy to stop their movement. She is killed by Leo Regulus'' Lightning
+        Plasma after he used his superior Cosmo to make Violate lose her influence
+        over the dead. She reappeared some time later trying to attack Aiacos, although
+        she stopped her blow before even hitting him; later it was revealed that it
+        was Hades who controlled the dead body of Violate. \n On a side note, Behemoth
+        Violate is the only female Specter to date.\n\n","member_favorites":3,"image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/characters\/13\/114528.jpg","animeography":[{"mal_id":6171,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/anime\/6171\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/anime\/8\/75546.jpg?s=a532cddc9e84b080f4e0aecbde9330ab","role":"Supporting"}],"mangaography":[{"mal_id":1047,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/manga\/1047\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/manga\/5\/163126.jpg?s=c60e699264cceec96b6cb2094d483b43","role":"Supporting"}],"voice_actor":[{"mal_id":41,"name":"Honda,
         Takako","url":"https:\/\/myanimelist.net\/people\/41\/Takako_Honda","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49689v.jpg","language":"Japanese"},{"mal_id":43652,"name":"Cezar,
         Mabel","url":"https:\/\/myanimelist.net\/people\/43652\/Mabel_Cezar","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/1\/47823v.jpg","language":"Brazilian"},{"mal_id":46119,"name":"Giuliani,
         Vanessa","url":"https:\/\/myanimelist.net\/people\/46119\/Vanessa_Giuliani","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49578v.jpg","language":"Italian"}]}'
     http_version: 
-  recorded_at: Thu, 12 Apr 2018 06:19:53 GMT
+  recorded_at: Sun, 27 May 2018 01:03:09 GMT
 recorded_with: VCR 4.0.0

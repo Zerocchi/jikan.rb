@@ -19,29 +19,27 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 12 Apr 2018 06:19:52 GMT
+      - Sun, 27 May 2018 01:03:23 GMT
       Server:
-      - Apache/2.4.27 (Ubuntu)
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Host,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Vary:
-      - Host,Accept-Encoding
       Connection:
       - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - application/json
     body:
       encoding: ASCII-8BIT
-      string: '{"mal_id":34798,"link_canonical":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","title":"Yuru
+      string: '{"request_hash":"c46acd920790b10338ddf1e3ba804bd5b6b0c8a7","request_cached":true,"mal_id":34798,"link_canonical":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","title":"Yuru
         Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Finished
         Airing","airing":false,"aired_string":"Jan 4, 2018 to Mar 22, 2018","aired":{"from":"2018-01-04","to":"2018-03-22"},"duration":"23
-        min. per ep.","rating":"PG-13 - Teens 13 or older","score":8.37,"scored_by":35122,"rank":186,"popularity":861,"members":100430,"favorites":1407,"synopsis":"While
+        min. per ep.","rating":"PG-13 - Teens 13 or older","score":8.35,"scored_by":44966,"rank":194,"popularity":762,"members":115268,"favorites":1789,"synopsis":"While
         the perfect getaway for most girls her age might be a fancy vacation with
         their loved ones, Rin Shima&#039;s ideal way of spending her days off is camping
         alone at the base of Mount Fuji. From pitching her tent to gathering firewood,
@@ -91,5 +89,5 @@ http_interactions:
         Fuji and the Laid-Back Camp Girls","title_japanese":"(\u3075\u3058\u3055\u3093\u3068\u3086\u308b\u30ad\u30e3\u30f3\u30ac\u30fc\u30eb)","title_romanji":"Fujisan
         to Yuru Camp Girls","aired":"Mar 22, 2018","filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/12","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1715612"}],"episode_last_page":1}'
     http_version: 
-  recorded_at: Thu, 12 Apr 2018 06:19:50 GMT
+  recorded_at: Sun, 27 May 2018 01:03:08 GMT
 recorded_with: VCR 4.0.0

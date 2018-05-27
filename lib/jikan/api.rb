@@ -35,7 +35,7 @@ module Jikan
 					if @flag == :anime || @flag == :manga
 						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.delete(' ')}/#{@id}"
 					elsif @flag == :character || @flag == :person
-						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase}/#{@id}"
+						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.gsub!(' ', '_')}/#{@id}"
 					end
 				end
       end

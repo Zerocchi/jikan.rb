@@ -82,7 +82,7 @@ RSpec.describe Jikan::Query do
         @anime_search = @query.search("Railgun", :anime)
         expect(@anime_search.raw).to be_a_kind_of Hash
         expect(@anime_search.raw["result"]).to be_a_kind_of Array
-        expect(@anime_search.raw["result"][0].has_key? "id").to be true
+        expect(@anime_search.raw["result"][0].has_key? "mal_id").to be true
       end
     end
 

@@ -59,7 +59,7 @@ RSpec.describe Jikan::API do
         @search = @api.get('search', 1, :anime, 'Railgun')
         expect(@search).to be_a_kind_of(Hash)
         expect(@search['result']).to be_a_kind_of(Array)
-        expect(@search['result'][0].has_key? 'id').to be true
+        expect(@search['result'][0].has_key? 'mal_id').to be true
       end
     end
     

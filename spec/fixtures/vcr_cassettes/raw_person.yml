@@ -19,26 +19,24 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 12 Apr 2018 06:19:56 GMT
+      - Sun, 27 May 2018 01:03:25 GMT
       Server:
-      - Apache/2.4.27 (Ubuntu)
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Host,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Vary:
-      - Host,Accept-Encoding
       Connection:
       - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - application/json
     body:
       encoding: ASCII-8BIT
-      string: '{"mal_id":2211,"link_canonical":"https:\/\/myanimelist.net\/people\/2211\/Makoto_Tateno","name":"Makoto
+      string: '{"request_hash":"4f062efe226fc298e3a223dc619f0813e1bfcb73","request_cached":true,"mal_id":2211,"link_canonical":"https:\/\/myanimelist.net\/people\/2211\/Makoto_Tateno","name":"Makoto
         Tateno","given_name":"\u771f\u7434","family_name":null,"alternate_name":null,"birthday":"Mar  23,
         ","website_url":"http:\/\/makoto-egg.com\/","member_favorites":127,"more":"Also
         writes under the pen-name of Shinjuku Tango.\\n\\nBirthplace: Toyama, Toyama,
@@ -87,5 +85,5 @@ http_interactions:
         & Art"},{"manga":{"mal_id":1972,"name":"Yokan Premonition","url":"https:\/\/myanimelist.net\/manga\/1972\/Yokan_Premonition","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/46x64\/images\/manga\/3\/31403.jpg?s=a64b898a8bd6afdbfa9c46995300fbf3"},"role":"Story
         & Art"}]}'
     http_version: 
-  recorded_at: Thu, 12 Apr 2018 06:19:54 GMT
+  recorded_at: Sun, 27 May 2018 01:03:10 GMT
 recorded_with: VCR 4.0.0

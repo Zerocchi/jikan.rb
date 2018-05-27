@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.moe/search/character/misaka%20mikoto/1
+    uri: https://api.jikan.moe/search/character/misaka_mikoto/1
     body:
       encoding: UTF-8
       string: ''
@@ -19,83 +19,42 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 12 Apr 2018 06:20:02 GMT
+      - Sun, 27 May 2018 01:03:29 GMT
       Server:
-      - Apache/2.4.27 (Ubuntu)
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Host,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Vary:
-      - Host,Accept-Encoding
+      Content-Length:
+      - '2730'
       Connection:
       - close
-      Transfer-Encoding:
-      - chunked
       Content-Type:
       - application/json
     body:
       encoding: ASCII-8BIT
-      string: '{"result":[{"url":"https:\/\/myanimelist.net\/character\/13701\/Mikoto_Misaka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/3\/78211.jpg?s=fd9b3907f0b2168a524432c4ff126e14","name":"Misaka,
+      string: '{"request_hash":"bbadbc2feaa2d1c63ff9ecd395f5ba3d83ee04aa","request_cached":true,"result":[{"mal_id":13701,"url":"https:\/\/myanimelist.net\/character\/13701\/Mikoto_Misaka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/3\/78211.jpg?s=fd9b3907f0b2168a524432c4ff126e14","name":"Misaka,
         Mikoto","nicknames":"Biribiri, The Railgun, The Electromaster, Shocker, Tokiwadai
-        Ace","anime":[{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"},{"id":11743,"url":"\/anime\/11743\/Toaru_Majutsu_no_Index_Movie__Endymion_no_Kiseki","title":"Toaru
-        Majutsu no Index Movie: Endymion no Kiseki"},{"id":19697,"url":"\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","title":"Toaru
-        Kagaku no Railgun S: Motto Marutto Railgun"},{"id":10249,"url":"\/anime\/10249\/Toaru_Majutsu_no_Index-tan_II","title":"Toaru
-        Majutsu no Index-tan II"},{"id":4654,"url":"\/anime\/4654\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"},{"id":22759,"url":"\/anime\/22759\/Toaru_Kagaku_no_Railgun_S__Daiji_na_Koto_wa_Zenbu_Sentou_ni_Osowatta","title":"Toaru
-        Kagaku no Railgun S: Daiji na Koto wa Zenbu Sentou ni Osowatta"},{"id":27509,"url":"\/anime\/27509\/Toaru_Majutsu_no_Index_10th_Anniversary_PV","title":"Toaru
-        Majutsu no Index 10th Anniversary PV"},{"id":20035,"url":"\/anime\/20035\/Toaru_Majutsu_no_Index_Movie__Endymion_no_Kiseki_Special","title":"Toaru
-        Majutsu no Index Movie: Endymion no Kiseki Special"},{"id":6213,"url":"\/anime\/6213\/Toaru_Kagaku_no_Railgun","title":"Toaru
-        Kagaku no Railgun"},{"id":5955,"url":"\/anime\/5955\/Toaru_Majutsu_no_Index-tan","title":"Toaru
-        Majutsu no Index-tan"},{"id":9063,"url":"\/anime\/9063\/Toaru_Kagaku_no_Railgun__Entenka_no_Satsuei_Model_mo_Raku_Ja_Arimasen_wa_ne","title":"Toaru
-        Kagaku no Railgun: Entenka no Satsuei Model mo Raku Ja Arimasen wa ne."},{"id":8023,"url":"\/anime\/8023\/Toaru_Kagaku_no_Railgun__Motto_Marutto_Railgun","title":"Toaru
-        Kagaku no Railgun: Motto Marutto Railgun"},{"id":9047,"url":"\/anime\/9047\/Toaru_Kagaku_no_Railgun__Misaka-san_wa_Ima_Chuumoku_no_Mato_desukara","title":"Toaru
-        Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato desukara"},{"id":8937,"url":"\/anime\/8937\/Toaru_Majutsu_no_Index_II","title":"Toaru
-        Majutsu no Index II"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/82297\/MISAKA_1","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/7\/202183.jpg?s=6319fd5ff7d24c31b59f30fd03d1841d","name":"MISAKA
-        1","nicknames":null,"anime":[{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/48195\/Setali_S_Skinikia","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Skinikia,
-        Setali S","nicknames":null,"anime":[{"id":28973,"url":"\/manga\/28973\/Toaru_Kagaku_no_Railgun_SS2","title":"Toaru
-        Kagaku no Railgun SS2"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40139\/Stephanie_Gorgeouspalace","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/3\/116202.jpg?s=6939b99aa2a27db2255e95a006331f50","name":"Gorgeouspalace,
-        Stephanie","nicknames":null,"anime":[{"id":31651,"url":"\/manga\/31651\/Toaru_Majutsu_no_Index_SS","title":"Toaru
-        Majutsu no Index SS"},{"id":12854,"url":"\/manga\/12854\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"},{"id":24875,"url":"\/manga\/24875\/Shinyaku_Toaru_Majutsu_no_Index","title":"Shinyaku
-        Toaru Majutsu no Index"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/36875\/Misuzu_Misaka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/3\/101455.jpg?s=cb66d720aa272992297fdd237f22d5c3","name":"Misaka,
-        Misuzu","nicknames":null,"anime":[{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"},{"id":8937,"url":"\/anime\/8937\/Toaru_Majutsu_no_Index_II","title":"Toaru
-        Majutsu no Index II"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/47345\/Beverly_Seethrough","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/13\/130213.jpg?s=b6c594721afcea934503226c4b4f33d0","name":"Seethrough,
-        Beverly","nicknames":null,"anime":[{"id":27843,"url":"\/manga\/27843\/Toaru_Kagaku_no_Railgun_SS","title":"Toaru
-        Kagaku no Railgun SS"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40371\/Tabikake_Misaka","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/12\/116207.jpg?s=ae6a117d17eab63c2a3db9260cf37887","name":"Misaka,
-        Tabikake","nicknames":null,"anime":[{"id":31651,"url":"\/manga\/31651\/Toaru_Majutsu_no_Index_SS","title":"Toaru
-        Majutsu no Index SS"},{"id":24875,"url":"\/manga\/24875\/Shinyaku_Toaru_Majutsu_no_Index","title":"Shinyaku
-        Toaru Majutsu no Index"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/68429\/MISAKA_10777","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/2\/220252.jpg?s=c1f4b405115a1d5f3723180843211947","name":"MISAKA
-        10777","nicknames":null,"anime":[{"id":12854,"url":"\/manga\/12854\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40143\/MISAKA_10031","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/6\/177149.jpg?s=09b0f1a67379e4b35f4b35fbc059eac7","name":"MISAKA
-        10031","nicknames":null,"anime":[{"id":4654,"url":"\/anime\/4654\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"},{"id":19697,"url":"\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","title":"Toaru
-        Kagaku no Railgun S: Motto Marutto Railgun"},{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40136\/Misaki_Shokuhou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/10\/233215.jpg?s=be106d75b3151c47f181318fa470c7e8","name":"Shokuhou,
-        Misaki","nicknames":"The Queen, Mental Out, Tokiwadai Queen","anime":[{"id":27509,"url":"\/anime\/27509\/Toaru_Majutsu_no_Index_10th_Anniversary_PV","title":"Toaru
-        Majutsu no Index 10th Anniversary PV"},{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40144\/MISAKA_9982","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/7\/204789.jpg?s=2464baa4acfbc9e11c4166a7c5d01146","name":"MISAKA
-        9982","nicknames":null,"anime":[{"id":16049,"url":"\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
-        Kagaku no Railgun S"},{"id":19697,"url":"\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","title":"Toaru
-        Kagaku no Railgun S: Motto Marutto Railgun"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/47301\/Nayuta_Kihara","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/9\/335055.jpg?s=9af43558a0b323a130f93bcaee154e82","name":"Kihara,
-        Nayuta","nicknames":null,"anime":[{"id":7776,"url":"\/manga\/7776\/Toaru_Majutsu_no_Index_Gaiden__Toaru_Kagaku_no_Railgun","title":"Toaru
-        Majutsu no Index Gaiden: Toaru Kagaku no Railgun"},{"id":47483,"url":"\/manga\/47483\/Toaru_Kagaku_no_Railgun__Giten_Railgun","title":"Toaru
-        Kagaku no Railgun: Giten Railgun"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/39990\/Misaka_Worst","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/10\/112625.jpg?s=ac8966ab78137357c73d779ce58fa875","name":"Misaka
-        Worst","nicknames":null,"anime":[{"id":12854,"url":"\/manga\/12854\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"},{"id":24875,"url":"\/manga\/24875\/Shinyaku_Toaru_Majutsu_no_Index","title":"Shinyaku
-        Toaru Majutsu no Index"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/23512\/Mitsuki_Unabara","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/12\/100996.jpg?s=005d4b0995f38534da9e409d6e019a30","name":"Unabara,
-        Mitsuki","nicknames":null,"anime":[{"id":4654,"url":"\/anime\/4654\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"}],"manga":[]},{"url":"https:\/\/myanimelist.net\/character\/40142\/Xochitl","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/characters\/14\/118688.jpg?s=fc11aa5a53a8bca928af72f350fd73e2","name":"Xochitl","nicknames":null,"anime":[{"id":7776,"url":"\/manga\/7776\/Toaru_Majutsu_no_Index_Gaiden__Toaru_Kagaku_no_Railgun","title":"Toaru
-        Majutsu no Index Gaiden: Toaru Kagaku no Railgun"},{"id":12854,"url":"\/manga\/12854\/Toaru_Majutsu_no_Index","title":"Toaru
-        Majutsu no Index"},{"id":27843,"url":"\/manga\/27843\/Toaru_Kagaku_no_Railgun_SS","title":"Toaru
-        Kagaku no Railgun SS"},{"id":24875,"url":"\/manga\/24875\/Shinyaku_Toaru_Majutsu_no_Index","title":"Shinyaku
-        Toaru Majutsu no Index"},{"id":93892,"url":"\/manga\/93892\/Toaru_Idol_no_Accelerator-sama","title":"Toaru
-        Idol no Accelerator-sama"}],"manga":[]}],"result_last_page":1}'
+        Ace","anime":[{"mal_id":16049,"url":"https:\/\/myanimelist.net\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","title":"Toaru
+        Kagaku no Railgun S"},{"mal_id":11743,"url":"https:\/\/myanimelist.net\/anime\/11743\/Toaru_Majutsu_no_Index_Movie__Endymion_no_Kiseki","title":"Toaru
+        Majutsu no Index Movie: Endymion no Kiseki"},{"mal_id":19697,"url":"https:\/\/myanimelist.net\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","title":"Toaru
+        Kagaku no Railgun S: Motto Marutto Railgun"},{"mal_id":10249,"url":"https:\/\/myanimelist.net\/anime\/10249\/Toaru_Majutsu_no_Index-tan_II","title":"Toaru
+        Majutsu no Index-tan II"},{"mal_id":22759,"url":"https:\/\/myanimelist.net\/anime\/22759\/Toaru_Kagaku_no_Railgun_S__Daiji_na_Koto_wa_Zenbu_Sentou_ni_Osowatta","title":"Toaru
+        Kagaku no Railgun S: Daiji na Koto wa Zenbu Sentou ni Osowatta"},{"mal_id":27509,"url":"https:\/\/myanimelist.net\/anime\/27509\/Toaru_Majutsu_no_Index_10th_Anniversary_PV","title":"Toaru
+        Majutsu no Index 10th Anniversary PV"},{"mal_id":20035,"url":"https:\/\/myanimelist.net\/anime\/20035\/Toaru_Majutsu_no_Index_Movie__Endymion_no_Kiseki_Special","title":"Toaru
+        Majutsu no Index Movie: Endymion no Kiseki Special"},{"mal_id":9063,"url":"https:\/\/myanimelist.net\/anime\/9063\/Toaru_Kagaku_no_Railgun__Entenka_no_Satsuei_Model_mo_Raku_Ja_Arimasen_wa_ne","title":"Toaru
+        Kagaku no Railgun: Entenka no Satsuei Model mo Raku Ja Arimasen wa ne."},{"mal_id":6213,"url":"https:\/\/myanimelist.net\/anime\/6213\/Toaru_Kagaku_no_Railgun","title":"Toaru
+        Kagaku no Railgun"},{"mal_id":5955,"url":"https:\/\/myanimelist.net\/anime\/5955\/Toaru_Majutsu_no_Index-tan","title":"Toaru
+        Majutsu no Index-tan"},{"mal_id":8023,"url":"https:\/\/myanimelist.net\/anime\/8023\/Toaru_Kagaku_no_Railgun__Motto_Marutto_Railgun","title":"Toaru
+        Kagaku no Railgun: Motto Marutto Railgun"},{"mal_id":4654,"url":"https:\/\/myanimelist.net\/anime\/4654\/Toaru_Majutsu_no_Index","title":"Toaru
+        Majutsu no Index"},{"mal_id":9047,"url":"https:\/\/myanimelist.net\/anime\/9047\/Toaru_Kagaku_no_Railgun__Misaka-san_wa_Ima_Chuumoku_no_Mato_desukara","title":"Toaru
+        Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato desukara"},{"mal_id":8937,"url":"https:\/\/myanimelist.net\/anime\/8937\/Toaru_Majutsu_no_Index_II","title":"Toaru
+        Majutsu no Index II"}],"manga":[]}],"result_last_page":1}'
     http_version: 
-  recorded_at: Thu, 12 Apr 2018 06:20:00 GMT
+  recorded_at: Sun, 27 May 2018 01:03:14 GMT
 recorded_with: VCR 4.0.0

@@ -12,7 +12,7 @@ module Jikan
     end
 
     def id
-      iter { |i| i['id'] }
+      iter { |i| i['id'] || i['mal_id'] }
     end
 
     def title
