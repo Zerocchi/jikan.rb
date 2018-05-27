@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 27 May 2018 01:03:19 GMT
+      - Sun, 27 May 2018 01:15:02 GMT
       Server:
       - Apache/2.4.18 (Ubuntu)
       Vary:
@@ -67,5 +67,5 @@ http_interactions:
         DAYS\" by Asaka"],"ending_theme":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
         by Eri Sasaki"]}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:03:04 GMT
+  recorded_at: Sun, 27 May 2018 01:14:47 GMT
 recorded_with: VCR 4.0.0

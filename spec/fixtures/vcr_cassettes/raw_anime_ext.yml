@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 27 May 2018 01:03:23 GMT
+      - Sun, 27 May 2018 01:15:05 GMT
       Server:
       - Apache/2.4.18 (Ubuntu)
       Vary:
@@ -89,5 +89,5 @@ http_interactions:
         Fuji and the Laid-Back Camp Girls","title_japanese":"(\u3075\u3058\u3055\u3093\u3068\u3086\u308b\u30ad\u30e3\u30f3\u30ac\u30fc\u30eb)","title_romanji":"Fujisan
         to Yuru Camp Girls","aired":"Mar 22, 2018","filler":false,"recap":false,"video_url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3\/episode\/12","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1715612"}],"episode_last_page":1}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:03:08 GMT
+  recorded_at: Sun, 27 May 2018 01:14:51 GMT
 recorded_with: VCR 4.0.0

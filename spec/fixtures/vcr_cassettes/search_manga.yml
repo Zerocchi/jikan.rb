@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 27 May 2018 01:03:27 GMT
+      - Sun, 27 May 2018 01:15:09 GMT
       Server:
       - Apache/2.4.18 (Ubuntu)
       Vary:
@@ -202,5 +202,5 @@ http_interactions:
         government complies with the Allies&#039; reconstruction plan. Japan begins
         to recover...","type":"Manga","score":7.23,"volumes":4,"members":631}],"result_last_page":20}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:03:12 GMT
+  recorded_at: Sun, 27 May 2018 01:14:55 GMT
 recorded_with: VCR 4.0.0

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 27 May 2018 01:03:29 GMT
+      - Sun, 27 May 2018 01:15:12 GMT
       Server:
       - Apache/2.4.18 (Ubuntu)
       Vary:
@@ -56,5 +56,5 @@ http_interactions:
         Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato desukara"},{"mal_id":8937,"url":"https:\/\/myanimelist.net\/anime\/8937\/Toaru_Majutsu_no_Index_II","title":"Toaru
         Majutsu no Index II"}],"manga":[]}],"result_last_page":1}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:03:14 GMT
+  recorded_at: Sun, 27 May 2018 01:14:57 GMT
 recorded_with: VCR 4.0.0
