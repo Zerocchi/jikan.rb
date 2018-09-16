@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.moe/manga/15434
+    uri: https://api.jikan.moe/v3/manga/15434
     body:
       encoding: UTF-8
       string: ''
@@ -18,32 +18,32 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sun, 27 May 2018 01:15:06 GMT
       Server:
-      - Apache/2.4.18 (Ubuntu)
-      Vary:
-      - Host,Accept-Encoding
+      - nginx/1.13.10
+      Date:
+      - Sun, 16 Sep 2018 03:27:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1393'
+      Connection:
+      - close
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Content-Length:
-      - '1198'
-      Connection:
-      - close
-      Content-Type:
-      - application/json
+      Vary:
+      - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"dc17775a8227da3afccd0a440d0fc3571608da07","request_cached":true,"mal_id":15434,"link_canonical":"https:\/\/myanimelist.net\/manga\/15434\/Koi_Puzzle","title":"Koi
-        Puzzle","title_english":"Love Puzzle","title_synonyms":"Love Story of Three
-        Sisters","title_japanese":"\u30b3\u30a4\u30d1\u30ba\u30eb","status":"Finished","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/manga\/3\/22432.jpg","type":"Manga","volumes":1,"chapters":3,"publishing":false,"published_string":{"from":null,"to":null},"published":[],"rank":16961,"score":7.73,"scored_by":11,"popularity":27581,"members":69,"favorites":0,"synopsis":"The
+      string: '{"request_hash":"request:manga:ab1682cc43660d8f544f2be7ed393858dd28b73e","request_cached":true,"request_cache_expiry":40299,"mal_id":15434,"url":"https:\/\/myanimelist.net\/manga\/15434\/Koi_Puzzle","title":"Koi
+        Puzzle","title_english":"Love Puzzle","title_synonyms":["Love Story of Three
+        Sisters"],"title_japanese":"\u30b3\u30a4\u30d1\u30ba\u30eb","status":"Finished","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/manga\/3\/22432.jpg","type":"Manga","volumes":1,"chapters":3,"publishing":false,"published":{"from":"2009-01-01T02:38:55+00:00","to":null,"string":"2009"},"rank":17223,"score":null,"scored_by":null,"popularity":28146,"members":69,"favorites":0,"synopsis":"The
         school life romantic adventures of three sisters: Aihara Tsukasa, Wakasa,
-        and Mikasa","background":null,"related":[],"genre":[{"url":"https:\/\/myanimelist.net\/manga\/genre\/22\/Romance","name":"Romance"},{"url":"https:\/\/myanimelist.net\/manga\/genre\/23\/School","name":"School"},{"url":"https:\/\/myanimelist.net\/manga\/genre\/25\/Shoujo","name":"Shoujo"}],"author":[{"url":"https:\/\/myanimelist.net\/people\/5370\/Mikiko_Satsuki","name":"Satsuki,
-        Mikiko"}],"serialization":[{"url":"https:\/\/myanimelist.net\/manga\/magazine\/170\/ChuChu","name":"ChuChu"}]}'
+        and Mikasa","background":null,"related":[],"genres":[{"mal_id":22,"type":"manga","name":"Romance","url":"https:\/\/myanimelist.net\/manga\/genre\/22\/Romance"},{"mal_id":23,"type":"manga","name":"School","url":"https:\/\/myanimelist.net\/manga\/genre\/23\/School"},{"mal_id":25,"type":"manga","name":"Shoujo","url":"https:\/\/myanimelist.net\/manga\/genre\/25\/Shoujo"}],"authors":[{"mal_id":5370,"type":"people","name":"Satsuki,
+        Mikiko","url":"https:\/\/myanimelist.net\/people\/5370\/Mikiko_Satsuki"}],"serializations":[{"mal_id":170,"type":"manga","name":"ChuChu","url":"https:\/\/myanimelist.net\/manga\/magazine\/170\/ChuChu"}]}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:14:51 GMT
+  recorded_at: Sun, 16 Sep 2018 03:27:07 GMT
 recorded_with: VCR 4.0.0

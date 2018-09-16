@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.moe/character/32512
+    uri: https://api.jikan.moe/v3/character/32512
     body:
       encoding: UTF-8
       string: ''
@@ -18,29 +18,29 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sun, 27 May 2018 01:15:07 GMT
       Server:
-      - Apache/2.4.18 (Ubuntu)
-      Vary:
-      - Host,Accept-Encoding
+      - nginx/1.13.10
+      Date:
+      - Sun, 16 Sep 2018 03:27:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3777'
+      Connection:
+      - close
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Content-Length:
-      - '3775'
-      Connection:
-      - close
-      Content-Type:
-      - application/json
+      Vary:
+      - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"814d0aba3c35008d74c2820b9420538bdd872109","request_cached":true,"mal_id":32512,"link_canonical":"https:\/\/myanimelist.net\/character\/32512\/Violate_Behemoth","name":"Violate
-        Behemoth","name_kanji":null,"nicknames":"Violate  Behemoth","about":"Heavenly
-        Solitude Star, Behemoth  Violate (\u5929\u5b64\u661f\u30d9\u30d2\u30fc\u30e2\u30b9\u306e\u30d0\u30a4\u30aa\u30ec\u30fc\u30c8,
+      string: '{"request_hash":"request:character:b895971d8eb44c032e0a774aeb9d8beca4bf5674","request_cached":true,"request_cache_expiry":40295,"mal_id":32512,"url":"https:\/\/myanimelist.net\/character\/32512\/Violate_Behemoth","name":"Violate
+        Behemoth","name_kanji":"Japanese","nicknames":[],"about":"Heavenly Solitude
+        Star, Behemoth  Violate (\u5929\u5b64\u661f\u30d9\u30d2\u30fc\u30e2\u30b9\u306e\u30d0\u30a4\u30aa\u30ec\u30fc\u30c8,
         Tenkosei Beh\u012bmosu no Baior\u0113to?)  is the \"shadow\" that Pandora
         put inside Alone''s shadow to guard him. This Specter has the ability to blend
         completely into darkness, as she presents herself gushing out from her master''s
@@ -65,13 +65,13 @@ http_interactions:
         Plasma after he used his superior Cosmo to make Violate lose her influence
         over the dead. She reappeared some time later trying to attack Aiacos, although
         she stopped her blow before even hitting him; later it was revealed that it
-        was Hades who controlled the dead body of Violate. \n On a side note, Behemoth
-        Violate is the only female Specter to date.\n\n","member_favorites":3,"image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/characters\/13\/114528.jpg","animeography":[{"mal_id":6171,"name":"Saint
-        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/anime\/6171\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/anime\/8\/75546.jpg?s=a532cddc9e84b080f4e0aecbde9330ab","role":"Supporting"}],"mangaography":[{"mal_id":1047,"name":"Saint
-        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/manga\/1047\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/23x32\/images\/manga\/5\/163126.jpg?s=c60e699264cceec96b6cb2094d483b43","role":"Supporting"}],"voice_actor":[{"mal_id":41,"name":"Honda,
+        was Hades who controlled the dead body of Violate.\r\nOn a side note, Behemoth
+        Violate is the only female Specter to date.","member_favorites":3,"image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/characters\/13\/114528.jpg","animeography":[{"mal_id":6171,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/anime\/6171\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/8\/75546.jpg?s=a532cddc9e84b080f4e0aecbde9330ab","role":"Supporting"}],"mangaography":[{"mal_id":1047,"name":"Saint
+        Seiya: The Lost Canvas - Meiou Shinwa","url":"https:\/\/myanimelist.net\/manga\/1047\/Saint_Seiya__The_Lost_Canvas_-_Meiou_Shinwa","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/manga\/5\/163126.jpg?s=c60e699264cceec96b6cb2094d483b43","role":"Supporting"}],"voice_actors":[{"mal_id":41,"name":"Honda,
         Takako","url":"https:\/\/myanimelist.net\/people\/41\/Takako_Honda","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49689v.jpg","language":"Japanese"},{"mal_id":43652,"name":"Cezar,
         Mabel","url":"https:\/\/myanimelist.net\/people\/43652\/Mabel_Cezar","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/1\/47823v.jpg","language":"Brazilian"},{"mal_id":46119,"name":"Giuliani,
         Vanessa","url":"https:\/\/myanimelist.net\/people\/46119\/Vanessa_Giuliani","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/2\/49578v.jpg","language":"Italian"}]}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:14:52 GMT
+  recorded_at: Sun, 16 Sep 2018 03:27:13 GMT
 recorded_with: VCR 4.0.0

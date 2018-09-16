@@ -1,14 +1,15 @@
 require "http"
 require "json"
+require "uri"
 
 module Jikan
   class API
 
-    def initialize(use_ssl=true)
+    def initialize(use_ssl=true, use_v3=false)
 			@endpoint = ""
 			@id = nil
 			@flag = nil
-			@selected_base = if use_ssl then Jikan::BASE_URL_SSL else Jikan::BASE_URL end
+			@selected_base = if use_ssl then Jikan::BASE_URL_V3_SSL else Jikan::BASE_URL_v3 end
 		end
 
 		def get(endpoint, id, flag=nil, qry='')
@@ -33,9 +34,11 @@ module Jikan
 				else
 					# This is inconsistencies in the API.
 					if @flag == :anime || @flag == :manga
-						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.delete(' ')}/#{@id}"
+						# @url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.delete(' ')}/#{@id}" -- v2
+						@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}") # v3
 					elsif @flag == :character || @flag == :person
-						@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.gsub!(' ', '_')}/#{@id}"
+						#@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.gsub!(' ', '_')}/#{@id}" -- v2
+						@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}") # v3
 					end
 				end
       end

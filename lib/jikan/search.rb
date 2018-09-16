@@ -40,7 +40,7 @@ module Jikan
     private
 
     def iter
-      @raw['result'].map do |item|
+      @raw['results'].map do |item|
         if block_given?
           yield item
         end

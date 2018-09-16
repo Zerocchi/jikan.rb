@@ -25,7 +25,7 @@ RSpec.describe Jikan::API do
     it "return result based on flag given" do
       VCR.use_cassette "raw anime ext" do
         @anime = @api.get('anime', 34798, :episodes)
-        episodes = @anime['episode']
+        episodes = @anime['episodes']
         expect(episodes).to be_a_kind_of(Array)
       end
     end
@@ -58,8 +58,8 @@ RSpec.describe Jikan::API do
       VCR.use_cassette "search anime" do
         @search = @api.get('search', 1, :anime, 'Railgun')
         expect(@search).to be_a_kind_of(Hash)
-        expect(@search['result']).to be_a_kind_of(Array)
-        expect(@search['result'][0].has_key? 'mal_id').to be true
+        expect(@search['results']).to be_a_kind_of(Array)
+        expect(@search['results'][0].has_key? 'mal_id').to be true
       end
     end
     

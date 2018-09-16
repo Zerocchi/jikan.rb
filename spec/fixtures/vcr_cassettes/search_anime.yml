@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.moe/search/anime/railgun/1
+    uri: https://api.jikan.moe/v3/search/anime?page=1&q=Railgun
     body:
       encoding: UTF-8
       string: ''
@@ -18,185 +18,202 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sun, 27 May 2018 01:15:03 GMT
       Server:
-      - Apache/2.4.18 (Ubuntu)
-      Vary:
-      - Host,Accept-Encoding
+      - nginx/1.13.10
+      Date:
+      - Sun, 16 Sep 2018 03:27:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Connection:
-      - close
-      Content-Type:
-      - application/json
+      Vary:
+      - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"5882d3f796e8b3c8a0c4e52cff5494ecd2c4d525","request_cached":true,"result":[{"mal_id":6213,"url":"https:\/\/myanimelist.net\/anime\/6213\/Toaru_Kagaku_no_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/8\/53581.jpg?s=4003b92ef0e723389087b69a8a08d742","title":"Toaru
-        Kagaku no Railgun","description":"The student-filled Academy City is at the
-        forefront of scientific advancement and home to the esper development program.
-        The seven \"Level 5\" espers are the most powerful in Academy City, and ranked
-        th...","type":"TV","score":7.82,"episodes":24,"members":295013},{"mal_id":16049,"url":"https:\/\/myanimelist.net\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/7\/75610.jpg?s=ca85d87b5ff134c73f03184d111604c0","title":"Toaru
-        Kagaku no Railgun S","description":"Mikoto Misaka and her friends are back,
-        investigating rumors across Academy City. Soon, Mikoto discovers something
-        terrifying: horrific experiments are taking place throughout the city, involving
-        the...","type":"TV","score":8.12,"episodes":24,"members":180898},{"mal_id":8023,"url":"https:\/\/myanimelist.net\/anime\/8023\/Toaru_Kagaku_no_Railgun__Motto_Marutto_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/21780.jpg?s=812f1bf05dbdd60e7dc1c58d44949351","title":"Toaru
-        Kagaku no Railgun: Motto Marutto Railgun","description":"Toaru Kagaku no Railgun
-        specials that were released on the 1st and 5th Blu-ray and DVD volumes","type":"Special","score":6.94,"episodes":2,"members":30223},{"mal_id":19697,"url":"https:\/\/myanimelist.net\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/2\/52717.jpg?s=6b24a6582742eb42ad09bb442a58a6c4","title":"Toaru
-        Kagaku no Railgun S: Motto Marutto Railgun","description":"Toaru Kagaku no
-        Railgun S specials that were released on Blu-ray and DVD volumes","type":"Special","score":7.12,"episodes":2,"members":18684},{"mal_id":9047,"url":"https:\/\/myanimelist.net\/anime\/9047\/Toaru_Kagaku_no_Railgun__Misaka-san_wa_Ima_Chuumoku_no_Mato_desukara","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/10\/75609.jpg?s=2264ecbf077a66c02f01ed882d468da8","title":"Toaru
-        Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato desukara","description":"Continuing
+      string: '{"request_hash":"request:search:fdf4cedec04f7e957f8987f92dddc051f8e6668c","request_cached":true,"request_cache_expiry":41000,"results":[{"mal_id":6213,"url":"https:\/\/myanimelist.net\/anime\/6213\/Toaru_Kagaku_no_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/8\/53581.jpg?s=6f54a4bddfa95450cbf089d7f8783799","title":"Toaru
+        Kagaku no Railgun","airing":false,"synopsis":"The student-filled Academy City
+        is at the forefront of scientific advancement and home to the esper development
+        program. The seven \"Level 5\" espers are the most powerful in Academy City,
+        and ranked th...","type":"TV","episodes":24,"score":7.82,"start_date":"2009-10-03T00:00:00+00:00","end_date":"2010-03-20T00:00:00+00:00","members":303907,"rated":"PG-13"},{"mal_id":16049,"url":"https:\/\/myanimelist.net\/anime\/16049\/Toaru_Kagaku_no_Railgun_S","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/7\/75610.jpg?s=c411494cff6b2fe4a114ddcb3a3e7f20","title":"Toaru
+        Kagaku no Railgun S","airing":false,"synopsis":"Mikoto Misaka and her friends
+        are back, investigating rumors across Academy City. Soon, Mikoto discovers
+        something terrifying: horrific experiments are taking place throughout the
+        city, involving the...","type":"TV","episodes":24,"score":8.11,"start_date":"2013-04-12T00:00:00+00:00","end_date":"2013-09-27T00:00:00+00:00","members":186593,"rated":"R"},{"mal_id":8023,"url":"https:\/\/myanimelist.net\/anime\/8023\/Toaru_Kagaku_no_Railgun__Motto_Marutto_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/21780.jpg?s=1165fe46b37226436fab04dc4eacbd69","title":"Toaru
+        Kagaku no Railgun: Motto Marutto Railgun","airing":false,"synopsis":"Toaru
+        Kagaku no Railgun specials that were released on the 1st and 5th Blu-ray and
+        DVD volumes.","type":"Special","episodes":2,"score":6.93,"start_date":"2010-01-29T00:00:00+00:00","end_date":"2010-05-28T00:00:00+00:00","members":30848,"rated":"PG-13"},{"mal_id":19697,"url":"https:\/\/myanimelist.net\/anime\/19697\/Toaru_Kagaku_no_Railgun_S__Motto_Marutto_Railgun","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/2\/52717.jpg?s=b5bbfa0c1d8fc74d84647518e6a97ad3","title":"Toaru
+        Kagaku no Railgun S: Motto Marutto Railgun","airing":false,"synopsis":"Toaru
+        Kagaku no Railgun S specials that were released on Blu-ray and DVD volumes.","type":"Special","episodes":2,"score":7.12,"start_date":"2013-07-24T00:00:00+00:00","end_date":"2013-11-27T00:00:00+00:00","members":19287,"rated":"PG-13"},{"mal_id":9047,"url":"https:\/\/myanimelist.net\/anime\/9047\/Toaru_Kagaku_no_Railgun__Misaka-san_wa_Ima_Chuumoku_no_Mato_desukara","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/10\/75609.jpg?s=cec9f79c06bea1cc8a69737fbdcfa275","title":"Toaru
+        Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato desukara","airing":false,"synopsis":"Continuing
         after the Level Upper incident, another phenomenon torments Misaka. A phenomenon
-        called \"Someone&#039;s Watching,\" its effect feels like the electricity
-        in one&#039;s body flow backwards. With the he...","type":"OVA","score":7.53,"episodes":1,"members":43515},{"mal_id":9063,"url":"https:\/\/myanimelist.net\/anime\/9063\/Toaru_Kagaku_no_Railgun__Entenka_no_Satsuei_Model_mo_Raku_Ja_Arimasen_wa_ne","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/6\/76118.jpg?s=aeb9e9be3bb5a1f2fb523a29d48ddfc2","title":"Toaru
-        Kagaku no Railgun: Entenka no Satsuei Model mo Raku Ja Arimasen wa ne.","description":"Special
-        beach episode bundled with the official visual book","type":"OVA","score":6.9,"episodes":1,"members":26658},{"mal_id":22759,"url":"https:\/\/myanimelist.net\/anime\/22759\/Toaru_Kagaku_no_Railgun_S__Daiji_na_Koto_wa_Zenbu_Sentou_ni_Osowatta","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/2\/76119.jpg?s=d55d03985755bfb9fba176acbf7339a1","title":"Toaru
-        Kagaku no Railgun S: Daiji na Koto wa Zenbu Sentou ni Osowatta","description":"Bundled
-        with the official visual book","type":"OVA","score":6.86,"episodes":1,"members":16951},{"mal_id":23309,"url":"https:\/\/myanimelist.net\/anime\/23309\/Rail_Wars","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/65671.jpg?s=d9d1d9b1998770f16eb7280a09668498","title":"Rail
-        Wars!","description":"Rail Wars! takes place in an alternate universe where
-        the Japanese government remains in control of the nation&#039;s railway systems.
-        Because of the stability afforded by the leadership of the government,...","type":"TV","score":6.45,"episodes":12,"members":112032},{"mal_id":4901,"url":"https:\/\/myanimelist.net\/anime\/4901\/Black_Lagoon__Robertas_Blood_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/8\/75529.jpg?s=637b7cc4975961d1d28af250bac6c815","title":"Black
-        Lagoon: Roberta&#039;s Blood Trail","description":"Roberta, the terrorist-turned-maid
+        called \"Someone''s Watching,\" its effect feels like the electricity in one''s
+        body flow backwards. With the he...","type":"OVA","episodes":1,"score":7.53,"start_date":"2010-09-26T00:00:00+00:00","end_date":"2010-09-26T00:00:00+00:00","members":44488,"rated":"PG-13"},{"mal_id":9063,"url":"https:\/\/myanimelist.net\/anime\/9063\/Toaru_Kagaku_no_Railgun__Entenka_no_Satsuei_Model_mo_Raku_Ja_Arimasen_wa_ne","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/6\/76118.jpg?s=7249268460704e39ddcfebc3bdb09271","title":"Toaru
+        Kagaku no Railgun: Entenka no Satsuei Model mo Raku Ja Arimasen wa ne.","airing":false,"synopsis":"Special
+        beach episode bundled with the official visual book.","type":"OVA","episodes":1,"score":6.9,"start_date":"2010-07-24T00:00:00+00:00","end_date":"2010-07-24T00:00:00+00:00","members":27282,"rated":"PG-13"},{"mal_id":22759,"url":"https:\/\/myanimelist.net\/anime\/22759\/Toaru_Kagaku_no_Railgun_S__Daiji_na_Koto_wa_Zenbu_Sentou_ni_Osowatta","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/2\/76119.jpg?s=31bad6a2ecaadfb6d82a29e23b3d81b3","title":"Toaru
+        Kagaku no Railgun S: Daiji na Koto wa Zenbu Sentou ni Osowatta","airing":false,"synopsis":"Bundled
+        with the official visual book.","type":"OVA","episodes":1,"score":6.86,"start_date":"2014-03-25T00:00:00+00:00","end_date":"2014-03-25T00:00:00+00:00","members":17544,"rated":"PG-13"},{"mal_id":23309,"url":"https:\/\/myanimelist.net\/anime\/23309\/Rail_Wars","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/65671.jpg?s=663eb58b3cad528386cd1277bf261734","title":"Rail
+        Wars!","airing":false,"synopsis":"Rail Wars! takes place in an alternate universe
+        where the Japanese government remains in control of the nation''s railway
+        systems. Because of the stability afforded by the leadership of the government,...","type":"TV","episodes":12,"score":6.46,"start_date":"2014-07-04T00:00:00+00:00","end_date":"2014-09-19T00:00:00+00:00","members":116157,"rated":"R+"},{"mal_id":4901,"url":"https:\/\/myanimelist.net\/anime\/4901\/Black_Lagoon__Robertas_Blood_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/8\/75529.jpg?s=c8e88495ad56ad749fdb93320aea84b2","title":"Black
+        Lagoon: Roberta''s Blood Trail","airing":false,"synopsis":"Roberta, the terrorist-turned-maid
         that made her appearence in the first season of Black Lagoon, returns in this
-        five-episode OVA series\u2014and this time, all bets are off! Roberta&#039;s
-        benefactor, the patr...","type":"OVA","score":8.13,"episodes":5,"members":140265},{"mal_id":35683,"url":"https:\/\/myanimelist.net\/anime\/35683\/Midnight_Crazy_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/2\/89201.jpg?s=abd23f58b3caf629b17e495b2e6786b6","title":"Midnight
-        Crazy Trail","description":"Shout and Crunchy are \"trash throw away-ers\"
-        who work in the dead of night. Makina is a 16-year-old witch who has come
-        to the world of humans and to London to study for one year about how to become
-        a...","type":"Movie","score":0,"episodes":1,"members":4110},{"mal_id":6288,"url":"https:\/\/myanimelist.net\/anime\/6288\/Mobile_Suit_Gundam_00_The_Movie__A_Wakening_of_the_Trailblazer","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/30563.jpg?s=d7ee2eac0309bbcaea2123dd70b7b964","title":"Mobile
-        Suit Gundam 00 The Movie: A Wakening of the Trailblazer","description":"The
-        year is 2314 AD, two years after Celestial Being&#039;s last great battle
-        and the world faces a new crisis. A derelict Jupiter exploration ship, abandoned
-        130 years ago, has left its orbit and is appro...","type":"Movie","score":7.37,"episodes":1,"members":43011},{"mal_id":16602,"url":"https:\/\/myanimelist.net\/anime\/16602\/Dead_Girl_Trailer","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/2\/44744.jpg?s=e3bcb5ffb7f4299ff360872bb6ca6cf5","title":"Dead
-        Girl Trailer","description":"Once upon a time, a girl was brutally murdered.
-        Stabbed mercilessly and left for dead, she never received justice and her
-        sadistic killer got away. That was until, through supernatural and unknown
-        for...","type":"ONA","score":3.41,"episodes":1,"members":1354},{"mal_id":7112,"url":"https:\/\/myanimelist.net\/anime\/7112\/Ginga_Tetsudou_no_Yoru__Fantasy_Railroad_in_the_Stars","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/7\/57415.jpg?s=8c0c7d8f9031a16585780c409a83c57e","title":"Ginga
-        Tetsudou no Yoru: Fantasy Railroad in the Stars","description":"The Celestial
-        Railroad is a fantastic journey of a boy, Giovanni, in a dreamscape created
-        into a colorful full-dome CG animation picture with inspiring background music.
-        Based on a story written in th...","type":"Movie","score":6.52,"episodes":1,"members":1289},{"mal_id":30778,"url":"https:\/\/myanimelist.net\/anime\/30778\/Fairy_Tail_Movie_2__Dragon_Cry","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/85391.jpg?s=92bc9b23877beacf68be5506abf4d58a","title":"Fairy
-        Tail Movie 2: Dragon Cry","description":"Dragon Cry is a magical artifact
-        of deadly power, formed into a staff by the fury and despair of dragons long
-        gone. Now, this power has been stolen from the hands of the Fiore kingdom
-        by the nefarious...","type":"Movie","score":7.73,"episodes":1,"members":63081},{"mal_id":1016,"url":"https:\/\/myanimelist.net\/anime\/1016\/Gunnm","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/41257.jpg?s=2101eb9dae4ca3b8e299dd8a1ffca2fe","title":"Gunnm","description":"Doc
+        five-episode OVA series\u2014and this time, all bets are off! Roberta''s benefactor,
+        the patr...","type":"OVA","episodes":5,"score":8.12,"start_date":"2010-06-27T00:00:00+00:00","end_date":"2011-06-22T00:00:00+00:00","members":144664,"rated":"R+"},{"mal_id":35683,"url":"https:\/\/myanimelist.net\/anime\/35683\/Midnight_Crazy_Trail","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/2\/89201.jpg?s=0912a5abbb8f67add563fc2677501e19","title":"Midnight
+        Crazy Trail","airing":false,"synopsis":"Shout and Crunchy are \"trash throw
+        away-ers\" who work in the dead of night. Makina is a 16-year-old witch who
+        has come to the world of humans and to London to study for one year about
+        how to become a...","type":"Movie","episodes":1,"score":0,"start_date":"2018-03-01T00:00:00+00:00","end_date":"2018-03-01T00:00:00+00:00","members":4514,"rated":null},{"mal_id":6288,"url":"https:\/\/myanimelist.net\/anime\/6288\/Mobile_Suit_Gundam_00_The_Movie__A_Wakening_of_the_Trailblazer","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/30563.jpg?s=106ebee9ee396176bf41276eedfed5ea","title":"Mobile
+        Suit Gundam 00 The Movie: A Wakening of the Trailblazer","airing":false,"synopsis":"The
+        year is 2314 AD, two years after Celestial Being''s last great battle and
+        the world faces a new crisis. A derelict Jupiter exploration ship, abandoned
+        130 years ago, has left its orbit and is appro...","type":"Movie","episodes":1,"score":7.37,"start_date":"2010-09-18T00:00:00+00:00","end_date":"2010-09-18T00:00:00+00:00","members":43778,"rated":"R"},{"mal_id":16602,"url":"https:\/\/myanimelist.net\/anime\/16602\/Dead_Girl_Trailer","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/2\/44744.jpg?s=46e9a4ac4c41c6193479597f570ba9ef","title":"Dead
+        Girl Trailer","airing":false,"synopsis":"Once upon a time, a girl was brutally
+        murdered. Stabbed mercilessly and left for dead, she never received justice
+        and her sadistic killer got away. That was until, through supernatural and
+        unknown for...","type":"ONA","episodes":1,"score":3.42,"start_date":"2011-05-22T00:00:00+00:00","end_date":"2011-05-22T00:00:00+00:00","members":1396,"rated":"R"},{"mal_id":7112,"url":"https:\/\/myanimelist.net\/anime\/7112\/Ginga_Tetsudou_no_Yoru__Fantasy_Railroad_in_the_Stars","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/7\/57415.jpg?s=89d627a4f75d2a007639f4449b9b786d","title":"Ginga
+        Tetsudou no Yoru: Fantasy Railroad in the Stars","airing":false,"synopsis":"The
+        Celestial Railroad is a fantastic journey of a boy, Giovanni, in a dreamscape
+        created into a colorful full-dome CG animation picture with inspiring background
+        music. Based on a story written in th...","type":"Movie","episodes":1,"score":6.49,"start_date":"2006-06-17T00:00:00+00:00","end_date":"2006-06-17T00:00:00+00:00","members":1325,"rated":"G"},{"mal_id":30778,"url":"https:\/\/myanimelist.net\/anime\/30778\/Fairy_Tail_Movie_2__Dragon_Cry","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/85391.jpg?s=3fdb4f721e111fa2cc648a152b227f6a","title":"Fairy
+        Tail Movie 2: Dragon Cry","airing":false,"synopsis":"Dragon Cry is a magical
+        artifact of deadly power, formed into a staff by the fury and despair of dragons
+        long gone. Now, this power has been stolen from the hands of the Fiore kingdom
+        by the nefarious...","type":"Movie","episodes":1,"score":7.72,"start_date":"2017-05-06T00:00:00+00:00","end_date":"2017-05-06T00:00:00+00:00","members":68032,"rated":"PG-13"},{"mal_id":1016,"url":"https:\/\/myanimelist.net\/anime\/1016\/Gunnm","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/41257.jpg?s=d83843e1fc9c9f357c7368011e0eda5f","title":"Gunnm","airing":false,"synopsis":"Doc
         Ido, a doctor and mechanic who lives and works in the hellish, postapocalyptic
         \"Scrapyard\", finds the\u2014miraculously preserved\u2014remains of a female
-        cyborg in a junk heap. After he revives and rebuild...","type":"OVA","score":7.22,"episodes":2,"members":29324},{"mal_id":18393,"url":"https:\/\/myanimelist.net\/anime\/18393\/Fairy_Tail_x_Rave","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/9\/58513.jpg?s=f99d778494728274a5b9f10b69b616a5","title":"Fairy
-        Tail x Rave","description":"While on a mission to find and defeat a troublesome
-        mage, several members of the Fairy Tail guild are split up in an unfamiliar
-        town. At the same time, Haru, Elie, and the rest of their group are also...","type":"OVA","score":7.45,"episodes":1,"members":71504},{"mal_id":1490,"url":"https:\/\/myanimelist.net\/anime\/1490\/Ginga_Tetsudou_Monogatari","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/6\/39821.jpg?s=aeafd78dbbb6468b7ab1f1e0e6277abb","title":"Ginga
-        Tetsudou Monogatari","description":"The story begins on planet Destiny, which
-        claimed to be where the center of the Universe is, where all the terminals
-        of \"The Galaxy Railways\" are gathered. The main character, Yuuki Manabu
-        (20 years o...","type":"TV","score":7.27,"episodes":26,"members":7435},{"mal_id":1441,"url":"https:\/\/myanimelist.net\/anime\/1441\/Ginga_Tetsudou_no_Yoru","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/6\/64861.jpg?s=b05779687e7133ae7db2099a9c60614b","title":"Ginga
-        Tetsudou no Yoru","description":"Based on a short story by the popular children&#039;s
-        writer Kenji Miyazawa, Galactic Railroad offers viewers a slow-paced, dreamlike
-        journey through space and time. When Giovanni, a lonely boy in a hill t...","type":"Movie","score":7.36,"episodes":1,"members":10770},{"mal_id":10260,"url":"https:\/\/myanimelist.net\/anime\/10260\/Eiyuu_Densetsu__Sora_no_Kiseki_The_Animation","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/35775.jpg?s=7d381855125f605d9ac107f6417b5f77","title":"Eiyuu
-        Densetsu: Sora no Kiseki The Animation","description":"Ten years ago, a massive
-        invasion by the Erebonian Empire almost shattered the Kingdom of Liberl, piercing
-        to the heart of Capital City before being driven back by a determined counteroffensive
-        led by...","type":"OVA","score":6.71,"episodes":2,"members":11641},{"mal_id":10448,"url":"https:\/\/myanimelist.net\/anime\/10448\/Rain_Town","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/5\/29062.jpg?s=702a75ba0898f3065be7147c4b173a1b","title":"Rain
-        Town","description":"Independent animation by Hiroyasu Ishida, the animator
-        of Fumiko no Kokuhaku","type":"ONA","score":7.3,"episodes":1,"members":15289},{"mal_id":33717,"url":"https:\/\/myanimelist.net\/anime\/33717\/Ginga_Tetsudou_no_Yoru__Fantasy_Railroad_in_the_Stars_Special","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/7\/81092.jpg?s=e72b9d5acc09399a0818e77ccb94496f","title":"Ginga
-        Tetsudou no Yoru: Fantasy Railroad in the Stars Special","description":"A
+        cyborg in a junk heap. After he revives and rebuild...","type":"OVA","episodes":2,"score":7.21,"start_date":"1993-06-21T00:00:00+00:00","end_date":"1993-08-21T00:00:00+00:00","members":30521,"rated":"R+"},{"mal_id":18393,"url":"https:\/\/myanimelist.net\/anime\/18393\/Fairy_Tail_x_Rave","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/9\/58513.jpg?s=ed398d0e5f0c9f80cc1fb15b23cba0ad","title":"Fairy
+        Tail x Rave","airing":false,"synopsis":"While on a mission to find and defeat
+        a troublesome mage, several members of the Fairy Tail guild are split up in
+        an unfamiliar town. At the same time, Haru, Elie, and the rest of their group
+        are also...","type":"OVA","episodes":1,"score":7.44,"start_date":"2013-08-16T00:00:00+00:00","end_date":"2013-08-16T00:00:00+00:00","members":73867,"rated":"PG-13"},{"mal_id":1490,"url":"https:\/\/myanimelist.net\/anime\/1490\/Ginga_Tetsudou_Monogatari","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/6\/39821.jpg?s=65252b345f6451b0220abbb08ddeee3e","title":"Ginga
+        Tetsudou Monogatari","airing":false,"synopsis":"The story begins on planet
+        Destiny, which claimed to be where the center of the Universe is, where all
+        the terminals of \"The Galaxy Railways\" are gathered. The main character,
+        Yuuki Manabu (20 years o...","type":"TV","episodes":26,"score":7.25,"start_date":"2003-10-04T00:00:00+00:00","end_date":"2004-04-04T00:00:00+00:00","members":7633,"rated":"PG-13"},{"mal_id":1441,"url":"https:\/\/myanimelist.net\/anime\/1441\/Ginga_Tetsudou_no_Yoru","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/6\/64861.jpg?s=21b74c3e537660b02ee0c5c4b073446c","title":"Ginga
+        Tetsudou no Yoru","airing":false,"synopsis":"Based on a short story by the
+        popular children''s writer Kenji Miyazawa, Galactic Railroad offers viewers
+        a slow-paced, dreamlike journey through space and time. When Giovanni, a lonely
+        boy in a hill t...","type":"Movie","episodes":1,"score":7.36,"start_date":"1985-07-13T00:00:00+00:00","end_date":"1985-07-13T00:00:00+00:00","members":11278,"rated":"G"},{"mal_id":10260,"url":"https:\/\/myanimelist.net\/anime\/10260\/Eiyuu_Densetsu__Sora_no_Kiseki_The_Animation","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/35775.jpg?s=2e3b1d3fbd0ead62512988df6d05992a","title":"Eiyuu
+        Densetsu: Sora no Kiseki The Animation","airing":false,"synopsis":"Ten years
+        ago, a massive invasion by the Erebonian Empire almost shattered the Kingdom
+        of Liberl, piercing to the heart of Capital City before being driven back
+        by a determined counteroffensive led by...","type":"OVA","episodes":2,"score":6.7,"start_date":"2011-10-10T00:00:00+00:00","end_date":"2012-01-28T00:00:00+00:00","members":11875,"rated":"PG-13"},{"mal_id":10448,"url":"https:\/\/myanimelist.net\/anime\/10448\/Rain_Town","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/5\/29062.jpg?s=74379275657e1f0b0bc4b5da2364638d","title":"Rain
+        Town","airing":false,"synopsis":"Independent animation by Hiroyasu Ishida,
+        the animator of Fumiko no Kokuhaku.","type":"ONA","episodes":1,"score":7.29,"start_date":"2011-03-06T00:00:00+00:00","end_date":"2011-03-06T00:00:00+00:00","members":15686,"rated":"G"},{"mal_id":33717,"url":"https:\/\/myanimelist.net\/anime\/33717\/Ginga_Tetsudou_no_Yoru__Fantasy_Railroad_in_the_Stars_Special","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/7\/81092.jpg?s=8640076019f969794d4c6617fb336624","title":"Ginga
+        Tetsudou no Yoru: Fantasy Railroad in the Stars Special","airing":false,"synopsis":"A
         BD\/DVD special of Ginga Tetsudou no Yoru: Fantasy Railroad in the Stars.
-        It contains new animation and further explains star constellations","type":"Special","score":0,"episodes":1,"members":94},{"mal_id":12049,"url":"https:\/\/myanimelist.net\/anime\/12049\/Fairy_Tail_Movie_1__Houou_no_Miko","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/47083.jpg?s=9f90e69c73fdc698104583506640d9ad","title":"Fairy
-        Tail Movie 1: Houou no Miko","description":"The film revolves around a mysterious
-        girl named \u00c9clair who appears before Fairy Tail, the world&#039;s most
-        notorious wizard&#039;s guild. She lost all of her memories, except for the
-        imperative that she must...","type":"Movie","score":7.63,"episodes":1,"members":108773},{"mal_id":1329,"url":"https:\/\/myanimelist.net\/anime\/1329\/Ohoshisama_no_Rail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/4\/85355.jpg?s=e02070be858879f41fa5aa44702a8344","title":"Ohoshisama
-        no Rail","description":"This is the autobiographic tale of Kobayashi Chitose,
-        a young Japanese girl growing up in a Japanese-occupied North Korea. As World
-        War II progresses, Chitose begins to realize that her family will no...","type":"Movie","score":7.29,"episodes":1,"members":1862},{"mal_id":13709,"url":"https:\/\/myanimelist.net\/anime\/13709\/Afro_Samurai_Movie","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/8\/38065.jpg?s=04a0dc2f57b64209afdb1a7adb940e84","title":"Afro
-        Samurai Movie","description":"A movie adaptation of the TV series","type":"Movie","score":7.6,"episodes":1,"members":30385},{"mal_id":9708,"url":"https:\/\/myanimelist.net\/anime\/9708\/Mobile_Suit_Gundam_ZZ__Gundam_Frag","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/8\/88568.jpg?s=46f2a37a875c5226dec87079fc03ed4d","title":"Mobile
-        Suit Gundam ZZ: Gundam Frag.","description":"A short CG movie about glimpses
-        of the daily and not-so-daily life on the battlefield of Universal Century
-        from the first and the second Gundam ZZ Memorial BluRay boxes. (Source: AniDB)","type":"OVA","score":5.79,"episodes":2,"members":2694},{"mal_id":20329,"url":"https:\/\/myanimelist.net\/anime\/20329\/Koroshiya-san__The_Hired_Gun","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/55531.jpg?s=70f6b8669b7ddbab7b28c2f87f1ff5f9","title":"Koroshiya-san:
-        The Hired Gun","description":"The comedy story follows the title character,
-        who is regarded by himself and others as the best hit man in Japan. He goes
-        by the motto, \"If I have an assignment, I will kill anything.\" However,
-        his \"k...","type":"TV","score":5.64,"episodes":10,"members":5291},{"mal_id":6114,"url":"https:\/\/myanimelist.net\/anime\/6114\/Rainbow__Nisha_Rokubou_no_Shichinin","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/9\/72697.jpg?s=76f7fb906596b6afd179488a6ab62d69","title":"Rainbow:
-        Nisha Rokubou no Shichinin","description":"Japan, 1955: Mario Minakami has
-        just arrived at Shounan Special Reform School along with five other teenagers
-        who have been arrested on serious criminal charges. All assigned to the same
-        cell, they me...","type":"TV","score":8.59,"episodes":26,"members":198107},{"mal_id":994,"url":"https:\/\/myanimelist.net\/anime\/994\/Sin_in_the_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/53735.jpg?s=68eb9c5da26de1a4e3890b05759de560","title":"Sin
-        in the Rain","description":"It is raining in Tokyo at night. A woman, named
-        Kimura Yu, is caught in the rain. She has had lots of trauma in her life,
-        because her parents were killed, and to make things worse she experiences
-        anot...","type":"OVA","score":5.15,"episodes":1,"members":1911},{"mal_id":5270,"url":"https:\/\/myanimelist.net\/anime\/5270\/All_That_Gundam","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/4\/64997.jpg?s=2ab1a4a8cf5c61d1d966e3b2d9ff8f6a","title":"All
-        That Gundam","description":"Animated video created just for a 1989 event that
-        featured all the major mobile suit robots from the first 10 years of the Gundam
-        anime franchise. (Source: ANN","type":"Special","score":5.81,"episodes":1,"members":3332},{"mal_id":34866,"url":"https:\/\/myanimelist.net\/anime\/34866\/Yu\u2606Gi\u2606Oh_VRAINS","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/84901.jpg?s=1759ecf33e037476cfc18855b50bd537","title":"Yu\u2606Gi\u2606Oh!
-        VRAINS","description":"In the city of Den City, thousands of duelists take
-        part in a virtual reality space known as Link Vrains, where users can create
-        unique avatars and participate in games of Duel Monsters with each othe...","type":"TV","score":6.77,"episodes":0,"members":17228},{"mal_id":28715,"url":"https:\/\/myanimelist.net\/anime\/28715\/Rusty_Nail","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/6\/86371.jpg?s=9f77ef3c5b33a7200b3133674c193cc4","title":"Rusty
-        Nail","description":"Rusty Nail is a X Japan&#039;s anime music video produced
-        by CLAMP and included on VHS as a first press bonus for the \"PERFECT BEST&#039;
-        compilation album, released in 1999. The video shows anime versions of t...","type":"Music","score":6.14,"episodes":1,"members":670},{"mal_id":73,"url":"https:\/\/myanimelist.net\/anime\/73\/Full_Metal_Panic_The_Second_Raid","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/75261.jpg?s=34158fe0e94e75a212c2abd8b5b91876","title":"Full
-        Metal Panic! The Second Raid","description":"This series is set about two
-        months after the events ocurred in the Tuatha de Danaan at the end of the
-        original series. Mithril becomes aware of a secret organization that has technology
-        able to count...","type":"TV","score":8.03,"episodes":13,"members":185883},{"mal_id":1200,"url":"https:\/\/myanimelist.net\/anime\/1200\/Gun-dou_Musashi","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/3\/28268.jpg?s=25b918195610a9bb9a5a3c7f0c8412b0","title":"Gun-dou
-        Musashi","description":"The adventures of a whiny teenage Miyamoto Musashi,
-        his electro-sword and demon-sealing revolvers, and his quest to win the love
-        of the beautiful Kaguyahime. (Source: ANN","type":"TV","score":6.06,"episodes":26,"members":4811},{"mal_id":419,"url":"https:\/\/myanimelist.net\/anime\/419\/Samurai_Deeper_Kyou","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/4\/23744.jpg?s=4c0d722d8b29283f96b019efbe3acf39","title":"Samurai
-        Deeper Kyou","description":"In the year 1600, at the fog-covered battlefield
-        of Sekigahara, a fierce battle was waged by two exemplary swordsmen. One was
-        Kyoushirou Mibu, a skilled and noble warrior in possession of the unique p...","type":"TV","score":7,"episodes":26,"members":42927},{"mal_id":6291,"url":"https:\/\/myanimelist.net\/anime\/6291\/Full_Metal_Panic_The_Second_Raid_Episode_000","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/9\/45048.jpg?s=8c91cca9ac0af56551c1b83a27bff7a3","title":"Full
-        Metal Panic! The Second Raid Episode 000","description":"Sousuke, Kurz and
-        Melissa are deployed to the Republic of Manistan in Central Asia to eradicate
-        a growing civil war between rebels and the Manistani military. (Source: Wikipedia","type":"Special","score":7.5,"episodes":1,"members":29493},{"mal_id":949,"url":"https:\/\/myanimelist.net\/anime\/949\/Top_wo_Nerae_Gunbuster","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/1303\/92309.jpg?s=82cc6d2289158dcd51cd6231a81797e0","title":"Top
-        wo Nerae! Gunbuster","description":"In the near future, humanity has taken
-        its first steps towards journeying into the far reaches of the galaxy. Upon
-        doing so they discover a huge race of insectoid aliens known as \"Space Monsters.\"
-        The...","type":"OVA","score":7.94,"episodes":6,"members":69802},{"mal_id":3854,"url":"https:\/\/myanimelist.net\/anime\/3854\/Ginga_Tetsudou_Monogatari__Wasurerareta_Toki_no_Wakusei","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/6905.jpg?s=ae46aa2dedf5a0628cfd5ecef8e2a824","title":"Ginga
-        Tetsudou Monogatari: Wasurerareta Toki no Wakusei","description":"This is
-        the OVA of The Galaxy Railways. The Galaxy Express 999 crashes on the off-limits
-        planet of Herise and it&#039;s up to the SDF Sirius Platoon to assist. (Source:
-        Wikipedia","type":"OVA","score":6.95,"episodes":4,"members":1553},{"mal_id":762,"url":"https:\/\/myanimelist.net\/anime\/762\/Bleach__Memories_in_the_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/5\/21947.jpg?s=544291186ba506dd515812c4d32f19d9","title":"Bleach:
-        Memories in the Rain","description":"Kurosaki Ichigo, the temporary Shinigami(Death
-        God) for Kuchiki Rukia, discovers his mother&#039;s killer as one of the Hollows
-        he has been hunting. He does battle with it in a prideful battle of revenge....","type":"Special","score":7.21,"episodes":1,"members":88182},{"mal_id":35006,"url":"https:\/\/myanimelist.net\/anime\/35006\/Happy_Party_Train","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/84529.jpg?s=f75ecc55145db55dd5f1ae6cce5809c2","title":"Happy
-        Party Train","description":"Music video included with the third single for
-        the Love Live! Sunshine!! anime idol group Aqours","type":"Music","score":7.71,"episodes":1,"members":4624},{"mal_id":31300,"url":"https:\/\/myanimelist.net\/anime\/31300\/Change_Our_Mirai","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/7\/88442.jpg?s=993d305a4cad763acbbb64bfe0cc6a32","title":"Change
-        Our Mirai!","description":"Official music video for the song Change our Mirai!
-        by the fictional band Irodorimidori spawned from Sega&#039;s Chunithm rhythm
-        arcade game. It is the 1st song in the Irodorimidori franchise. (Source: Ani...","type":"Music","score":5.69,"episodes":1,"members":1396},{"mal_id":676,"url":"https:\/\/myanimelist.net\/anime\/676\/Refrain_Blue","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/10\/75869.jpg?s=b04bea231354a033efa54b9612eaaefb","title":"Refrain
-        Blue","description":"A trip to the beach turns out to be more than expected
-        for two people who are mourning the losses of their beloved. Perhaps a mysterious
-        girl known as the \"Umi Warabe\" can help them to heal their woun...","type":"OVA","score":5.87,"episodes":3,"members":1440},{"mal_id":18195,"url":"https:\/\/myanimelist.net\/anime\/18195\/Little_Busters__Refrain","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/10\/55049.jpg?s=fb2724787c0afbedd03911a72e068320","title":"Little
-        Busters!: Refrain","description":"Riki and his friends have been managing
-        to form a complete team for the Little Busters baseball team and after overcoming
-        some of its new members&#039; internal conflicts, Riki and Rin slowly approach
-        the...","type":"TV","score":8.32,"episodes":13,"members":96266},{"mal_id":131,"url":"https:\/\/myanimelist.net\/anime\/131\/Saiyuuki_Reload_Gunlock","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/6830.jpg?s=72db52b733b453f65cdfcf3418951602","title":"Saiyuuki
-        Reload Gunlock","description":"The Sanzo Ikkou continues its westward journey,
-        on a mission to prevent a demonic resurrection. As Genjo Sanzo, Cho Hakkai,
-        Sha Gojyo, and Son Goku fight their way to their goal, their path is fraught...","type":"TV","score":7.52,"episodes":26,"members":15699},{"mal_id":7334,"url":"https:\/\/myanimelist.net\/anime\/7334\/Bakugan_Battle_Brawlers__Gundalian_Invaders","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/10\/32189.jpg?s=4b835b1f598da81629de7f0a0b6ff20e","title":"Bakugan
-        Battle Brawlers: Gundalian Invaders","description":"Dan, Marucho, and Shun
-        get caught up in a war between two different alien factions in another universe,
-        and teaming up with three new brawlers: the Neathian, Fabia, the new human,
-        Jake, and the Gundal...","type":"TV","score":6.32,"episodes":39,"members":17665},{"mal_id":10270,"url":"https:\/\/myanimelist.net\/anime\/10270\/Gun-dou_Musashi_Recap","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/3\/28267.jpg?s=0a7e10d3fcd9c921a8398708d3e3f2ec","title":"Gun-dou
-        Musashi Recap","description":"Recap of episodes 1-9","type":"Special","score":0,"episodes":1,"members":305},{"mal_id":7113,"url":"https:\/\/myanimelist.net\/anime\/7113\/30th_Gundam_Perfect_Mission","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/9\/63385.jpg?s=19c56737186b9b65f9d4b5808114f23a","title":"30th
-        Gundam Perfect Mission","description":"30th Gundam Perfect Mission is a short
-        original video animation (OVA) officially released by Sunrise in celebration
-        of the 30th anniversary of the Gundam metaseries. It features all the titular
-        and ma...","type":"OVA","score":7.02,"episodes":1,"members":4696},{"mal_id":7248,"url":"https:\/\/myanimelist.net\/anime\/7248\/Top_wo_Nerae_Gunbuster_Specials","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/13\/23833.jpg?s=a82e82f501f050cc175a5f2e25f41401","title":"Top
-        wo Nerae! Gunbuster Specials","description":"A series of shorts related to
-        Gunbuster","type":"Special","score":5.8,"episodes":3,"members":4002},{"mal_id":1581,"url":"https:\/\/myanimelist.net\/anime\/1581\/Gift__Eternal_Rainbow","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/2\/75540.jpg?s=2e9fbde28e66cb568d7c52218b5f3794","title":"Gift:
-        Eternal Rainbow","description":"Amaumi Haruhiko is a high school student who
-        attends Shimano Academy in a town called Narasakicho. Narasakicho contains
-        an unknown rainbow which constantly overlooks the town and is related to grantin...","type":"TV","score":6.73,"episodes":12,"members":24981},{"mal_id":4535,"url":"https:\/\/myanimelist.net\/anime\/4535\/Candy_Boy__Nonchalant_Talk_of_the_Certain_Twin_Sisters_in_Daily_Life","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/10\/13663.jpg?s=53f42a2a9024196d3cc6098bf6d8a6e3","title":"Candy
-        Boy: Nonchalant Talk of the Certain Twin Sisters in Daily Life","description":"Twin
+        It contains new animation and further explains star constellations.","type":"Special","episodes":1,"score":0,"start_date":"2007-02-23T00:00:00+00:00","end_date":"2007-02-23T00:00:00+00:00","members":105,"rated":"G"},{"mal_id":13709,"url":"https:\/\/myanimelist.net\/anime\/13709\/Afro_Samurai_Movie","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/8\/38065.jpg?s=9ea1121de12d8cd97e6ebac019f99023","title":"Afro
+        Samurai Movie","airing":false,"synopsis":"A movie adaptation of the TV series.","type":"Movie","episodes":1,"score":7.6,"start_date":"2007-10-27T00:00:00+00:00","end_date":"2007-10-27T00:00:00+00:00","members":31657,"rated":"R+"},{"mal_id":12049,"url":"https:\/\/myanimelist.net\/anime\/12049\/Fairy_Tail_Movie_1__Houou_no_Miko","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/47083.jpg?s=021cea3f768652e0d0f72ce461451098","title":"Fairy
+        Tail Movie 1: Houou no Miko","airing":false,"synopsis":"The film revolves
+        around a mysterious girl named \u00c9clair who appears before Fairy Tail,
+        the world''s most notorious wizard''s guild. She lost all of her memories,
+        except for the imperative that she must...","type":"Movie","episodes":1,"score":7.62,"start_date":"2012-08-18T00:00:00+00:00","end_date":"2012-08-18T00:00:00+00:00","members":112652,"rated":"PG-13"},{"mal_id":1329,"url":"https:\/\/myanimelist.net\/anime\/1329\/Ohoshisama_no_Rail","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/85355.jpg?s=2770636523c9c48ae8b5a5250e9590c9","title":"Ohoshisama
+        no Rail","airing":false,"synopsis":"This is the autobiographic tale of Kobayashi
+        Chitose, a young Japanese girl growing up in a Japanese-occupied North Korea.
+        As World War II progresses, Chitose begins to realize that her family will
+        no...","type":"Movie","episodes":1,"score":7.26,"start_date":"1993-07-10T00:00:00+00:00","end_date":"1993-07-10T00:00:00+00:00","members":1942,"rated":"G"},{"mal_id":20329,"url":"https:\/\/myanimelist.net\/anime\/20329\/Koroshiya-san__The_Hired_Gun","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/55531.jpg?s=df0dcdf2e0899ac8aea33a15054a551c","title":"Koroshiya-san:
+        The Hired Gun","airing":false,"synopsis":"The comedy story follows the title
+        character, who is regarded by himself and others as the best hit man in Japan.
+        He goes by the motto, \"If I have an assignment, I will kill anything.\" However,
+        his \"k...","type":"TV","episodes":10,"score":5.62,"start_date":"2013-10-11T00:00:00+00:00","end_date":"2013-12-13T00:00:00+00:00","members":5371,"rated":"PG-13"},{"mal_id":9708,"url":"https:\/\/myanimelist.net\/anime\/9708\/Mobile_Suit_Gundam_ZZ__Gundam_Frag","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/8\/88568.jpg?s=344e154d1f2a60d679c4f2dabad45415","title":"Mobile
+        Suit Gundam ZZ: Gundam Frag.","airing":false,"synopsis":"A short CG movie
+        about glimpses of the daily and not-so-daily life on the battlefield of Universal
+        Century from the first and the second Gundam ZZ Memorial BluRay boxes. (Source:
+        AniDB)","type":"OVA","episodes":2,"score":5.75,"start_date":"2009-09-25T00:00:00+00:00","end_date":"2009-11-25T00:00:00+00:00","members":2791,"rated":"PG-13"},{"mal_id":6114,"url":"https:\/\/myanimelist.net\/anime\/6114\/Rainbow__Nisha_Rokubou_no_Shichinin","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/9\/72697.jpg?s=4752a62572e2172fe039d10d7163a125","title":"Rainbow:
+        Nisha Rokubou no Shichinin","airing":false,"synopsis":"Japan, 1955: Mario
+        Minakami has just arrived at Shounan Special Reform School along with five
+        other teenagers who have been arrested on serious criminal charges. All assigned
+        to the same cell, they me...","type":"TV","episodes":26,"score":8.59,"start_date":"2010-04-07T00:00:00+00:00","end_date":"2010-09-29T00:00:00+00:00","members":206259,"rated":"R"},{"mal_id":28715,"url":"https:\/\/myanimelist.net\/anime\/28715\/Rusty_Nail","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/6\/86371.jpg?s=eb1ef100532a4fba6fcddbee89db363f","title":"Rusty
+        Nail","airing":false,"synopsis":"Rusty Nail is a X Japan''s anime music video
+        produced by CLAMP and included on VHS as a first press bonus for the \"PERFECT
+        BEST'' compilation album, released in 1999. The video shows anime versions
+        of t...","type":"Music","episodes":1,"score":6.13,"start_date":"1999-01-01T00:00:00+00:00","end_date":"1999-01-01T00:00:00+00:00","members":706,"rated":"PG-13"},{"mal_id":994,"url":"https:\/\/myanimelist.net\/anime\/994\/Sin_in_the_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/53735.jpg?s=aa530e743270462c2cb2a56ac3a4914a","title":"Sin
+        in the Rain","airing":false,"synopsis":"It is raining in Tokyo at night. A
+        woman, named Kimura Yu, is caught in the rain. She has had lots of trauma
+        in her life, because her parents were killed, and to make things worse she
+        experiences anot...","type":"OVA","episodes":1,"score":5.14,"start_date":"2006-03-24T00:00:00+00:00","end_date":"2006-03-24T00:00:00+00:00","members":1945,"rated":"PG-13"},{"mal_id":73,"url":"https:\/\/myanimelist.net\/anime\/73\/Full_Metal_Panic_The_Second_Raid","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/75261.jpg?s=6bfdf1814ed4f6ae11d37d3428022b03","title":"Full
+        Metal Panic! The Second Raid","airing":false,"synopsis":"This series is set
+        about two months after the events ocurred in the Tuatha de Danaan at the end
+        of the original series. Mithril becomes aware of a secret organization that
+        has technology able to count...","type":"TV","episodes":13,"score":8.03,"start_date":"2005-07-14T00:00:00+00:00","end_date":"2005-10-20T00:00:00+00:00","members":190522,"rated":"R"},{"mal_id":34866,"url":"https:\/\/myanimelist.net\/anime\/34866\/Yu\u2606Gi\u2606Oh_VRAINS","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/84901.jpg?s=20555eb45936b9c66068cdba64df057c","title":"Yu\u2606Gi\u2606Oh!
+        VRAINS","airing":true,"synopsis":"In the city of Den City, thousands of duelists
+        take part in a virtual reality space known as Link Vrains, where users can
+        create unique avatars and participate in games of Duel Monsters with each
+        othe...","type":"TV","episodes":0,"score":6.7,"start_date":"2017-05-10T00:00:00+00:00","end_date":null,"members":18319,"rated":"PG-13"},{"mal_id":5270,"url":"https:\/\/myanimelist.net\/anime\/5270\/All_That_Gundam","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/64997.jpg?s=4cee9e0f5f7a86a248028ebb92d605f2","title":"All
+        That Gundam","airing":false,"synopsis":"Animated video created just for a
+        1989 event that featured all the major mobile suit robots from the first 10
+        years of the Gundam anime franchise. (Source: ANN)","type":"Special","episodes":1,"score":5.82,"start_date":"1989-01-01T00:00:00+00:00","end_date":"1989-01-01T00:00:00+00:00","members":3431,"rated":"G"},{"mal_id":1200,"url":"https:\/\/myanimelist.net\/anime\/1200\/Gun-dou_Musashi","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/3\/28268.jpg?s=ab6e209003f96b12688845b6f257c69f","title":"Gun-dou
+        Musashi","airing":false,"synopsis":"The adventures of a whiny teenage Miyamoto
+        Musashi, his electro-sword and demon-sealing revolvers, and his quest to win
+        the love of the beautiful Kaguyahime. (Source: ANN)","type":"TV","episodes":26,"score":6.03,"start_date":"2006-04-09T00:00:00+00:00","end_date":"2006-10-08T00:00:00+00:00","members":4903,"rated":"PG-13"},{"mal_id":419,"url":"https:\/\/myanimelist.net\/anime\/419\/Samurai_Deeper_Kyou","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/23744.jpg?s=16fb4090e975c741ca3f7486a2f86927","title":"Samurai
+        Deeper Kyou","airing":false,"synopsis":"In the year 1600, at the fog-covered
+        battlefield of Sekigahara, a fierce battle was waged by two exemplary swordsmen.
+        One was Kyoushirou Mibu, a skilled and noble warrior in possession of the
+        unique p...","type":"TV","episodes":26,"score":6.99,"start_date":"2002-07-02T00:00:00+00:00","end_date":"2002-12-23T00:00:00+00:00","members":43452,"rated":"PG-13"},{"mal_id":6291,"url":"https:\/\/myanimelist.net\/anime\/6291\/Full_Metal_Panic_The_Second_Raid_Episode_000","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/9\/45048.jpg?s=37a92ec1d396b5342e12572cc63a0817","title":"Full
+        Metal Panic! The Second Raid Episode 000","airing":false,"synopsis":"Sousuke,
+        Kurz, and Melissa are deployed to the Republic of Manistan in Central Asia
+        to eradicate a growing civil war between rebels and the Manistani military.
+        (Source: Wikipedia)","type":"Special","episodes":1,"score":7.5,"start_date":"2005-07-06T00:00:00+00:00","end_date":"2005-07-06T00:00:00+00:00","members":30124,"rated":"PG-13"},{"mal_id":949,"url":"https:\/\/myanimelist.net\/anime\/949\/Top_wo_Nerae_Gunbuster","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/1303\/92309.jpg?s=9be88054e9730edb8c62a2296e7c6d79","title":"Top
+        wo Nerae! Gunbuster","airing":false,"synopsis":"In the near future, humanity
+        has taken its first steps towards journeying into the far reaches of the galaxy.
+        Upon doing so they discover a huge race of insectoid aliens known as \"Space
+        Monsters.\" The...","type":"OVA","episodes":6,"score":7.93,"start_date":"1988-10-07T00:00:00+00:00","end_date":"1989-07-07T00:00:00+00:00","members":72633,"rated":"R+"},{"mal_id":35006,"url":"https:\/\/myanimelist.net\/anime\/35006\/Happy_Party_Train","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/84529.jpg?s=20eaece1d45ec05954fd18bf2402448a","title":"Happy
+        Party Train","airing":false,"synopsis":"Music video included with the third
+        single for the Love Live! Sunshine!! anime idol group Aqours.","type":"Music","episodes":1,"score":7.7,"start_date":"2017-04-05T00:00:00+00:00","end_date":"2017-04-05T00:00:00+00:00","members":4868,"rated":"G"},{"mal_id":3854,"url":"https:\/\/myanimelist.net\/anime\/3854\/Ginga_Tetsudou_Monogatari__Wasurerareta_Toki_no_Wakusei","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/6905.jpg?s=fedfc253a81d9bc176d4bcb3b6c698fc","title":"Ginga
+        Tetsudou Monogatari: Wasurerareta Toki no Wakusei","airing":false,"synopsis":"This
+        is the OVA of The Galaxy Railways. The Galaxy Express 999 crashes on the off-limits
+        planet of Herise and it''s up to the SDF Sirius Platoon to assist. (Source:
+        Wikipedia)","type":"OVA","episodes":4,"score":6.92,"start_date":"2006-12-30T00:00:00+00:00","end_date":"2007-03-24T00:00:00+00:00","members":1592,"rated":"PG-13"},{"mal_id":762,"url":"https:\/\/myanimelist.net\/anime\/762\/Bleach__Memories_in_the_Rain","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/5\/21947.jpg?s=7439260b1a9c94d4ad24ebdce9065c8c","title":"Bleach:
+        Memories in the Rain","airing":false,"synopsis":"Kurosaki Ichigo, the temporary
+        Shinigami(Death God) for Kuchiki Rukia, discovers his mother''s killer as
+        one of the Hollows he has been hunting. He does battle with it in a prideful
+        battle of revenge....","type":"Special","episodes":1,"score":7.21,"start_date":"2005-06-12T00:00:00+00:00","end_date":"2005-06-12T00:00:00+00:00","members":89330,"rated":"PG-13"},{"mal_id":18195,"url":"https:\/\/myanimelist.net\/anime\/18195\/Little_Busters__Refrain","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/10\/55049.jpg?s=b21720fe6e2270f9dc90801f23130014","title":"Little
+        Busters!: Refrain","airing":false,"synopsis":"Riki and his friends have been
+        managing to form a complete team for the Little Busters baseball team and
+        after overcoming some of its new members'' internal conflicts, Riki and Rin
+        slowly approach the...","type":"TV","episodes":13,"score":8.31,"start_date":"2013-10-05T00:00:00+00:00","end_date":"2013-12-28T00:00:00+00:00","members":99003,"rated":"PG-13"},{"mal_id":131,"url":"https:\/\/myanimelist.net\/anime\/131\/Saiyuuki_Reload_Gunlock","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/6830.jpg?s=7dd6db1b52d962430d1807f9eebe7398","title":"Saiyuuki
+        Reload Gunlock","airing":false,"synopsis":"The Sanzo Ikkou continues its westward
+        journey, on a mission to prevent a demonic resurrection. As Genjo Sanzo, Cho
+        Hakkai, Sha Gojyo, and Son Goku fight their way to their goal, their path
+        is fraught...","type":"TV","episodes":26,"score":7.52,"start_date":"2004-04-02T00:00:00+00:00","end_date":"2004-09-24T00:00:00+00:00","members":16006,"rated":"PG-13"},{"mal_id":31300,"url":"https:\/\/myanimelist.net\/anime\/31300\/Change_Our_Mirai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/7\/88442.jpg?s=3c56fe4c76224a156c21ffd2f1cc646a","title":"Change
+        Our Mirai!","airing":false,"synopsis":"Official music video for the song Change
+        our Mirai! by the fictional band Irodorimidori spawned from Sega''s Chunithm
+        rhythm arcade game. It is the 1st song in the Irodorimidori franchise. (Source:
+        Ani...","type":"Music","episodes":1,"score":5.66,"start_date":"2015-07-18T00:00:00+00:00","end_date":"2015-07-18T00:00:00+00:00","members":1486,"rated":"PG-13"},{"mal_id":676,"url":"https:\/\/myanimelist.net\/anime\/676\/Refrain_Blue","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/10\/75869.jpg?s=226b667cb50d19d4bacaab40b13ae0e3","title":"Refrain
+        Blue","airing":false,"synopsis":"A trip to the beach turns out to be more
+        than expected for two people who are mourning the losses of their beloved.
+        Perhaps a mysterious girl known as the \"Umi Warabe\" can help them to heal
+        their woun...","type":"OVA","episodes":3,"score":5.84,"start_date":"2000-06-23T00:00:00+00:00","end_date":"2000-10-27T00:00:00+00:00","members":1518,"rated":"R+"},{"mal_id":10270,"url":"https:\/\/myanimelist.net\/anime\/10270\/Gun-dou_Musashi_Recap","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/3\/28267.jpg?s=7e10483281ee183309d1ac63e175b7e7","title":"Gun-dou
+        Musashi Recap","airing":false,"synopsis":"Recap of episodes 1-9.","type":"Special","episodes":1,"score":0,"start_date":"2006-06-25T00:00:00+00:00","end_date":"2006-06-25T00:00:00+00:00","members":312,"rated":"PG-13"},{"mal_id":7334,"url":"https:\/\/myanimelist.net\/anime\/7334\/Bakugan_Battle_Brawlers__Gundalian_Invaders","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/10\/32189.jpg?s=fb3bad9cd88a8cf5bffc9ddd5400df01","title":"Bakugan
+        Battle Brawlers: Gundalian Invaders","airing":false,"synopsis":"Dan, Marucho,
+        and Shun get caught up in a war between two different alien factions in another
+        universe, and teaming up with three new brawlers: the Neathian, Fabia, the
+        new human, Jake, and the Gundal...","type":"TV","episodes":39,"score":6.31,"start_date":"2010-05-23T00:00:00+00:00","end_date":"2011-01-29T00:00:00+00:00","members":18572,"rated":"G"},{"mal_id":7113,"url":"https:\/\/myanimelist.net\/anime\/7113\/30th_Gundam_Perfect_Mission","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/9\/63385.jpg?s=8af43378a8a4029fb1740ba902f8c2c2","title":"30th
+        Gundam Perfect Mission","airing":false,"synopsis":"30th Gundam Perfect Mission
+        is a short original video animation (OVA) officially released by Sunrise in
+        celebration of the 30th anniversary of the Gundam metaseries. It features
+        all the titular and ma...","type":"OVA","episodes":1,"score":7.02,"start_date":"2009-08-25T00:00:00+00:00","end_date":"2009-08-25T00:00:00+00:00","members":4821,"rated":"G"},{"mal_id":7248,"url":"https:\/\/myanimelist.net\/anime\/7248\/Top_wo_Nerae_Gunbuster_Specials","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/13\/23833.jpg?s=0286fbd350128271e00136c8a796e3f6","title":"Top
+        wo Nerae! Gunbuster Specials","airing":false,"synopsis":"A series of shorts
+        related to Gunbuster.","type":"Special","episodes":3,"score":5.8,"start_date":"2000-11-25T00:00:00+00:00","end_date":"2001-03-25T00:00:00+00:00","members":4158,"rated":"PG-13"},{"mal_id":1581,"url":"https:\/\/myanimelist.net\/anime\/1581\/Gift__Eternal_Rainbow","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/2\/75540.jpg?s=d62a8e1a85ab86e7c9410630c6598cbc","title":"Gift:
+        Eternal Rainbow","airing":false,"synopsis":"Amaumi Haruhiko is a high school
+        student who attends Shimano Academy in a town called Narasakicho. Narasakicho
+        contains an unknown rainbow which constantly overlooks the town and is related
+        to grantin...","type":"TV","episodes":12,"score":6.73,"start_date":"2006-10-06T00:00:00+00:00","end_date":"2006-12-22T00:00:00+00:00","members":25341,"rated":"PG-13"},{"mal_id":1167,"url":"https:\/\/myanimelist.net\/anime\/1167\/Samurai_Gun","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/11\/3796.jpg?s=177f71d780d584656d650ef946d1c5d0","title":"Samurai
+        Gun","airing":false,"synopsis":"It is the beginning of the industrial revolution,
+        and feudal Japan is in turmoil. The ruling Shogun are wielding their abusive
+        powers to instill fear and dominance over their oppressed subjects. Beati...","type":"TV","episodes":12,"score":6.08,"start_date":"2004-10-04T00:00:00+00:00","end_date":"2004-12-14T00:00:00+00:00","members":6443,"rated":"R"},{"mal_id":4535,"url":"https:\/\/myanimelist.net\/anime\/4535\/Candy_Boy__Nonchalant_Talk_of_the_Certain_Twin_Sisters_in_Daily_Life","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/10\/13663.jpg?s=ddbf9de66f8d244613d6271b7e49d7b1","title":"Candy
+        Boy: Nonchalant Talk of the Certain Twin Sisters in Daily Life","airing":false,"synopsis":"Twin
         sisters, Yukino and Kanade Sakurai, room together in the dorms at their high
         school, enjoying school life with their friends and one another. One day,
-        Sakuya Kamiyama, an underclassman, seeks out...","type":"ONA","score":7.02,"episodes":7,"members":51647},{"mal_id":31505,"url":"https:\/\/myanimelist.net\/anime\/31505\/Go_Samurai","image_url":"https:\/\/myanimelist.cdn-dena.com\/r\/100x140\/images\/anime\/11\/76308.jpg?s=b7772d1f64b7c4641cbc4a6d69d3c571","title":"Go!
-        Samurai","description":"Animated short by Keiichiro Kimura about a single
-        samurai that fights for his life against 100 of his vicious enemies","type":"ONA","score":5.82,"episodes":1,"members":217}],"result_last_page":20}'
+        Sakuya Kamiyama, an underclassman, seeks out...","type":"ONA","episodes":7,"score":7.01,"start_date":"2008-05-02T00:00:00+00:00","end_date":"2009-05-08T00:00:00+00:00","members":52655,"rated":"PG-13"}],"last_page":20}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:14:48 GMT
+  recorded_at: Sun, 16 Sep 2018 03:27:00 GMT
 recorded_with: VCR 4.0.0

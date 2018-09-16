@@ -54,8 +54,8 @@ RSpec.describe Jikan do
       VCR.use_cassette "search anime" do
         @anime_search = Jikan::search("Railgun", :anime)
         expect(@anime_search.raw).to be_a_kind_of Hash
-        expect(@anime_search.raw["result"]).to be_a_kind_of Array
-        expect(@anime_search.raw["result"][0].has_key? "mal_id").to be true
+        expect(@anime_search.raw["results"]).to be_a_kind_of Array
+        expect(@anime_search.raw["results"][0].has_key? "mal_id").to be true
       end
     end
   end

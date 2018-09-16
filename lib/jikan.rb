@@ -6,6 +6,8 @@ module Jikan
 
   BASE_URL = "http://api.jikan.moe"
   BASE_URL_SSL = "https://api.jikan.moe"
+  BASE_URL_V3 = "http://api.jikan.moe/v3"
+  BASE_URL_V3_SSL = "https://api.jikan.moe/v3"
 
   FLAGS = {
     'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats ],

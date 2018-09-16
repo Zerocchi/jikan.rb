@@ -29,7 +29,7 @@ RSpec.describe Jikan::Search do
     describe "#raw" do
       it "has raw data" do
         expect(@anime_search.raw).to be_a_kind_of Hash
-        expect(@anime_search.raw["result"]).to be_a_kind_of Array
+        expect(@anime_search.raw["results"]).to be_a_kind_of Array
       end
     end
     

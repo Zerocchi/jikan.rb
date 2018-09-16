@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.jikan.moe/anime/34798
+    uri: https://api.jikan.moe/v3/anime/34798
     body:
       encoding: UTF-8
       string: ''
@@ -18,54 +18,55 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sun, 27 May 2018 01:15:02 GMT
       Server:
-      - Apache/2.4.18 (Ubuntu)
-      Vary:
-      - Host,Accept-Encoding
+      - nginx/1.13.10
+      Date:
+      - Sun, 16 Sep 2018 03:27:07 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3766'
+      Connection:
+      - close
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
       - no-cache, private
-      Content-Length:
-      - '3344'
-      Connection:
-      - close
-      Content-Type:
-      - application/json
+      Vary:
+      - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"5ec7d689a66721500b1ec5e3323fd0dac9ab118e","request_cached":true,"mal_id":34798,"link_canonical":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","title":"Yuru
-        Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":"Yurukyan","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","type":"TV","source":"Manga","episodes":12,"status":"Finished
-        Airing","airing":false,"aired_string":"Jan 4, 2018 to Mar 22, 2018","aired":{"from":"2018-01-04","to":"2018-03-22"},"duration":"23
-        min. per ep.","rating":"PG-13 - Teens 13 or older","score":8.35,"scored_by":44435,"rank":194,"popularity":766,"members":114550,"favorites":1763,"synopsis":"While
+      string: '{"request_hash":"request:anime:1b348317378027bca60cfd841dfd0b1005ee9a47","request_cached":true,"request_cache_expiry":17786,"mal_id":34798,"url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","trailer_url":"https:\/\/www.youtube.com\/embed\/vpH42sJ8t9c?enablejsapi=1&wmode=opaque&autoplay=1","title":"Yuru
+        Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":["Yurukyan"],"type":"TV","source":"Manga","episodes":12,"status":"Finished
+        Airing","airing":false,"aired":{"from":"2018-01-04T00:00:00+00:00","to":"2018-03-22T00:00:00+00:00","string":"Jan
+        4, 2018 to Mar 22, 2018"},"duration":"23 min per ep","rating":"PG-13 - Teens
+        13 or older","score":8.32,"scored_by":54257,"rank":225,"popularity":673,"members":131781,"favorites":2152,"synopsis":"While
         the perfect getaway for most girls her age might be a fancy vacation with
-        their loved ones, Rin Shima&#039;s ideal way of spending her days off is camping
+        their loved ones, Rin Shima''s ideal way of spending her days off is camping
         alone at the base of Mount Fuji. From pitching her tent to gathering firewood,
         she has always done everything by herself, and has no plans of leaving her
-        little solitary world. However, what starts off as one of Rin&#039;s usual
-        camping sessions somehow ends up as a surprise get-together for two when the
-        lost Nadeshiko Kagamihara is forced to take refuge at her campsite. Originally
-        intending to see the picturesque view of Mount Fuji for herself, Nadeshiko&#039;s
+        little solitary world. However, what starts off as one of Rin''s usual camping
+        sessions somehow ends up as a surprise get-together for two when the lost
+        Nadeshiko Kagamihara is forced to take refuge at her campsite. Originally
+        intending to see the picturesque view of Mount Fuji for herself, Nadeshiko''s
         plans are disrupted when she ends up falling asleep partway to her destination.
         Alone and with no other choice, she seeks help from the only other person
         nearby. Despite their hasty introductions, the two girls nevertheless enjoy
         the chilly night together, eating ramen and conversing while the campfire
-        keeps them warm. And even after Nadeshiko&#039;s sister finally picks her
-        up later that night, both girls silently ponder the possibility of another
-        camping trip together. [Written by MAL Rewrite]","background":null,"premiered":"Winter
-        2018","broadcast":"Thursdays at 23:00 (JST)","related":{"Adaptation":[{"mal_id":94376,"type":"manga","url":"https:\/\/myanimelist.net\/manga\/94376\/Yuru_Camp\u25b3","title":"Yuru
-        Camp\u25b3"}],"Side story":[{"mal_id":37341,"type":"anime","url":"https:\/\/myanimelist.net\/anime\/37341\/Yuru_Camp\u25b3_Specials","title":"Yuru
-        Camp\u25b3 Specials"}]},"producer":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X","name":"AT-X"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications","name":"Sony
-        Music Communications"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/963\/MAGES","name":"MAGES."},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1185\/81_Produce","name":"81
-        Produce"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1416\/BS11","name":"BS11"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1590\/Furyu","name":"Furyu"},{"url":"https:\/\/myanimelist.net\/anime\/producer\/1784\/Crunchyroll_SC_Anime_Fund","name":"Crunchyroll
-        SC Anime Fund"}],"licensor":[],"studio":[{"url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station","name":"C-Station"}],"genre":[{"url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life","name":"Slice
-        of Life"},{"url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy","name":"Comedy"}],"opening_theme":["\"SHINY
-        DAYS\" by Asaka"],"ending_theme":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
+        keeps them warm. And even after Nadeshiko''s sister finally picks her up later
+        that night, both girls silently ponder the possibility of another camping
+        trip together. [Written by MAL Rewrite]","background":null,"premiered":"Winter
+        2018","broadcast":"Thursdays at 23:00 (JST)","related":{"Adaptation":[{"mal_id":94376,"type":"manga","name":"Yuru
+        Camp\u25b3","url":"https:\/\/myanimelist.net\/manga\/94376\/Yuru_Camp\u25b3"}],"Side
+        story":[{"mal_id":37341,"type":"anime","name":"Yuru Camp\u25b3 Specials","url":"https:\/\/myanimelist.net\/anime\/37341\/Yuru_Camp\u25b3_Specials"}]},"producers":[{"mal_id":238,"type":"anime","name":"AT-X","url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X"},{"mal_id":737,"type":"anime","name":"Sony
+        Music Communications","url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications"},{"mal_id":963,"type":"anime","name":"MAGES.","url":"https:\/\/myanimelist.net\/anime\/producer\/963\/MAGES"},{"mal_id":1185,"type":"anime","name":"81
+        Produce","url":"https:\/\/myanimelist.net\/anime\/producer\/1185\/81_Produce"},{"mal_id":1416,"type":"anime","name":"BS11","url":"https:\/\/myanimelist.net\/anime\/producer\/1416\/BS11"},{"mal_id":1590,"type":"anime","name":"Furyu","url":"https:\/\/myanimelist.net\/anime\/producer\/1590\/Furyu"},{"mal_id":1784,"type":"anime","name":"Crunchyroll
+        SC Anime Fund","url":"https:\/\/myanimelist.net\/anime\/producer\/1784\/Crunchyroll_SC_Anime_Fund"}],"licensors":[],"studios":[{"mal_id":1075,"type":"anime","name":"C-Station","url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station"}],"genres":[{"mal_id":36,"type":"anime","name":"Slice
+        of Life","url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life"},{"mal_id":4,"type":"anime","name":"Comedy","url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy"}],"opening_themes":["\"SHINY
+        DAYS\" by Asaka"],"ending_themes":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
         by Eri Sasaki"]}'
     http_version: 
-  recorded_at: Sun, 27 May 2018 01:14:47 GMT
+  recorded_at: Sun, 16 Sep 2018 03:26:57 GMT
 recorded_with: VCR 4.0.0

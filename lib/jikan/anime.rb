@@ -24,7 +24,7 @@ module Jikan
     end
 
     def ending
-      raw['ending_theme']
+      raw['ending_theme'] || raw['ending_themes']
     end
 
     def episodes
@@ -32,15 +32,15 @@ module Jikan
     end
 
     def eps_list
-      raw['episode']
+      raw['episode'] || raw['episodes']
     end
     
     def licensor
-      raw['licensor']
+      raw['licensor'] || raw['licensors']
     end
 
     def opening
-      raw['opening_theme']
+      raw['opening_theme'] || raw['opening_themes']
     end
 
     def premiered
@@ -48,7 +48,7 @@ module Jikan
     end
 
     def producer
-      raw['producer']
+      raw['producer'] || raw['producers']
     end
 
     def related
@@ -60,7 +60,7 @@ module Jikan
     end
 
     def studio
-      raw['studio']
+      raw['studio'] || raw['studios']
     end
   end
 

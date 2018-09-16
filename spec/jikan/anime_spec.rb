@@ -25,7 +25,7 @@ RSpec.describe Jikan::Anime do
     end
     
     it "show duration" do
-      expect(@anime.duration).to eq "23 min. per ep."
+      expect(@anime.duration).to eq "23 min per ep"
     end
     
     it "show title" do

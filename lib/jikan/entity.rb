@@ -16,7 +16,7 @@ module Jikan
     end
 
     def genre
-      raw['genre']
+      raw['genre'] || raw['genres']
     end
 
     def id
