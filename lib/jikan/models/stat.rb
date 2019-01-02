@@ -1,4 +1,4 @@
-require 'jikan/entity'
+require 'jikan/models/entity'
 
 module Jikan
   class Stat < BaseEntity

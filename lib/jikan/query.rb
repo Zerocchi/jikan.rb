@@ -1,16 +1,6 @@
-require 'jikan/anime'
+require 'require_all'
+require_all 'lib/jikan/models'
 require 'jikan/api'
-require 'jikan/character'
-require 'jikan/manga'
-require 'jikan/person'
-require 'jikan/search'
-require 'jikan/review'
-require 'jikan/picture'
-require 'jikan/news'
-require 'jikan/recommendation'
-require 'jikan/userupdate'
-require 'jikan/stat'
-require 'jikan/char_staff'
 
 module Jikan
   class Query
