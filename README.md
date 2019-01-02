@@ -152,6 +152,22 @@ development program. The seven \"Level 5\" espers are the most powerful in Acade
 
 ```
 
+## RESTv3 Features
+- [X] Anime
+- [X] Manga
+- [X] Person 
+- [X] Character
+- [X] Search
+  - [ ] Advanced Search
+- [X] Season
+- [ ] User
+- [ ] Club
+- [ ] Schedule
+- [ ] Top
+- [ ] Genre
+- [ ] Producer
+- [ ] Magazine
+
 ## To-Do
 - [X] Add test suites
 - [X] Add search feature

@@ -21,11 +21,11 @@ http_interactions:
       Server:
       - nginx/1.13.10
       Date:
-      - Sun, 16 Sep 2018 03:27:07 GMT
+      - Wed, 02 Jan 2019 12:21:18 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '3766'
+      - '4291'
       Connection:
       - close
       Access-Control-Allow-Origin:
@@ -33,16 +33,22 @@ http_interactions:
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
-      - no-cache, private
+      - private, must-revalidate
+      Etag:
+      - '"c820d2485957c21aa19c36f25bc69687"'
       Vary:
       - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"request:anime:1b348317378027bca60cfd841dfd0b1005ee9a47","request_cached":true,"request_cache_expiry":17786,"mal_id":34798,"url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/89877.jpg","trailer_url":"https:\/\/www.youtube.com\/embed\/vpH42sJ8t9c?enablejsapi=1&wmode=opaque&autoplay=1","title":"Yuru
+      string: '{"request_hash":"request:anime:1b348317378027bca60cfd841dfd0b1005ee9a47","request_cached":false,"request_cache_expiry":43200,"mal_id":34798,"url":"https:\/\/myanimelist.net\/anime\/34798\/Yuru_Camp\u25b3","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/89877.jpg","trailer_url":"https:\/\/www.youtube.com\/embed\/vpH42sJ8t9c?enablejsapi=1&wmode=opaque&autoplay=1","title":"Yuru
         Camp\u25b3","title_english":"Laid-Back Camp","title_japanese":"\u3086\u308b\u30ad\u30e3\u30f3\u25b3","title_synonyms":["Yurukyan"],"type":"TV","source":"Manga","episodes":12,"status":"Finished
-        Airing","airing":false,"aired":{"from":"2018-01-04T00:00:00+00:00","to":"2018-03-22T00:00:00+00:00","string":"Jan
+        Airing","airing":false,"aired":{"from":"2018-01-04T00:00:00+00:00","to":"2018-03-22T00:00:00+00:00","prop":{"from":{"day":4,"month":1,"year":2018},"to":{"day":22,"month":3,"year":2018}},"string":"Jan
         4, 2018 to Mar 22, 2018"},"duration":"23 min per ep","rating":"PG-13 - Teens
-        13 or older","score":8.32,"scored_by":54257,"rank":225,"popularity":673,"members":131781,"favorites":2152,"synopsis":"While
+        13 or older","score":8.32,"scored_by":62042,"rank":226,"popularity":622,"members":150289,"favorites":2680,"synopsis":"While
         the perfect getaway for most girls her age might be a fancy vacation with
         their loved ones, Rin Shima''s ideal way of spending her days off is camping
         alone at the base of Mount Fuji. From pitching her tent to gathering firewood,
@@ -60,13 +66,16 @@ http_interactions:
         trip together. [Written by MAL Rewrite]","background":null,"premiered":"Winter
         2018","broadcast":"Thursdays at 23:00 (JST)","related":{"Adaptation":[{"mal_id":94376,"type":"manga","name":"Yuru
         Camp\u25b3","url":"https:\/\/myanimelist.net\/manga\/94376\/Yuru_Camp\u25b3"}],"Side
-        story":[{"mal_id":37341,"type":"anime","name":"Yuru Camp\u25b3 Specials","url":"https:\/\/myanimelist.net\/anime\/37341\/Yuru_Camp\u25b3_Specials"}]},"producers":[{"mal_id":238,"type":"anime","name":"AT-X","url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X"},{"mal_id":737,"type":"anime","name":"Sony
+        story":[{"mal_id":37341,"type":"anime","name":"Yuru Camp\u25b3 Specials","url":"https:\/\/myanimelist.net\/anime\/37341\/Yuru_Camp\u25b3_Specials"}],"Sequel":[{"mal_id":38474,"type":"anime","name":"Yuru
+        Camp\u25b3 2nd Season","url":"https:\/\/myanimelist.net\/anime\/38474\/Yuru_Camp\u25b3_2nd_Season"}],"Other":[{"mal_id":38475,"type":"anime","name":"Yuru
+        Camp\u25b3 Movie","url":"https:\/\/myanimelist.net\/anime\/38475\/Yuru_Camp\u25b3_Movie"},{"mal_id":38476,"type":"anime","name":"Yuru
+        Camp\u25b3 Specials 2","url":"https:\/\/myanimelist.net\/anime\/38476\/Yuru_Camp\u25b3_Specials_2"}]},"producers":[{"mal_id":238,"type":"anime","name":"AT-X","url":"https:\/\/myanimelist.net\/anime\/producer\/238\/AT-X"},{"mal_id":737,"type":"anime","name":"Sony
         Music Communications","url":"https:\/\/myanimelist.net\/anime\/producer\/737\/Sony_Music_Communications"},{"mal_id":963,"type":"anime","name":"MAGES.","url":"https:\/\/myanimelist.net\/anime\/producer\/963\/MAGES"},{"mal_id":1185,"type":"anime","name":"81
         Produce","url":"https:\/\/myanimelist.net\/anime\/producer\/1185\/81_Produce"},{"mal_id":1416,"type":"anime","name":"BS11","url":"https:\/\/myanimelist.net\/anime\/producer\/1416\/BS11"},{"mal_id":1590,"type":"anime","name":"Furyu","url":"https:\/\/myanimelist.net\/anime\/producer\/1590\/Furyu"},{"mal_id":1784,"type":"anime","name":"Crunchyroll
         SC Anime Fund","url":"https:\/\/myanimelist.net\/anime\/producer\/1784\/Crunchyroll_SC_Anime_Fund"}],"licensors":[],"studios":[{"mal_id":1075,"type":"anime","name":"C-Station","url":"https:\/\/myanimelist.net\/anime\/producer\/1075\/C-Station"}],"genres":[{"mal_id":36,"type":"anime","name":"Slice
         of Life","url":"https:\/\/myanimelist.net\/anime\/genre\/36\/Slice_of_Life"},{"mal_id":4,"type":"anime","name":"Comedy","url":"https:\/\/myanimelist.net\/anime\/genre\/4\/Comedy"}],"opening_themes":["\"SHINY
-        DAYS\" by Asaka"],"ending_themes":["\"Furu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
+        DAYS\" by Asaka"],"ending_themes":["\"Fuyu Biyori (\u3075\u3086\u3073\u3088\u308a)\"
         by Eri Sasaki"]}'
     http_version: 
-  recorded_at: Sun, 16 Sep 2018 03:26:57 GMT
+  recorded_at: Wed, 02 Jan 2019 12:21:18 GMT
 recorded_with: VCR 4.0.0

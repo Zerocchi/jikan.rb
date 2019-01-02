@@ -21,11 +21,11 @@ http_interactions:
       Server:
       - nginx/1.13.10
       Date:
-      - Sun, 16 Sep 2018 03:27:16 GMT
+      - Wed, 02 Jan 2019 12:21:36 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1393'
+      - '1486'
       Connection:
       - close
       Access-Control-Allow-Origin:
@@ -33,17 +33,23 @@ http_interactions:
       Access-Control-Allow-Methods:
       - "*"
       Cache-Control:
-      - no-cache, private
+      - private, must-revalidate
+      Etag:
+      - '"cefe329309ec3f801e83868b6bd2dc3b"'
       Vary:
       - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
     body:
       encoding: ASCII-8BIT
-      string: '{"request_hash":"request:manga:ab1682cc43660d8f544f2be7ed393858dd28b73e","request_cached":true,"request_cache_expiry":40299,"mal_id":15434,"url":"https:\/\/myanimelist.net\/manga\/15434\/Koi_Puzzle","title":"Koi
+      string: '{"request_hash":"request:manga:ab1682cc43660d8f544f2be7ed393858dd28b73e","request_cached":false,"request_cache_expiry":43200,"mal_id":15434,"url":"https:\/\/myanimelist.net\/manga\/15434\/Koi_Puzzle","title":"Koi
         Puzzle","title_english":"Love Puzzle","title_synonyms":["Love Story of Three
-        Sisters"],"title_japanese":"\u30b3\u30a4\u30d1\u30ba\u30eb","status":"Finished","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/manga\/3\/22432.jpg","type":"Manga","volumes":1,"chapters":3,"publishing":false,"published":{"from":"2009-01-01T02:38:55+00:00","to":null,"string":"2009"},"rank":17223,"score":null,"scored_by":null,"popularity":28146,"members":69,"favorites":0,"synopsis":"The
+        Sisters"],"title_japanese":"\u30b3\u30a4\u30d1\u30ba\u30eb","status":"Finished","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/22432.jpg","type":"Manga","volumes":1,"chapters":3,"publishing":false,"published":{"from":"2009-01-01T00:00:00+00:00","to":null,"prop":{"from":{"day":null,"month":null,"year":null},"to":{"day":null,"month":null,"year":null}},"string":"2009"},"rank":17519,"score":null,"scored_by":null,"popularity":28724,"members":70,"favorites":0,"synopsis":"The
         school life romantic adventures of three sisters: Aihara Tsukasa, Wakasa,
-        and Mikasa","background":null,"related":[],"genres":[{"mal_id":22,"type":"manga","name":"Romance","url":"https:\/\/myanimelist.net\/manga\/genre\/22\/Romance"},{"mal_id":23,"type":"manga","name":"School","url":"https:\/\/myanimelist.net\/manga\/genre\/23\/School"},{"mal_id":25,"type":"manga","name":"Shoujo","url":"https:\/\/myanimelist.net\/manga\/genre\/25\/Shoujo"}],"authors":[{"mal_id":5370,"type":"people","name":"Satsuki,
+        and Mikasa","background":null,"related":{},"genres":[{"mal_id":22,"type":"manga","name":"Romance","url":"https:\/\/myanimelist.net\/manga\/genre\/22\/Romance"},{"mal_id":23,"type":"manga","name":"School","url":"https:\/\/myanimelist.net\/manga\/genre\/23\/School"},{"mal_id":25,"type":"manga","name":"Shoujo","url":"https:\/\/myanimelist.net\/manga\/genre\/25\/Shoujo"}],"authors":[{"mal_id":5370,"type":"people","name":"Satsuki,
         Mikiko","url":"https:\/\/myanimelist.net\/people\/5370\/Mikiko_Satsuki"}],"serializations":[{"mal_id":170,"type":"manga","name":"ChuChu","url":"https:\/\/myanimelist.net\/manga\/magazine\/170\/ChuChu"}]}'
     http_version: 
-  recorded_at: Sun, 16 Sep 2018 03:27:07 GMT
+  recorded_at: Wed, 02 Jan 2019 12:21:36 GMT
 recorded_with: VCR 4.0.0

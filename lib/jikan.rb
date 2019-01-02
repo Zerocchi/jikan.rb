@@ -10,11 +10,12 @@ module Jikan
   BASE_URL_V3_SSL = "https://api.jikan.moe/v3"
 
   FLAGS = {
-    'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats ],
-    'manga' => [ :character, :news, :pictures, :stats ],
+    'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats, :reviews, :recommendations, :userupdates ],
+    'manga' => [ :character, :news, :pictures, :stats, :reviews, :recommendations, :userupdates ],
     'character' => [ :pictures ],
     'person' => [ :pictures ],
-    'search' => [:anime, :manga, :person, :character]
+    'search' => [:anime, :manga, :person, :character],
+    'season' => [:summer, :spring, :fall, :winter, :later]
   }
 
   # shortcut methods
@@ -36,5 +37,9 @@ module Jikan
   
   def self.search(query, flag=:anime, page=1)
     Jikan::Query.new.search(query, flag, page)
+  end
+
+  def self.season(season, year)
+    Jikan::Query.new.season(season, year)
   end
 end

@@ -5,7 +5,7 @@ require "uri"
 module Jikan
   class API
 
-    def initialize(use_ssl=true, use_v3=false)
+    def initialize(use_ssl=true)
 			@endpoint = ""
 			@id = nil
 			@flag = nil
@@ -28,20 +28,25 @@ module Jikan
 			@end_url = "#{@selected_base}/#{@endpoint}"
       @url = "#{@end_url}/#{@id}"
 
-      if @endpoint.eql?('search')
+      if @endpoint.eql?('season')
+				unless Jikan::FLAGS[@endpoint].include? @flag
+					raise Jikan::FlagError, 'Flag not supported'
+				end
+				
+				if Jikan::FLAGS[@endpoint].include? :later
+					@url = URI.encode("#{@end_url}")
+				elsif
+					@url = URI.encode("#{@end_url}/#{@id}")
+				end
+			end
+			
+			if @endpoint.eql?('search')
 				unless Jikan::FLAGS[@endpoint].include? @flag
 					raise Jikan::FlagError, 'Flag not supported'
 				else
-					# This is inconsistencies in the API.
-					if @flag == :anime || @flag == :manga
-						# @url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.delete(' ')}/#{@id}" -- v2
-						@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}") # v3
-					elsif @flag == :character || @flag == :person
-						#@url = "#{@end_url}/#{@flag.to_s}/#{@query.downcase.gsub!(' ', '_')}/#{@id}" -- v2
-						@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}") # v3
-					end
+					@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}")
 				end
-      end
+			end
 
 			unless @flag.nil? || @endpoint.eql?('search')
 				unless Jikan::FLAGS[@endpoint].include? @flag

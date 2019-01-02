@@ -10,5 +10,10 @@ require "jikan"
 require "pry"
 Pry.start
 
+def reload!
+    files = $LOADED_FEATURES.select { |feat| feat =~ /\/jikan\// }
+    files.each { |file| load file }
+end
+
 # require "irb"
 # IRB.start(__FILE__)
