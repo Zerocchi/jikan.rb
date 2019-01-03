@@ -49,6 +49,7 @@ GEM
     safe_yaml (1.0.4)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.5)
     unf_ext (0.0.7.5-x64-mingw32)
     vcr (4.0.0)
     webmock (3.5.1)
@@ -57,7 +58,9 @@ GEM
       hashdiff
 
 PLATFORMS
+  ruby
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 1.16)
