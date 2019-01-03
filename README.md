@@ -2,9 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/Zerocchi/jikan.rb.svg)](https://github.com/Zerocchi/jikan.rb/tree/master) [![Gem Version](https://img.shields.io/gem/v/jikan.rb.svg)](https://rubygems.org/gems/jikan.rb) [![Total Downloads](https://img.shields.io/gem/dt/jikan.rb.svg?colorB=6495ed)](https://rubygems.org/gems/jikan.rb) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![Dart](https://img.shields.io/badge/language-Ruby-red.svg)](https://www.ruby-lang.org/)
 
-This is a thin Ruby wrapper for [jikan.me](http://jikan.me) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
-
-**NOTE: Jikan API changed their base URL to *api.jikan.moe*. Old endpoints will continue to work until May 12th, 2018  ([Announcement](https://jikan.docs.apiary.io/) | [Issue #1](https://github.com/Zerocchi/jikan.rb/issues/1)) so it's strongly suggested that you update the gem to latest version.**
+This is a thin Ruby wrapper for [jikan.moe](http://jikan.moe) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
 
 ## Installation
 
