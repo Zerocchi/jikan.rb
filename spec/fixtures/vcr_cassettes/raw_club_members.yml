@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.moe/v3/club/1/members
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.moe
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.10
+      Date:
+      - Thu, 03 Jan 2019 02:27:24 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5730'
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - private, must-revalidate
+      Etag:
+      - '"cdaadc4352c2c0dcd559ace71b2c234a"'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request_hash":"request:club:0b69ded4f086c1fe7530f2427b461ac00190ebe0","request_cached":true,"request_cache_expiry":40115,"members":[{"username":"-alquimista-","url":"https:\/\/myanimelist.net\/profile\/-alquimista-","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/47134.jpg"},{"username":"-Ayu","url":"https:\/\/myanimelist.net\/profile\/-Ayu","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5224442.jpg"},{"username":"-Envy-","url":"https:\/\/myanimelist.net\/profile\/-Envy-","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/1509945.jpg"},{"username":"-Ricochet-","url":"https:\/\/myanimelist.net\/profile\/-Ricochet-","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/441687.jpg"},{"username":"-ThatSenseiGuy","url":"https:\/\/myanimelist.net\/profile\/-ThatSenseiGuy","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5356479.jpg"},{"username":"189845783458","url":"https:\/\/myanimelist.net\/profile\/189845783458","image_url":"https:\/\/cdn.myanimelist.net\/images\/questionmark_50.gif"},{"username":"333Nyu333","url":"https:\/\/myanimelist.net\/profile\/333Nyu333","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/133748.jpg"},{"username":"3pretentious5u","url":"https:\/\/myanimelist.net\/profile\/3pretentious5u","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4702076.jpg"},{"username":"4LU_","url":"https:\/\/myanimelist.net\/profile\/4LU_","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4176467.jpg"},{"username":"4th-Hokage","url":"https:\/\/myanimelist.net\/profile\/4th-Hokage","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/173416.jpg"},{"username":"666_conducer","url":"https:\/\/myanimelist.net\/profile\/666_conducer","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/221939.jpg"},{"username":"abehaibane","url":"https:\/\/myanimelist.net\/profile\/abehaibane","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/330445.jpg"},{"username":"AbeSpiegel","url":"https:\/\/myanimelist.net\/profile\/AbeSpiegel","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/247931.jpg"},{"username":"AccipiterF1","url":"https:\/\/myanimelist.net\/profile\/AccipiterF1","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/92092.jpg"},{"username":"acemarvel","url":"https:\/\/myanimelist.net\/profile\/acemarvel","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/8740.jpg"},{"username":"aclarky24","url":"https:\/\/myanimelist.net\/profile\/aclarky24","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4118315.jpg"},{"username":"Acoshi","url":"https:\/\/myanimelist.net\/profile\/Acoshi","image_url":"https:\/\/cdn.myanimelist.net\/images\/questionmark_50.gif"},{"username":"AddleBoy","url":"https:\/\/myanimelist.net\/profile\/AddleBoy","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/39813.jpg"},{"username":"Admiral_AnimE","url":"https:\/\/myanimelist.net\/profile\/Admiral_AnimE","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/98562.jpg"},{"username":"AedanFreeman","url":"https:\/\/myanimelist.net\/profile\/AedanFreeman","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/3847997.jpg"},{"username":"AegisTyr","url":"https:\/\/myanimelist.net\/profile\/AegisTyr","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/25320.jpg"},{"username":"Aerineth","url":"https:\/\/myanimelist.net\/profile\/Aerineth","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/3409.jpg"},{"username":"Aerojunki","url":"https:\/\/myanimelist.net\/profile\/Aerojunki","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/88238.jpg"},{"username":"aGirlCalledMary","url":"https:\/\/myanimelist.net\/profile\/aGirlCalledMary","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/213004.jpg"},{"username":"AhmedZZ","url":"https:\/\/myanimelist.net\/profile\/AhmedZZ","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5240956.jpg"},{"username":"Aijin","url":"https:\/\/myanimelist.net\/profile\/Aijin","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/46946.jpg"},{"username":"Airiis","url":"https:\/\/myanimelist.net\/profile\/Airiis","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/149089.jpg"},{"username":"AironicallyHuman","url":"https:\/\/myanimelist.net\/profile\/AironicallyHuman","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6082.jpg"},{"username":"ak9000","url":"https:\/\/myanimelist.net\/profile\/ak9000","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4869948.jpg"},{"username":"Akaizuki","url":"https:\/\/myanimelist.net\/profile\/Akaizuki","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/294202.jpg"},{"username":"Akamaru217","url":"https:\/\/myanimelist.net\/profile\/Akamaru217","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/106843.jpg"},{"username":"Akira-Toudou","url":"https:\/\/myanimelist.net\/profile\/Akira-Toudou","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/161773.jpg"},{"username":"AKS-Tan88","url":"https:\/\/myanimelist.net\/profile\/AKS-Tan88","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/160637.jpg"},{"username":"alarmed","url":"https:\/\/myanimelist.net\/profile\/alarmed","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/60462.jpg"},{"username":"Alastor","url":"https:\/\/myanimelist.net\/profile\/Alastor","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/12106.jpg"},{"username":"Alastor57","url":"https:\/\/myanimelist.net\/profile\/Alastor57","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5460197.jpg"}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jan 2019 02:27:24 GMT
+recorded_with: VCR 4.0.0

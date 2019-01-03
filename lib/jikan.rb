@@ -15,7 +15,9 @@ module Jikan
     'character' => [ :pictures ],
     'person' => [ :pictures ],
     'search' => [:anime, :manga, :person, :character],
-    'season' => [:summer, :spring, :fall, :winter, :later]
+    'season' => [:summer, :spring, :fall, :winter, :later],
+    'user' => [:profile, :history, :friends, :animelist, :mangalist],
+    'club' => [:members]
   }
 
   # shortcut methods
@@ -41,5 +43,13 @@ module Jikan
 
   def self.season(season, year)
     Jikan::Query.new.season(season, year)
+  end
+
+  def self.club(id, flag=nil)
+    Jikan::Query.new.club(id, flag)
+  end
+
+  def self.user(name, flag=nil)
+    Jikan::Query.new.user(name, flag)
   end
 end

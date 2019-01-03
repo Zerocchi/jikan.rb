@@ -87,4 +87,30 @@ module Jikan
       raw['type']
     end
   end
+
+  class Entityography < BaseEntity
+    def mal_id
+      raw['mal_id']
+    end
+
+    def name
+      raw['name']
+    end
+
+    def url
+      raw['url']
+    end
+
+    def image_url
+      raw['image_url']
+    end
+
+    def role
+      raw['role']
+    end
+
+    def type
+      raw['type']
+    end
+  end
 end

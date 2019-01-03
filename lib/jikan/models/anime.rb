@@ -68,5 +68,7 @@ module Jikan
 		def details(flag=nil)
       Jikan::anime id, flag
 		end
-	end
+  end
+  
+  class BasicAnime < Entityography; end
 end

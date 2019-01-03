@@ -1,0 +1,1266 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.moe/v3/anime/34798/reviews
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.moe
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.10
+      Date:
+      - Thu, 03 Jan 2019 00:55:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - private, must-revalidate
+      Etag:
+      - '"26f32dfecb967ba7cf3b486b913642d5"'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request_hash":"request:anime:f9c9c0fb34264e106ef85b4368f60ffe635f2447","request_cached":true,"request_cache_expiry":42607,"reviews":[{"mal_id":274533,"url":"https:\/\/myanimelist.net\/reviews.php?id=274533","helpful_count":143,"date":"2018-03-22T07:31:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/Pipe","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6017253.jpg","username":"Pipe","episodes_seen":12,"scores":{"overall":9,"story":8,"animation":7,"sound":7,"character":8,"enjoyment":9}},"content":"\u201c\u00a1
+        One for all, hole in one!\u201d \u2014Nadeshiko Kagamihara\r\nYuru Camp is
+        one of the gems from the season. Who could have guessed a camping series would
+        be fun, refreshing, and very entertaining? Also, no matter how you are feeling,
+        after each episode you will end with a big smile on your face. Yuru Camp isn\u2019t
+        about cute girls doing cute things. It is about how to enjoy simpler situations
+        and how to maintain the proper mood and be happy under any circumstance. More
+        important, the series irradiates that sensation to all the spectators. These
+        girls give us a funny and delightful gem and will stayin our memories for
+        a long time.\\n\\n\r\nThe story is straightforward and easy to follow, it
+        is fun, fresh and entertaining to watch. It focuses on camping. Yes, I envision
+        the same thing you\u2019re thinking: camping, are you kidding me? How can
+        you have a plotline about camping? It must be a fiasco. However, Yuri Camp
+        is not dull, from a common event like camping, the authors create an amusing
+        narration where all the characters take pleasure in camping. Keep in mind
+        that maybe you want to go camping with your friends after the series because
+        the characters\u2019 commitment is plausible, delightful and absorbing. The
+        message given to the audience through the story\u2019s simplicity is enjoying
+        the moments of life.\\n\\n\r\nAs a starting point, the pacing is perfect,
+        and the way how all the characters are involved is pretty clever. It is remarkable
+        seeing the correlation and the chemistry between them, no matter if they appear
+        in the scene for few seconds, their actions complement the setting, and you
+        don\u2019t feel them wasted. Every character has a different personality that
+        boosts the dynamic through the storyline and embodies the meaning of friendship.
+        Another notable aspect, the trust. Would you camp with someone you do not
+        trust? The series enrich the plot with those values and propels them in each
+        episode. For example, Rin likes camping alone, but she starts enjoying her
+        time with Nadeshiko and considers her as a friend. Since they are a group
+        of \u201cbuddies,\u201d they share their tastes (food, hobbies, fun). Also,
+        the story maintains the realism and gives tips about camping. This small world
+        is full of comical events and funny jokes executed at the perfect moment ingeniously.
+        Look Nadeshiko, she may seem to be childish, yet she is very energetic, and
+        she uses that side of her personality to be humorous. Just with her behavior,
+        the characters seem flashy and feel happy. All this is possible because the
+        authors care about the pacing and the story.  \\n\\n\r\nOn the other hand,
+        some spectators believe the series doesn\u2019t have a plot, so they consider
+        the show boring. The simplicity of the narrative can be measured in the course
+        of action and the mood while camping. How many of us have at least camping
+        once in our lives? If it was a gratifying experience then this show will bring
+        memories and forgotten desires, perhaps you could end remembering some of
+        your old friends. This series demonstrates that every action, no matter how
+        insignificant is, it would make our existence happier and enjoyable. For me,
+        seeing how these characters admire a landscape, it is very remarkable. Maybe
+        it is a clich\u00e9, but that easiness is what we call having a good time.
+        Lastly, I have not found any negative aspect of the show. Nothing is perfect,
+        yet the anime covers some basic ideas such as friendship, trust, passion,
+        joy, and boosts them in a very entertaining way. Yuri Camp\u2019s beauty lies
+        in its simplicity.\\n\\n\r\nWe have five characters in the story. The most
+        noticeable Is Nadeshiko because she is the one that which gathers the rest
+        of the cast together, and she is the central point for most of the jokes.
+        Nadeshiko is very energetic and blissful. She loves eating, and we can consider
+        her a thrilled girl. The other main character, Rin. In the beginning, she
+        enjoys camping alone, but Nadeshiko\u2019s influence may change her. Rin has
+        more camping experience than the others.\\n\r\nThe remaining characters add
+        fluency to the story. Aoi and Chiaki, they are the members of the Outdoor
+        Activities Club. Thanks to Nadeshiko the club continues with the activities
+        and start to plan camping meetings. Lastly Ena, she always mocks Rin. Something
+        I notice is the lack of a detailed background, but the plot works very well
+        without it. You only need to know they like camping and the rest will come
+        from their personalities.\\n\\n\r\nThe art and sound are good. One exciting
+        part is how they care about the landscapes. It is a plus because most of the
+        scenes are outside. The camera angles and the camera movement focus on the
+        main characters. Also, the color palette is very vivid and catch the attention
+        of your eyes. However, the character\u2019s design is standard compared with
+        other series; it goes well with the simplicity of the plot. Regarding the
+        sound, the score fills the moments and the jokes. It isn\u2019t bad. Although,
+        sometimes you don\u2019t notice it because it is standard. \\n\\n\r\nThe OP
+        and ED are great. I love those two songs. The lyrics and the rhythm work very
+        well and are very catchy. Honestly, I hummed the OP for a whole day. I am
+        getting crazy. =( \\n\\n\r\nFinally, the combination between a simple and
+        a fluid narrative, good characters, attractive art design, right sound, creates
+        a delightful story called Yuru Camp. I like the show, I want a second season
+        but maybe isn\u2019t going to happen, yet it was a hilarious ride. You must
+        give this anime an opportunity.  \\n"},{"mal_id":274553,"url":"https:\/\/myanimelist.net\/reviews.php?id=274553","helpful_count":81,"date":"2018-03-22T09:09:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/TuyNOM","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4797625.jpg","username":"TuyNOM","episodes_seen":12,"scores":{"overall":8,"story":0,"animation":0,"sound":0,"character":0,"enjoyment":0}},"content":"I
+        think that sometimes, to relax, we need to explore other unusual places, almost
+        exotic, to realize how the nature around us is so exceptional. That''s what
+        Yuru Camp is trying to demonstrate. We don''t always need awesome things like
+        explosions, magic powers to make an interesting show. \r\nStory: Yuru Camp
+        focuses on a theme: camping. We follow the daily life of Shima Rin (nicknamed
+        Shimarin) who goes camping regularly on her days off. She meets the happy
+        Nadeshiko who knows nothing about camping. After a little conversation and
+        a delicious dinner in front of the incredible Mount Fuji, Nadeshiko develops
+        a taste for camping.\r\nThosetwo girls attend the same high school. Nadeshiko
+        also meets Aoi and Chiaki, two girls who formed the camping club. The latter
+        is not so successful and has little budget. As for Shimarin, she prefers to
+        go camping alone. \\n\\n\r\nThis is how the girls of the club will progressively
+        be prepared for their adventure. Buy the equipment, the food necessary to
+        spend a night in the mountains. Since we are in a cold period of the year,
+        they also make sure they have the means to warm up. This is not always easy
+        since the club doesn''t have a lot of budget and must be satisfied with their
+        tent costing 980 yen.\\n\r\nIt''s fun to see what means they will use to do
+        their first camping. The anime does a great job explaining in detail the different
+        types of existing materials and the tasty dishes to cook when we go camping.
+        it is really trying to convey to us the passion of its characters for camping.
+        I honestly understand why Nadeshiko and her friends are so motivated.\\n\\n\r\nShimarin
+        travels alone (over hundreds of kilometers) to discover the sublime landscapes
+        and peaceful places in the prefecture. The girls will make a lot of use of
+        the instant messaging system. Each of them will send a photo to show her the
+        places she visited or banalities. This is how the relationship between characters
+        will progress (especially between Shimarin and Nadeshiko) and finally allow
+        them to go together all together, later in the series.\\n\\n\r\nThe relationship
+        is essentially based on the unsaid. We feel that Shimarin is someone who is
+        used to being alone, whether in high school or camping. Her chance meeting
+        with Nadeshiko will change things and allow her to share her passion with
+        other friends of the same age.\\n\r\nSometimes she doesn''t seem disinterested
+        enough (except when she sees dogs) but in her heart, she really wants to have
+        a good time with her new friends. For example, when Aoi will propose to go
+        camping together. She refuses at first even if we can perceive a touch of
+        regret in her words. Shimarin is usually mature, calm and resourceful.\\n\r\nAt
+        the exact opposite, Nadeshiko behaves like a child (although she uses some
+        old expressions) but she is sociable and always ready to go on an adventure
+        with her friends.\\n\\n\r\nOn the technical aspects, the landscapes are absolutely
+        sublime, really. They would be ideal for wallpapers. These different places
+        impressed me and I was fascinated by their realistic appearance. C-station
+        studio isn''t known to me but I will remember that excellent work. We can
+        notice the use of CGI when Shimarin drives his moped.\\n\r\nThe vocal performances
+        perfectly transpose the personality of our characters. Nadeshiko has an often
+        playful voice, while Shimarin has a duller voice. The opening theme \"Shiny
+        Days\" is catchy and the ending matches the relaxed atmosphere of the series.\\n\r\nThe
+        soundtrack is one of the highlights of the series. It is reminiscent of Celtic
+        folk music. Tateyama Akiyuki has really captured this peaceful atmosphere
+        with his OST. Honestly, it''s a delight, and I can''t wait to listen to them
+        in a flac version. \\n\\n\r\nUltimately, the series has clearly exceeded my
+        expectations. It is an excellent iyashikei with a relaxing autumn\/winter
+        atmosphere in Yamanashi that will make you smile regularly. The friendship
+        between our cute characters is touching. Laid-back Camp is a success."},{"mal_id":274562,"url":"https:\/\/myanimelist.net\/reviews.php?id=274562","helpful_count":62,"date":"2018-03-22T10:56:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/KeyboardKafe","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4402111.jpg","username":"KeyboardKafe","episodes_seen":12,"scores":{"overall":6,"story":6,"animation":8,"sound":8,"character":5,"enjoyment":6}},"content":"Another
+        edition to the endlessly growing roster of \u201ccute girls doing cute things\u201d
+        anime.  I definitely know a certain SOMEONE who would love this show. \r\nSo
+        what is Yuru Camp\u25b3? (Yes, you have to have the little tent). In English,
+        the title is \u201cLaid Back\u201d Camp, and that honestly couldn\u2019t be
+        more appropriate. It\u2019s about a group of girls that form a camping club
+        at their school, and spend their breaks doing just that; camping. There\u2019s
+        relaxing atmosphere, friendly humor, and tranquility. \r\nSo, being that it\u2019s
+        this kind of Slice of Life, the story certainly means to be casually presented.
+        It\u2019s a ripe candidatefor those days where you do nothing but sit back,
+        eat snacks, and refuse to care about anything else for at least 24 minutes
+        of runtime (288 if you just watch the whole thing in one go, which is acceptable
+        to me, being only a 12 episode show). \\n\\n\r\nThat\u2019s not to say the
+        show is bad, I really don\u2019t think that\u2014but if you wanted something
+        profound, look elsewhere. Yuru Camp\u25b3 is a show for the people who appreciate
+        calm, happy presentations of friendship, hobby exploration, and overall contentment.
+        There\u2019s nothing but smiles to be had, but it does it in a way that is
+        neither over the top nor painful. We can find joy in how smoothly the anime
+        incorporates naturalistic imagery alongside comfortable music and some pretty
+        adorable characters. \\n\\n\r\nDespite that, the characters in the show are
+        completely defined by their love of camping and their girlish charm. Again,
+        I just cannot stress enough that this story is not trying to be anything more.
+        They don\u2019t need to be deeply complex for this type of thing; they serve
+        the experience well enough with just having well-defined archetypes. Still,
+        while I wouldn\u2019t call this a detractor, it\u2019s scoring no points\u2014it
+        breaks even. The story has little going for it other than the demeanor with
+        which it''s shown... they camp. That''s honestly, really all it is. \\n\\n\r\nThe
+        animation is honestly wonderful, though. The colors are defined and the motion
+        flows so much better than a lot of other shows that you\u2019d be entirely
+        forgiven for coming to Yuru Camp\u25b3 for how it looks and the way it makes
+        you feel. You definitely won''t find much else.\\n\\n\r\nPROS:\\n\r\n-\tConsistently
+        relaxing atmosphere. \\n\r\n-\tCamping tips and knowledge are pretty prevalent
+        throughout, to the point where I learned a few things I didn\u2019t know before,
+        and was appreciative that they had been taught to me through a decently entertaining
+        show. \\n\r\n-\tI can\u2019t honestly say it\u2019s really boring, parts of
+        the show did make me chuckle at times and I appreciated the camaraderie amongst
+        the characters.\\n\r\n-\tWOW that opening. And ending. The music in this show
+        is phenomenal, as is the animation.\\n\\n\r\nMIXED: \\n\r\n-\tIt does nothing
+        new, yet does nothing wrong. It loses no money, yet makes no money. In business
+        we call this \u201cbreaking even.\u201d \\n\r\n-\tHardly more emotions to
+        be found other than pure joy and quiet peace. Also, some silliness here and
+        there.\\n\r\n-\tIt\u2019s pretty much unspoilable. You can take this in two
+        ways \u2013 one, that the show has no story; or two, the show presents a \u201cunique\u201d
+        type of story. Both are acceptable descriptors. \\n\\n\r\nCONS:\\n\r\n-\tThis
+        is yet another one of those shows where cute girls do cute things, and it
+        seems like they only exist for the explicit reason of camping every week.
+        There\u2019s no depth to be seen, and while I didn''t hate them, being archetypes
+        is nothing to celebrate. \\n\r\n-\tSometimes the series watches like an advertisement
+        for various products and campsites around Japan, and honestly, I expect that
+        this is exactly what it is. \\n\\n\r\nUpon writing this review, I discovered
+        that this anime is based on a manga, and I couldn\u2019t be less surprised.
+        According to my Japanese friends, who I\u2019ve spoken to about anime and
+        manga quite extensively, manga is pretty damn popular in Japan, and there
+        are manga for virtually everything and everyone. So it comes to me as no surprise
+        that there\u2019s a manga exclusively about real camping locations, ways to
+        camp there, and little else other than cute girls\u2014it would be something
+        that a bunch of kids pick up at the market on the way to their OWN camping
+        trip to read before they snooze off or right after dinner. Simple, inoffensive,
+        and quite adorable at times. \\n\\n\r\nBut is it any more? \\n\\n\r\nI don\u2019t
+        think so. \\n\\n"},{"mal_id":269697,"url":"https:\/\/myanimelist.net\/reviews.php?id=269697","helpful_count":41,"date":"2018-01-26T05:51:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/ItzToxic","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5306763.jpg","username":"ItzToxic","episodes_seen":4,"scores":{"overall":9,"story":8,"animation":9,"sound":9,"character":10,"enjoyment":9}},"content":"Sit
+        back, relax, and gaze upon the glory that is Yuru Camp.\r\nTbh I never expected
+        to enjoy a series this much. With all the anime going on on a Thursday, this
+        is definitely a great way to end it. The first episode already captivated
+        me with its amazing soundtrack, character design, and background art.\r\nOur
+        main character Rin, is someone who enjoys camping alone, we see that in episode
+        1. She''s someone who would rather enjoy camping at her own leisure. However,
+        because there are more amazing characters, she soon starts to meet them as
+        well as open up to them more and becomes more social.I appreciate these character
+        interactions because it''s so humanlike and it''s super sweet and all of them
+        have chemistry with each other.\\n\\n\r\nAnd it ain''t just the characters
+        themselves, the background art and colours are super attractive and really
+        compliments the anime very well. There''s also the fact that the background
+        art and amazing colours are accompanied by the AMAZING OST. Each soundtrack
+        piece really sets the vibe for each episode and each event that happens within
+        Yuru Camp. Not to mention that GODLIKE OP. I''ve never heard such a catchier
+        op than this one this season.\\n\\n\r\nAlso, apparently the campsites the
+        girls'' go to camp at are actually based on actual locations. I saw a few
+        pictures of it in its real life form and it really looks exactly as the anime
+        shows. It''s amazing that these beautiful sites are real places to camp.\\n\\n\r\nSo
+        in short:\\n\\n\r\nStory (8) - Very Simple, Rin who loves to camps meets a
+        new girl who eventually befriends her and enjoys camping along with her in
+        due time. Then more girls show up and then they''ll all camp together. A simple
+        yet very well executed story that hits every note right.\\n\\n\r\nArt (9)
+        - Each character looks unique and the colours are well used.\\n\\n\r\nSound
+        (10) - Easily one of the best OST''s I''ve heard and the appropriate timings
+        used of these songs really makes the anime all the better.\\n\\n\r\nCharacter
+        (10) - Each girl carries a beautiful and amazing personality and shows as
+        well as reminds us how cute the CGDCT genre can be. Each girl is lovable and
+        will not disappoint in putting a smile on your face.\\n\\n\r\nEnjoyment (10)
+        - I''ve enjoyed each second that Yuru Camp has to offer. I''ve never got bored
+        of this anime and it was beautiful.\\n\\n\r\nOverall (9) - If the goal of
+        this anime was to give you a big smile and show you how girls can camp extremely
+        well, then it does that very well. What can I say, it does everything right
+        in terms of enjoyment, character, soundtracks, and beautiful art.\\n\\n\r\nYuru
+        Camp will always be the anime to end my Thursdays. Now if you''ll excuse me,
+        I need some Ramen.\\n"},{"mal_id":274544,"url":"https:\/\/myanimelist.net\/reviews.php?id=274544","helpful_count":37,"date":"2018-03-22T08:16:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/Moelancholy","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5539536.jpg","username":"Moelancholy","episodes_seen":12,"scores":{"overall":8,"story":0,"animation":8,"sound":7,"character":7,"enjoyment":8}},"content":"The
+        sun is setting. The cold breezes that brushed through the yellow-green grass
+        just a few minutes earlier have left the plains. In front of a small camping
+        tent, Rin is comfortably seated in a folding chair, reading a book. A while
+        has passed and she decides to put down her warm cup of cocoa, close her book
+        and stretch; a puff of breath turns into a small cloud and slowly fades away.
+        She looks at her surroundings: a huge, empty field of grass, a small forest
+        and a clear view of a Mt. Fuji tinted in a friendly pink. Rin is on another
+        ofher lonesome weekendly winter camping trips. During the coldest season,
+        she fancies spending some time alone in the quiet areas of Japan\u2014on camping
+        sites usually uncrowded during the winter. \\n\\n\r\nDuring her trips, she
+        spends a lot of time exploring the camping grounds; in midst of beautifully
+        drawn, colorful sceneries, she follows intricately painted pathways in search
+        for the stunning sights of an everyday beauty of nature perfectly evoked by
+        the show\u2019s wonderful visuals. Whether she ends up exploring the campsites,
+        the colorful forests of early winter, taking pictures of funny-looking statues
+        or just sitting in her chair relaxing, it doesn\u2019t really matter; she
+        just wants to spend some time on her own enjoying nature. Apart from camping,
+        she doesn\u2019t have any predominant interests or hobbies, and while she
+        does truly love her friends and enjoys spending time with them, this pastime
+        is something she truly needs: a breather, so to speak.\\n\\n\r\nIt comes as
+        no surprise when she turns down an invitation to join her school\u2019s camping
+        club; it\u2019d go against the purpose of her camping trips. And really, that\u2019s
+        completely okay. Her friends understand. While they may not truly grasp her
+        feelings, they respect her desire to camp on her own without pressing further.
+        This comes as kind of a surprise initially: in general, the members of the
+        camping club are very energetic and gung-ho; seeing these characters which
+        one might initially pass off as everyday anime idiots act like sensitive,
+        genuine human beings and friends is truly, truly refreshing. Rin and them
+        couldn\u2019t be more different: Chiaki and Aoi often indulge in weird jokes
+        or pranks, and while their love for camping is definitely genuine, so is their
+        aversion to spending even a single penny on actually acquiring necessary utensils.
+        Nadeshiko on the other hand is very much a simpleton\u2014a hyperactive, hyperhappy
+        and hyperhungry simpleton. It\u2019s not only the members of the camping club
+        who differ from Rin (whose camping trips aren\u2019t as quiet and calming
+        as Rin\u2019s); the three horse around and have fun. Instead of appreciating
+        the quiet and nature, they just want to spend time and camp together as a
+        group of friends.\\n\\n\r\nDue to the cast and the camping trips covering
+        such a wide spectrum, the otherwise rather monotonous-sounding activity of
+        winter camping can offer a variety of different, but always pleasant and comfy
+        experiences. And while Rin and her friends may be apart when camping (well,
+        most of the time), they are never out of touch: during their camping trips
+        they regularly message or call each other and send the others photos of the
+        camping sites they visit. They indulge in mindless but fun chats about food
+        or the weather and it feels completely genuine. But not only do these small
+        chats serve to make the character\u2019s relationships feel real, they also
+        help the otherwise standalone camping trip segments connect to the rest of
+        the show to form a cohesive whole; while the general moods of Rin\u2019s camping
+        trips and the camping club horsing around are completely different, they still
+        feel like parts of the same show, not fragments of a greater whole.\\n\\n\r\nIt
+        isn\u2019t just these small conversations between the group and Rin that creates
+        the feeling of unity between every single scene. Yuru Camp\u2019s soundtrack
+        consists of very few songs which, while usually a negative, works well for
+        what the show is trying to accomplish. The tracks are all very simple, but
+        they sell their respective scenes perfectly through equally simple means:
+        a short, repeated trill in the lead guitar is enough to sell the relaxing
+        camping atmosphere; a change from a dominant guitar to flutes can be mystifying
+        and create a sense of exploration; and a calm vocal song is enough to sell
+        the most intimate of togetherness. It won\u2019t earn any medals or prizes,
+        but the soundtrack does just what it\u2019s supposed to, and that\u2019s just
+        what you want for an equally simple and relaxing show such as Yuru Camp.\\n\\n\r\nBe
+        it Rin\u2019s appreciation for the quiet and nature, the lively and fun friendship
+        of the camping club or their genuine and heartwarming relationships\u2014there
+        is much to love in this soothing show. Yuru Camp may seldom stray off the
+        beaten path, but it doesn\u2019t need to, for it is a comfy and lighthearted
+        experience through and through.\\n\\n\r\nHowever, if you decide to join in
+        on the fun please keep in mind that while camping\u2026\\n\\n\r\n- Always
+        mind the campsite and facility rules\\n\r\n- Don\u2019t forget to clean up
+        fires and take your trash!\\n\r\n- It gets cold during the winter. Stay warm
+        and be well-prepared!!\\n\r\n- Have fun :)\\n\\n\r\nScore: 75\\n"},{"mal_id":272448,"url":"https:\/\/myanimelist.net\/reviews.php?id=272448","helpful_count":25,"date":"2018-02-25T10:17:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/MobFitzfire101","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6312128.jpg","username":"MobFitzfire101","episodes_seen":4,"scores":{"overall":4,"story":3,"animation":6,"sound":5,"character":2,"enjoyment":3}},"content":"If
+        the only purpose of Yuru Camp was to create a very cute, shallow, flavor of
+        the week moe show, then they\u2019ve succeeded brilliantly. If it attempted
+        to be something more than that, it failed brilliantly.\r\nStory(3): Like most
+        cute girls doing cute things shows, this show has little to offer in the way
+        of story. This is a character driven show about a group of girls making friends
+        and messing around in their club. There\u2019s hardly any conflict at all,
+        the girls simply go about their lives. \r\nArt(6): The character designs do
+        a great job of selling of cutsey part of the show, and doa good job clueing
+        us on their personalities, as one dimensional as they may be. The pink hair
+        girl has to be one of the most satisfying cute girl character designs I\u2019ve
+        seen in a while. I can\u2019t say I remember the backgrounds being particularly
+        notable, though, even in the parts where they are attempting to show off Mount
+        Fuji. The animation isn\u2019t anything special either.\\n\\n\r\nCharacters(2):
+        A cute girls doing cute things show doesn\u2019t always need to have a plot.
+        They survive and die on the strength of their characters personalities and
+        their relationships with each other. This is where the show really falls short.
+        Each character could easily be summed up in one sentence. When they are put
+        into situations, they interact in the most clich\u00e9 and predictable ways
+        possible. They\u2019re not just laid back, they\u2019re boring.\\n\\n\r\nEnjoyment(3):
+        Because of the lack of thought or effort put into these characters, I found
+        myself getting bored half way through the first episode. I pushed through
+        a couple more because the MAL score here was so far, hoping it got better.
+        It didn\u2019t, only adding more on dimensional characters that the show failed
+        to make me care about.\\n"},{"mal_id":280860,"url":"https:\/\/myanimelist.net\/reviews.php?id=280860","helpful_count":21,"date":"2018-05-18T10:54:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/nicky0_","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5801770.jpg","username":"nicky0_","episodes_seen":12,"scores":{"overall":9,"story":8,"animation":9,"sound":9,"character":9,"enjoyment":8}},"content":"\u201cComfy\u201d
+        seems to be the name of the game this season \u2013 we are awash in comfy,
+        cozy slice-of-lifes and low-key character dramas, offering plenty of diverse
+        warm antidotes to these cold winter months. But one show in particular is
+        finding comfort in a place I never expected \u2013 the brisk, wide-open winter
+        outdoors. So today we will explore Laid-Back, a work that finds coziness in
+        the bustle and beauty of camping out.\r\nLaid-Back Camp has quietly become
+        one of my favorite shows of the season. Though I\u2019d consider myself a
+        slice of life fan, many of the genre\u2019s shows don\u2019t appeal to me
+        \u2013 anatural result of slice of life actually being a mega-genre encompassing
+        multiple genres; from sneaky comedies to the most tonal appeal of a work dedicated
+        to iyashikei (works of simple and quiet content, where the focus is more on
+        creating a strong sense of peaceful and disturbing atmosphere). I appreciate
+        not only the iyashikei material of the character Rin, but also the way Yuru
+        Camp treats this material.\\n\\n\r\nThe ultimate \u201cgoal\u201d of many
+        slice of life shows is some character\u2019s full integration into a new social
+        group. This \u201cgoal\u201d generally isn\u2019t framed as a difficult struggle
+        they grapple with over the course of an entire season \u2013 normally it\u2019s
+        just an early anxiety that fades when they find friends within a show\u2019s
+        first twenty minutes. Slice of life shows of the more \u201ccute clubroom
+        activities\u201d variety thus naturally valorize this idea that spending all
+        your time with close friends is the most rewarding way to appreciate your
+        youth, which makes sense \u2013 after all, that\u2019s the experience they\u2019re
+        ultimately trying to depict and celebrate. But counterbalancing that genre-natural
+        drive is Rin\u2019s equally genre-natural material, and I feel Laid Back Camp\u2019s
+        respect for Rin\u2019s own feelings and desires is one of its finest qualities.
+        \\n\\n\r\nInstead of being presented as a lonely girl who simply can\u2019t
+        find close friends, Rin is a happy loner, a person who enjoys going on camping
+        trips all by herself. That aspect of her character, her willingness to enjoy
+        time by herself, is actually the quality which prompts her initial meeting
+        with Nadeshiko in the first place, and which guides much of the show\u2019s
+        drama even once the full cast is introduced. The validity of Rin\u2019s preference
+        for solitude is thus clear from the start, and Laid Back Camp works hard to
+        make the satisfying lived experience of Rin\u2019s journeys just as clear.Isolated
+        characters in slice of life shows are often framed as temporarily impoverished
+        extroverts \u2013 alone now, but desperate for companionship, and immediately
+        evolving into social butterflies the moment their environment shifts. But
+        Laid-Back Camp doesn\u2019t do that at all. Not only does finding new friends
+        not do anything to change Rin\u2019s fundamental personality or desire for
+        space, but its solo trips with Rin emphatically demonstrate the joy of spending
+        time by yourself. The peace of solitude, the satisfaction of making decisions
+        and solving problems through your own means, the small relationships you develop
+        with objects in your environment, the running conversations you end up having
+        with yourself\u2026 all of these tiny details bring the quiet joy of time
+        alone vividly to life. \\n\\n\r\nIn addition to clearly articulating the pleasures
+        of time spent alone, Laid-Back Camp also takes care to never frame Rin\u2019s
+        personality or feelings as something to be \u201cfixed,\u201d or a failing
+        she should be actively guided away from. Rin\u2019s new friends want to spend
+        time with her, but they respect her need for space as well. The course of
+        Laid-Back Camp\u2019s narrative may seem circuitous, given Rin\u2019s rambling
+        back-and-forth between solo and group trips, but that\u2019s because it\u2019s
+        not a journey from \u201cI\u2019m camping alone\u201d to \u201cI\u2019ve found
+        friends to camp with.\u201d Friends or not, Rin still plans on enjoying her
+        solo trips, and her friends respect that desire. Sometimes she\u2019ll want
+        to spend time with friends and sometimes she won\u2019t, and both of those
+        feelings are perfectly okay.\\n\\n\r\nAs Laid-Back Camp begins, we''re treated
+        to beautiful roadside backgrounds and a perky, whistle-infused soundtrack,
+        courtesy of talented Kemono Friends composer Akiyuki Tateyama. His unique
+        songs are perfectly suited to illustrating the peaceful atmosphere of Rin''s
+        first trip, as we watch her putter across the countryside and arrive at a
+        quiet lakeside campsite. Rin''s process of setting up camp is illustrated
+        in full, careful animation detailing the physical mechanics of propping up
+        a tent, searching for firewood, and settling in for the evening. Even if you''ve
+        never been camping, Laid-Back Camp''s attention to detail and tonal holism
+        in these early minutes brings Rin''s experience to life, relaying the unique
+        appeal of camping all by yourself.\\n\\n\r\nAs the episode continues, Rin
+        is introduced to Nadeshiko, whose goofy expressions, odd non-sequiturs, and
+        general enthusiasm make for a dramatic contrast with Rin''s quiet solo material.
+        This contrast is Laid-Back Camp''s secret weapon, underlining a balance that
+        steers the show from first episode to last. Rin''s solo trips consistently
+        offer a vividly realized iyashikei appeal, succeeding through their understated
+        aesthetic strength and powerful atmosphere. Meanwhile, Nadeshiko spends Laid-Back
+        Camp''s running time steadily recruiting more camping buddies, whose boisterous
+        adventures consistently nail the appeal of traditional \u201cgirls in a clubroom\u201d
+        slice of life. Laid-Back Camp thus represents two very different but equally
+        appealing subgenres of slice of life through each of its leads, and balances
+        the prominence of each throughout.\\n\\n\r\nAs that rapturous description
+        of Laid-Back Camp''s early minutes might imply, I''m personally more fond
+        of Laid-Back Camp''s iyashikei material, and appreciate the show''s dedication
+        to honoring Rin''s desire for personal space. That said, the material focused
+        on Nadeshiko and her friends is just as compelling in its own way, if a little
+        more genre-standard. Nadeshiko''s personality falls somewhere between K-ON!''s
+        Yui and Nintendo''s Kirby, and her enthusiasm is just as infectious as Yui''s.
+        The show offers great expression work, a believable rapport between close
+        friends, and plenty of standout gags, with even its style of comedy adjusting
+        to suit the tonal needs of Rin and Nadeshiko''s very different stories.\\n\\n\r\nIn
+        terms of visual execution, Laid-Back Camp is a solidly above par production.
+        The show''s backgrounds are easily one of its standouts, and great care is
+        taken to impress Rin''s various destinations with a sense of both beauty and
+        realism. The campsites these girls visit feel lovely even in their mundanity,
+        the careful detailing of camp benches and ill-kept roads feeling just as enchanting
+        as the long shots of Fuji. The show''s animation is mostly just functional,
+        but its expression work is excellent, and the aforementioned music is a consistent
+        highlight. And that''s before mentioning the terrific opening song, which
+        builds from the opening notes of I Want You Back to offer one of the most
+        catchy anime songs of the year so far.\\n\\n\r\nI have nitpicks about Laid-Back
+        Camp, but they''re minor issues that don''t really dampen the appeal of the
+        whole. It''s clear enough that some of the show''s episodes were outsourced
+        to studios that couldn''t manage Laid-Back Camp''s usual aesthetic standard,
+        leading to some forced simplicity and episodes that lean on Nadeshiko''s comedy
+        simply because they can''t manage Rin''s atmosphere. Not all the show''s gags
+        are winners, and if you don''t have at least some fondness for both iyashikei
+        and club comedy slice of life, you''ll likely end up with a pretty lopsided
+        experience. All in all, the show possesses just a slight roughness around
+        the edges that keeps it from the highest tier of slice of life, but none of
+        that prevents it from being an extremely worthwhile show.\\n\\n\r\nLaid-Back
+        Camp cuts out all of the inconveniences while carefully capturing the immediate
+        experience of pitching a tent, foraging for firewood, settling into your seat,
+        and simply appreciating the beauty around you. It\u2019s essentially like
+        sitting inside, snugly bundled up, while watching a blizzard coat the world
+        outside in deep white. All the allure of the wild from the comfort of home.\\n\\n\\n"},{"mal_id":274550,"url":"https:\/\/myanimelist.net\/reviews.php?id=274550","helpful_count":14,"date":"2018-03-22T08:38:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/AmishaelMA","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6201866.jpg","username":"AmishaelMA","episodes_seen":12,"scores":{"overall":7,"story":6,"animation":10,"sound":9,"character":8,"enjoyment":7}},"content":"Camping
+        101 \r\nStarring: cute girls!\r\nWe\u2019ve had cute girls sailing to Antarctica,
+        (Further than the Universe) cute girls in the apocalypse (Girls\u2019 Last
+        Tour), cute girls singing, dancing, and playing instruments (anime like K-On!,
+        Love-Live! And Hibike! Euphonium), and just cute girls doing nothing whatsoever
+        (Lucky star and Yuyushiki). Now we have cute girls going camping.\r\nIt literally
+        does what it says on the packet. It\u2019s a very relaxed slice-of-life anime
+        about camping, including all the aspects you would expect to see in a camping
+        anime. It goes into great detail about the campsites they visit, the equipment
+        they use (everything from how they buy it tohow they set it up), the food
+        they make (which by the way, looks amazing and will make you hungry if you
+        watch it before eating), and the way they bond through camping together. I
+        learnt enough about camping from this one anime that, assuming I ever wanted
+        to go, I would know exactly how to prepare and what to do.\\n\\n\r\nAnd it\u2019s
+        nice to watch. It\u2019s very slow paced, each episode generally consists
+        of planning and executing a different camping trip. The art and animation
+        are fantastic; the scenery in particular is drawn absolutely beautifully.
+        All the right colours and tones are used to convey the autumn-like feeling
+        perfectly. The sound also fits the mood of the anime to a T. \\n\\n\r\nThere
+        are five main characters, although the story mainly focusses on two of them.
+        Rin is the silent one who enjoys the peace and quiet of camping alone. She
+        doesn\u2019t tend to socialise much, and this is what makes her friendship
+        with the outgoing and talkative Nadeshiko endearing to watch. You get to know
+        Rin through her actions \u2013 the way her face lights up when she sips a
+        hot cocoa, the way she stares at a gorgeous view like she\u2019s trying to
+        devour it, the way she cares about her friends despite sometimes acting like
+        they\u2019re a nuisance to her. She\u2019s very relatable as a character,
+        and that\u2019s part of why I liked the anime so much.\\n\\n\r\nNadeshiko,
+        as mentioned before, is the talkative one. She\u2019s also the clumsy, energetic
+        and downright adorable one. She\u2019s the type of girl who injects life into
+        the anime, and helps speed up the pace when it becomes too snail-like. Her
+        becoming friends with Rin is essentially the premise of the anime \u2013 they
+        meet by chance on a camping site, and, in the way of anime, find out they
+        go to the same school together. She and Rin are a lot like chalk and cheese;
+        apart from their love of camping they couldn\u2019t be more different. However
+        their friendship blossoms nonetheless, and by the end of the anime they\u2019ve
+        formed a solid relationship.\\n\\n\r\nThe other main characters are relatively
+        enjoyable to watch, although they aren\u2019t as developed as Rin and Nadeshiko.
+        Aki and Aoi are girls in the same camping club as Nadeshiko, and Ena is a
+        friend of Rin\u2019s who\u2019s persuaded to come along for the ride. Apart
+        from camping, the anime mainly shows them in school, going shopping, working
+        and just hanging out together. Nothing exciting or even particularly interesting,
+        but their interactions are mildly humorous, very light-hearted, and always
+        cute. The series shows how they each react to the camping aspect, and what
+        each of them actually enjoys about camping. For some it\u2019s the peace,
+        for some it\u2019s the food, and for some it\u2019s the companionship. Regardless,
+        after watching this I felt I would probably enjoy camping too for one reason
+        or the other. \\n\\n\r\nNow, although I said this anime was nice to watch,
+        I wouldn\u2019t call it entertaining. It\u2019s more like you feel contented
+        with the world after watching it. I had to be in a certain frame of mind to
+        see it \u2013 when I was in the mood for something fast-paced and thrilling,
+        I watched another anime. \\n\\n\r\nSo, if you\u2019re looking for something
+        tranquil, something cute and relaxing, this is a good choice. If you\u2019re
+        not, then I\u2019d give this one a miss until you are. XD\\n\\n"},{"mal_id":274080,"url":"https:\/\/myanimelist.net\/reviews.php?id=274080","helpful_count":11,"date":"2018-03-17T10:17:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/WeeabooColin","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5611058.jpg","username":"WeeabooColin","episodes_seen":11,"scores":{"overall":7,"story":4,"animation":8,"sound":5,"character":5,"enjoyment":8}},"content":"Yuru
+        Camp can easily be described as the break out hit of the season, I highly
+        doubt anyone could have predicted that Yuru Camp would have gotten as popular
+        and highly regarded as it is. Yuru Camp does a lot right, but, I have a myriad
+        of problems with the show; iyashikei is not a slice of life sub-genre and
+        shouldn''t be considered as such. Like the Thriller genre and the Mystery
+        genre, it''s easy to point out the similarities between both genres; but,
+        what separates iyashikei and the slice of life genre is how they go about
+        character development and narrative. Slice of lifeshows, like K-On, Gochiusa,
+        and Nichijou, either are all sitcom-likes or they have a character driven
+        story, Iyashikei shows on the other hand is setting oriented. Usually the
+        settings of Iyashikei shows carry the story, the settings are often personified
+        and have heavy symbolic significance within the narrative, the story and the
+        appeal of Aria is largely based upon the interactions between the characters
+        and the world of Aqua. Hidamari Sketch is a good example of a genre blend,
+        the Hidamari apartments do hold significant value to the characters and does
+        have symbolic value throughout the series, but on a moment to moment basis
+        the appeal of the show is the interaction between characters. The same is
+        true of Non Non Biyori. The slice of life genre and the iyashikei genre both
+        attempt to capture the realities of life, but structure and the appeal of
+        an iyashikei show is fundamentally different from that of a slice of life
+        show. The appeal and structures of shows like Yokohama, Mushishi, Sketchbook,
+        and Aria is completely different from the appeal of shows like Gochiusa, K-On,
+        Demi-Chan, Yuru Yuri, and Kiniro Mosaic. It''s easy to see why Iyashikei is
+        considered a sub-genre, there are countless genre blends; but the iyashikei
+        genre has grown so large and utilizes such different modes of character development
+        and story telling, that one would be hard pressed to say that they are within
+        the same genre when the shows on an individual level is examined.\\n\\n\r\nThe
+        appeal of Yuru Camp is similar to Iyashikei shows, but the actual characters
+        are written as if they are slice of life characters; every character except
+        for Shima Rin is one dimensional, they are written around one character trait
+        and most of the gags of the show revolves around seeing these character archetypes
+        interact. Nadeshiko is the simple glutton archetype, Inuyama is the mother
+        archetype, and Oogaki is the prankster archetype. Admittedly, most of the
+        comedy in the show hits me, I laugh almost every episode; but had the show
+        revolved around those three, I would have dropped the show by this point.
+        Shima Rin is probably the most interesting character in the series, her introverted
+        nature and passion for camping makes for an interesting juxtaposition to the
+        members of the outdoors club. Most episodes can be divided into two parts,
+        seeing the outdoor club going camping, and seeing Shima Rin go camping. The
+        moments when the outdoor club goes camping is a great example of the typical
+        slice of life show, the moments when Shima Rin goes camping is the closest
+        the show come to being a proper iyashikaei show. Shima Rin gives the show
+        a contemplative edge that is much needed. She is the tone setter of the show,
+        she is what makes the show comfortable. Her interactions with nature isn''t
+        only fascinating but compelling. \\n\\n\r\nWhen discussing Yuru Camp with
+        my friends, they often bring up how ''atmospheric'' the show is, they often
+        note the sound design and the beauty of the setting as whats appealing about
+        the show; I disagree with the notion that Yuru Camp is atmospheric, if anything,
+        it is universally accessible. The background art is based on real japanese
+        campsites, it captures the feeling of camping very well, but the cartoonish
+        designs of the Yuru Camp characters clashes poorly with the realistic background
+        art. The character designs are cute, but they diminish the effect of the background
+        art. The sound design of Yuru Camp is mediocre at best, the camp grounds don''t
+        actually feel that realistic, at least in comparison to other series. Yuru
+        Camp is no Yokohama, or even Non Non Biyori in this regard. The most impressive
+        use of sound was in Episode 7, when Nadeshiko and Shimarin are talking and
+        the sounds of the camp fire is played over the subsequent flashbacks. The
+        openings and the ending both sound pretty generic, but they fit the series
+        well. The sound track of Yuru Camp is what first comes to mind when anyone
+        says ''camping music.'' The actual soundtrack of Yuru Camp is as generic as
+        it gets. All of these factors coalesce into making the most accessible slice
+        of life show i''ve ever seen, it avoids emotions other than happiness, and
+        at times this becomes very grating because the show doesn''t evolve in any
+        way as time goes on. It makes Yuru Camp a very easy anime to recommend, it
+        is perhaps the most relaxing shows i''ve ever seen; but the lack of character
+        development and the mediocre art direction is a huge obstacle to me giving
+        the show a higher score."},{"mal_id":275068,"url":"https:\/\/myanimelist.net\/reviews.php?id=275068","helpful_count":9,"date":"2018-03-25T17:06:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/Artrill","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5554102.jpg","username":"Artrill","episodes_seen":12,"scores":{"overall":6,"story":5,"animation":7,"sound":7,"character":5,"enjoyment":6}},"content":"[6.0\/10]\r\n_____________________________________________________________________________________________________\r\nEver
+        spend the afternoon listening to those lo-fi hip-hop playlists on Youtube?
+        The ones that play a long playlist of relaxing instrumentals over gifs of
+        animated characters either studying, reading, or floating in outer space?
+        If so, then you have probably experienced, through audio, the kind of feeling
+        that Yuru Camp embodies and presents to you. The chirping birds and licking
+        of river water as it wraps around the rocky shoreline. A group of students
+        out at campsites, under no threat, in no danger, with no drama, cooking food
+        for one another and conversing about what they value. The term here is \u201claid-back\u201d,
+        and theshow translates that for its title. \\n\\n\r\nThe series here follows
+        Shima Rin as she camps out in various locations around Mount Fuji, from lakes
+        to open fields. Along the way, she meets Nadeshiko, a spunky, goofy pink-haired
+        girl that has a similar, yet louder passion for camping. Later, we realize
+        they go to the same school and lo-and-behold there is even a camping club,
+        because of course there is, with a few other equally cute girls with a seemingly
+        diehard passion for sleeping in linen huts outside. That\u2019s our story.
+        No less and no more. \\n\\n\r\nFrom here we venture into their day-to-day
+        lives. Without the burden of classes, social interaction, or growth for anyone
+        but maybe Rin towards the end of the series. It really feels like a flatline
+        in the best possible way, I suppose. As in, the line here is \u201ccomfort\u201d
+        and the series encapsulates that comfort as well as it can within the parameters
+        it draws. These parameters being the set locations during the winter in the
+        small vicinity around where these characters live in Japan. It isn\u2019t
+        for everyone but fortunately, it offers a lot to the crowd that really seems
+        attached to the iyashikei presentation with a healthy dollop of feel-good
+        humor. \\n\r\n_____________________________________________________________________________________________________\\n\\n\r\n[Camping
+        Under the Stars and Presentation]\\n\\n\r\nFunny faces, chibi inspired designs,
+        and crackling campfires, Yuru Camp isn\u2019t going to blow you away visually.
+        Much like the rest of the series, it often has an air of decentness that you
+        can\u2019t help but acquiesce to after a few episodes roll by without your
+        notice. That\u2019s kind of the charm of it. The character design is serviceable,
+        without many standouts. Each girl has the expected wide pallet of hair-color
+        and generally looks alright. Where the series, and the people making it, clearly
+        put the most thought into was the honestly great variety of outfits worn.
+        Now each one is a variation of winter-clothing, but they were never ridiculous
+        or unbelievable and, throughout the runtime, each episode seemingly had a
+        unique selection of designs to attach to these characters. Good stuff all
+        around, here. \\n\\n\r\nThe music is also not anemic, thankfully. The opening
+        is catchy, the closer is quite frankly the best track in the series, and there
+        enough background tunes to keep you engaged and on occasion bob your head
+        to. Similar to those lo-fi hip-hop beats, that kind of melodic, unobtrusive,
+        and relaxing feeling is injected into the soundtrack. \\n\\n\r\nThere is also
+        nothing licentious here. Everything doesn\u2019t feel like it is there to
+        sell sex. While this is something I hate to bring up in every anime I seem
+        to review, it is a problem that just plagues this medium. While this series
+        is easily pandering to a certain crowd, it\u2019s not doing so through sexual
+        means and is never obnoxious about it and I will gladly take a series that
+        doesn\u2019t drill sexual fanservice into your eyes every chance it gets.
+        The entire thing feels wholesome, and a focus on sexualization would undermine
+        that. The creatives seem to understand this and avoid it. Even the scenes
+        in the hot springs are very neutral and don\u2019t have anything sleazy under
+        the hood. Thumbs up for that.\\n\\n\r\nOverall, the presentation is solid.
+        I might even call it above average. It is where I expect a show like this
+        to be. The directing is generally unremarkable, but the music and the decent
+        production more than make up for that. The voice acting didn\u2019t blow my
+        socks off but thankfully it avoids being shrill and loud. \\n\r\n_____________________________________________________________________________________________________\\n\\n\r\n[Narrative,
+        Characters, or Lack Thereof] \\n\\n\r\nDeadpan high schoolers, eccentric glasses,
+        and alcoholic teachers with seemingly no care for students, there really isn\u2019t
+        much to latch onto in this show. Of course, that\u2019s my opinion and I\u2019m
+        sure for some just the serene experience of the whole thing can be enough.
+        The atmosphere here is exceptional, but the characters that inhabit the atmosphere
+        are about as normal as they come. Each one possesses a very minuscule amount
+        of quirks or habits that didn\u2019t do much to intrigue me. While you could
+        argue that\u2019s the point and the series wasn\u2019t trying to intrigue
+        me, I can\u2019t help but feel like they could\u2019ve done more with these
+        characters.\\n\\n\r\nOf course, a show without a shred of conflict is just
+        that, though, a show without a shred of conflict. Conflict grows characters
+        and the deepest conflict here is often running out of food to eat. Again,
+        that\u2019s the point, but there really should\u2019ve been more to the characters
+        that we got to learn about as they bonded together. These girls, the four
+        specific ones that took up most of the show, don\u2019t change or give us,
+        the viewer, anything to chew on other than pretty scenery and delicious looking
+        food. Which is a plus, the food looks great and watching cute girls eat food
+        is something I will unabashedly indulge in (especially when it isn\u2019t
+        obnoxiously over the top). Even Rin, our protagonist, who goes through the
+        biggest \u201carc\u201d of the series doesn\u2019t get much to think about
+        or ponder. \\n\\n\r\nThe lack of conflict is a flaw in entertainment value,
+        but a flaw that I think will easily be looked past by the people specifically
+        looking for a series that doesn\u2019t have conflict and is an iyashekei.
+        That\u2019s kind of the sharp-end of criticism, though, the flaws I see are
+        often not what someone else sees. The nonchalant atmosphere is nice to sit
+        back and enjoy, however, I doubt I\u2019ll be thinking back to this series
+        as something memorable or worth revisiting. \\n\\n\r\n_____________________________________________________________________________________________________\\n\\n\r\n[Conclusion]\\n\\n\r\nDo
+        you want an overtly wholesome parade of cute anime girls camping? The comedy
+        here isn\u2019t in abundance, but it\u2019s there. It\u2019s okay for anime
+        comedy, too, occasionally making me breath air out of my nose. Yuru Camp relies
+        on expectations more than anything. What do you want and ultimately, what
+        engages you as a viewer? A lot of the flaws here, beyond some of the awkward
+        CG vehicles and weaker animated segments are exceedingly subjective. It\u2019s
+        hard to argue that this series isn\u2019t feel-good and it\u2019s almost impossible
+        for me to say I didn\u2019t like a good portion of it. Even the slower moments
+        were relaxing as all hell, and while the ideas presented here may feel myopic
+        to some viewers, none of it felt tepid. Even the truly \u201claid-back\u201d
+        moments, which manifested in five-minute segments of almost no dialogue, relaxing
+        music, and maybe some monologuing, are relatively easy on the eyes and will,
+        on more than one occasion, make you feel what this show is trying to make
+        you feel. Comfortable.\\n\\n\r\nOh, and camping. This series makes you camp.
+        Regardless of interesting characterization, what Yuru Camp does most well
+        at is the meticulous creation of the scenarios at hand, here. A lot of the
+        series is based on easy-reveals and drama-less conflict-resolution that feels
+        good. For example, your hands are cold because it is cold out. You take your
+        hand warmers and place them in your hands and exhale happily. That is a drama-less
+        resolution, especially when one of your good friends walks up behind you and
+        passes the hand-warmers to you and you smile and greet them. \\n\\n\r\nThis
+        continues simply with the fact that the original creators of the manga this
+        series is based on smartly made it set during the winter. A cold time that
+        can often feel lonely alone. So of course, Rin, our lone-warrior of cute camping
+        girls, ends up coming around and finding friends to camp with. Of course,
+        there will be multiple scenes of snuggling up with yourself in a sleeping
+        bag and cosplaying caterpillars. Because that\u2019s cute, and you can probably
+        imagine just how warm that feeling is and in turn you are suddenly in a place
+        of comfort and relaxation.  I commend the series for these smart creative
+        choices that made for a better watch.\\n\\n\r\nThen it\u2019s the minuscule
+        details to continue this streak of excessively unrealistic but ultimately
+        satisfying interactions. Such as texting your friend at night and getting
+        a response immediately. It almost never happens in the real world but damn
+        it if it doesn\u2019t feel good when it does happen. Sharing a vista with
+        a close one. Cooking food for someone and ultimately getting that favor returned
+        by them later. Sharing a laugh. Admiring a sunset. Looking over the lake and
+        not caring about tomorrow because hopefully today will last forever.\\n\\n\r\nThese
+        are all great qualities and don\u2019t let my above-average score fool you.
+        If you are seeking something like this, this may be the best show of the season
+        for you. It is very time-oriented. If I was going through an excessively difficult
+        time in real life and I threw this show on, at night, by myself, I would have
+        most likely enjoyed it even more. Note that. Value what you value and don\u2019t
+        let this wholesome series slip by you. \\n"},{"mal_id":274560,"url":"https:\/\/myanimelist.net\/reviews.php?id=274560","helpful_count":9,"date":"2018-03-22T10:08:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/Mezo-RPWPA","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4063361.jpg","username":"Mezo-RPWPA","episodes_seen":12,"scores":{"overall":10,"story":10,"animation":10,"sound":10,"character":10,"enjoyment":10}},"content":"We
+        all search for a place to escape the difficult parts in life, whether it be
+        movies, games or anime, we all seek something that makes us relax and enjoy
+        living rather than stress about how difficult life is, Yuru Camp I think is
+        the best when it comes to avoiding all that stress. \r\nYuru Camp is the most
+        relaxing experience you might ever have in your life, the anime is great and
+        you notice that from how happy you feel watching the episodes, each episode
+        is like a new adventure with all characters being so loveable and cute it
+        makes it an even moreamazing experience, you get to see how great camping
+        is, why people love doing it and the amazing scenery that makes you want to
+        get up and travel there just to see how wonderful it looks and that pretty
+        much explains a lot of the charm in Yuru Camp.\\n\\n\r\nThere isn''t much
+        in the story other than the girls camping but you still enjoy it a lot watching
+        how each character interacts with the others and how they move on and become
+        better friends and their relationships get stronger which is very satisfying
+        to see. \\n\\n\r\nAlso I loved the Kino No Tabi reference at the end :D Both
+        this and Kino are in my favorite anime list. \\n\\n\r\nThe characters in Yuru
+        Camp are great from the 5 MCs to the side characters, they are all very cute
+        and loveable with each of them having her own characteristics that makes her
+        unique and different from the rest, My personal favorite is probably Inuyama
+        or Nadeshiko, Inuyama is only above the others because of how good her character
+        design is (even though the rest of the designs, hers is just my favorite)
+        while Nadeshiko is also better than the rest because of how cute her character
+        is but in terms of overall characteristics then all of them are pretty much
+        on the same level which shows how much attention was put into the characters.
+        \\n\\n\r\nThe art is phenomenal, The designs are great and the scenery and
+        background is outstanding, if you somehow hate the characters you could just
+        turn off the sound and subtitles and just enjoy how stunning it looks. \\n\\n\r\nThe
+        OSTs are great, the Opening and Ending are amazing specially the ending since
+        it really fits the atmosphere and all of that shows how great the sound directing
+        is, well to be honest the directing of the whole anime was amazing. \\n\\n\r\nOverall
+        I would give it a 10\/10 and I''m extremely sad watching one of the very few
+        things that made me completely relaxed in my life end and I''m really going
+        to miss it :''(  \\n\\n\r\nI can''t believe I almost didn''t watch it at the
+        start of the season.\\n\r\nI can only hope for a 2nd season. \\n\\n\r\nI would
+        recommend this to anyone that likes being happy tbh."},{"mal_id":277897,"url":"https:\/\/myanimelist.net\/reviews.php?id=277897","helpful_count":8,"date":"2018-04-12T16:20:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/R3dShift","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6415753.jpg","username":"R3dShift","episodes_seen":12,"scores":{"overall":10,"story":8,"animation":9,"sound":9,"character":8,"enjoyment":10}},"content":"In
+        a part of the medium of anime where school settings are common, Yuru Camp
+        decides to take us to the outdoors, and provides us with a fresh, more rare
+        setting to indulge ourselves in.\r\nA large part of the appeal of Yuru Camp
+        to me and many others is how the activities being shown can all be attempted
+        in real life. This not only leads more people to try outdoor activities, but
+        it allows people like me to relate to the time we spend outdoors. In my case,
+        after many years of camping, hiking, backpacking, and hunting in Oregon, this
+        show brings back memories ofmy childhood spent outdoors and the joys of friendship.
+        With a setting in a show that connects you to an enjoyable part of real life,
+        a whole new level of enjoyment is reached.\\n\\n\r\nAccomponing the story
+        of this show is a comfortable blend of incredible landscape scenes, music,
+        and tremendously cute characters. Many of the landscapes present in Yuru Camp
+        are based upon real life locations in Japan, even the art of this show can
+        bring you to connect with real places! With the art comes the music, which
+        is composed of a relaxing collection of guitars, flutes, and other noises
+        that compliment the story and art perfectly.\\n\\n\r\nOnto the characters,
+        which make or break cute shows like this. There are 2 characters in which
+        the most time is spent on, Rin and Nadeshiko, they are pretty much polar opposites.
+        Rin is calm, independent, and loves to spend time alone, while Nadeshiko is
+        full of energy and finds excitement from everything. When the two spend time
+        together or communicate over texting, you can often see their personalities
+        clash and cause moments that make you smile. The rest of the cast does not
+        see too much time until later on, but still has their fair share of enjoyable
+        moments. \\n\\n\r\nThere are 2 more minor parts of Yuru Camp that really stood
+        out to me, this would be the traveling, and the food. The traveling by Rin
+        on her moped shows just how independent she is, Rin is able to show us a variety
+        of different dogs and different locations. Additionally, she often communicates
+        with Nadeshiko and other friends by means of texting, these texts are often
+        some of the most hilarious and enjoyable parts, every text is voiced and animated
+        on the entire screen. This approach was unique and adds much enjoyment.\\n\\n\r\nSecondly,
+        there is the food. The food in Yuru Camp is yet another part that can be attempted
+        in real life. Food is a major component of camping and Yuru Camp does not
+        shy away from showing that. The entire process of cooking is usually displayed,
+        from the preparation of ingredients all the way to the cute blobs of moe consuming
+        these glorious, steaming Nippon delicacies. The cuteness of the food being
+        eaten is absolutely outstanding. \\n\\n\r\nWith Yuru Camp, you can wash away
+        the stresses of your life and dive into a world of comfort that is never eroded,
+        and once the episodes are over, you can bring the activities to the real world,
+        and you can see that sometimes outside isn\u2019t too bad. If you need some
+        happiness and comfort in your life, Yuru Camp will deliver that, 10 times
+        over.\\n\\n\r\nStory: 8\/10\\n\r\nArt: 9\/10\\n\r\nSound: 9\/10\\n\r\nCharacter:
+        8\/10\\n\r\nEnjoyment: 10\/10\\n\\n\r\nOverall: 10\/10"},{"mal_id":274542,"url":"https:\/\/myanimelist.net\/reviews.php?id=274542","helpful_count":8,"date":"2018-03-22T08:14:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/OVERPOWERED99","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6649888.jpg","username":"OVERPOWERED99","episodes_seen":12,"scores":{"overall":9,"story":9,"animation":9,"sound":9,"character":9,"enjoyment":9}},"content":"STORY
+        - 9\r\nART - 9\r\nSOUND - 9\r\nCHARACTER - 9\r\nENJOYMENT - 9\r\nAnd the pine
+        cone said \"Konnichiwa!\". Welcome to Yuru Camp\u25b3, a cutesy take on the
+        slice of life aspect of camping, following a group of adventurous girls who
+        love the outdoors as much as each other!\r\nWhat sucked me in to this story
+        of camping was that the atmosphere was so peaceful and relaxing. Leaving out
+        the frantic setting in other anime, it let blissfulness shine through in an
+        adorably positive manner. As someone who only knows about camping very straightforwardly,
+        the simple presentation on the tips and techniques were given in an understandable
+        format, andI definitely didn''t mind learning about them! All the girls contained
+        their own likable personalities, an entertaining factor on its own. Collectively,
+        they were funny, happy, and all in all full of positivity. This was a simple
+        yet great recipe to create a comfortable feeling of comfiness that warms you
+        up. Their interactions with each other were pure. While they were close at
+        heart upon meeting for the first time, the bonds became stronger every passing
+        day in their camp life. It was an honest friendship that was enjoyable to
+        watch while they set up their tents, cook their foods, or view the scenery
+        as day turned into night. And I give my appreciation to the setting based
+        on real sites such as Mount Fuji. These cozy areas seemed like they were great
+        places to fully relax with nature.\\n\\n\r\nWhile I talk about setting, the
+        outdoor landscapes were beautiful to look at. The attention to detail with
+        the grass blowing or the reflections in the lake all added up into one simple
+        but great visual. For the animation, it was essentially laid-back but it was
+        a perfect complement for the peaceful atmosphere. Each girls possessed their
+        own cute expressions when they were having a good time and I also loved their
+        character designs. Their winter get-up was adorable, looking like a bundle
+        of fluffiness. This presence of the girls enjoying the outdoor life together
+        just makes the air around them so clean and refreshing. Ambience of natural
+        sounds unwinded the body, preparing to absorb and connect to what nature can
+        offer to us with its own environmental audio. Each scenes that were blown
+        over by the soft soundtracks had a gentle and mellow vibe, enriching the quiet
+        world of the lands away from the bustling cities. Whereas for the opening
+        song, the upbeat tone matched the girls'' lively personalities, and the soothing
+        ending song concluded their enjoyable day on a tranquil note.\\n\\n\r\nFeel
+        free from the rush of everyday life and go breathe in the fresh air of nature
+        around us. Yuru Camp\u25b3 takes out all the current hassle and stress out
+        of you, leaving you with feelings of content and a pleasant smile at every
+        episode. So what''s there more to wait? Bring in the marshmallows with you,
+        we''re going camping!"},{"mal_id":294971,"url":"https:\/\/myanimelist.net\/reviews.php?id=294971","helpful_count":6,"date":"2018-11-30T08:07:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/LiedElfen","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/7558151.jpg","username":"LiedElfen","episodes_seen":12,"scores":{"overall":8,"story":7,"animation":8,"sound":9,"character":8,"enjoyment":9}},"content":"Yuru
+        camp is truth be told a good series and when i say a good series i mean a
+        GOOD series, the characters are cute although not memorable but they do their
+        job very well if their job is to make us laugh about their everyday misgivings,
+        Rin shima is a typical person that jist enjoys being alone and spending time
+        camping only with herself but as the story progresses she start to comprehend
+        the value of having people around and do camping together. \r\nMy favorite
+        quote of this show is: \r\nEven though you might like camping alone, i think
+        there''s a different kind offun to be had camping in a group."},{"mal_id":278676,"url":"https:\/\/myanimelist.net\/reviews.php?id=278676","helpful_count":7,"date":"2018-04-21T17:08:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/donnyderp","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/7112254.jpg","username":"donnyderp","episodes_seen":12,"scores":{"overall":8,"story":7,"animation":9,"sound":8,"character":10,"enjoyment":9}},"content":"Have
+        you ever wanted to go camping but without the camping? Yuru camp was made
+        for you then. This is probably the most lighthearted show Ive ever seen. Enough
+        backstory lets get to the review. \r\nStory is a 7\/10. Its not the most amazing
+        story, its camping. Bland on paper but animated its quite the trip. Again
+        its not a crazy wild story but its a damn good enough one to make a show out
+        of. \r\nArt is a 9\/10. The art in this show is godly. Mt Fuji looks great,
+        the characters are adorable, the food doesnt look like a sopping wet urinal
+        cake.Its fantastic. I hope a season 2 of this show drops soon because id love
+        to watch more. \\n\\n\r\nThe sound is an 8\/10 mostly because the OP sounds
+        like something from an 80''s sitcom. The voice actresses and actors perfectly
+        fit the roll of the character they''ve been chosen to voice. \\n\\n\r\nWhich
+        moves me on to the characters\\n\\n\r\n10\/10. Now they arent just 10\/10
+        because muh waifu (which some of them are but shhh) its a 10 because the characters
+        are fun to watch. Nadeshiko is an adorable pink haired girl with so little
+        brain cells you get dumber just watching her but WHO CAAAAAAAARES shes cute
+        (also once you hear her say rin chan its burned into your hearing). Rin is
+        a girl who doesnt give a flying fuck-knuckle about nadeshiko but she puts
+        up with her because camping alone isnt thaaaat much fun. Everyone else is
+        stupid(except Aoi) because their role in the show isnt needed. \\n\\n\r\n9\/10
+        for enjoyment. What can i say im a simple man. I see cute pink retard I click
+        on cute pink retard. \\n\\n\r\nOVERALL this show is probably an 8\/10. I wish
+        it were a bit longer but alas its not."},{"mal_id":274813,"url":"https:\/\/myanimelist.net\/reviews.php?id=274813","helpful_count":7,"date":"2018-03-24T10:49:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/Book_Lover","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5315576.jpg","username":"Book_Lover","episodes_seen":12,"scores":{"overall":9,"story":0,"animation":0,"sound":0,"character":9,"enjoyment":9}},"content":"One
+        of my favorite genres in anime is slice of life, I just really love how it
+        makes me feel. Now there are different varieties of slice of life anime out
+        there. There''s romance, drama, school setting, and just in general every
+        day life.\r\nYuru Camp is a typical every day life type of anime. What is
+        it about? It''s about a group of girls that go camping, and sometimes some
+        of them go solo camping. And that''s pretty much it.\r\nAdmittedly it doesn''t
+        have the most interesting of ideas, but it somehow makes it work. I fell in
+        love with Rin and the rest of thegirls, seeing them interact and their friendship
+        become stronger was just really rewarding to see.\\n\\n\r\nI''m an introvert
+        in real life, so I''m always worried how anime will protray introverted characters,
+        but in my opinion at least Rin is one of my favorite introverted characters
+        out there. She wasn''t made fun of, she wasn''t hated on, no one thought she
+        was strange for wanting time alone. \\n\\n\r\nShe''s not socially awkward,
+        she''s not painfully shy. She''s just more quiet than most, and that is how
+        I personally am in real life.\\n\\n\r\nSo of course I was drawn to Rin immediately.
+        Rin is the main character. As I said before she''s a introvert, someone that
+        likes being alone, but who doesn''t mind the company occasionally, and I like
+        that.\\n\\n\r\nNadeshiko is a hyper active girl that loves to eat. Normally
+        hyperactive characters can be hit or miss for me, but I really enjoyed Nadeshiko''s
+        character a lot. She actually reminded me of a friend I had in high school,
+        who like Nadeshiko was just very happy go lucky\/hyperactive. Which was nice
+        to see.\\n\\n\r\nI also really enjoyed how Rin and Nadeshiko''s interactions
+        became more valuable as the series continued. While Rin was okay with Nadeshiko
+        camping with her, it was almost as though she wasn''t quite sure how to act
+        around her, in the sense that she looked at Nadeshiko oddly.\\n\\n\r\nBut
+        as the series continued you could tell that they were becoming close friends.
+        For instance Rin smiling whenever Nadeshiko did something, or Nadeshiko being
+        so happy to see Rin.  \\n\\n\r\nNext is Aoi, a quiet, soft spoken girl who
+        likes to joke around occasionally.\\n\\n\r\nAnd finally Chiaki: A very loud
+        and out going girl who isn''t afraid to go after things that she wants.\\n\\n\r\nThere
+        are other characters of course, but those are the main four characters. I
+        really wish that Aoi and Chiaki had gotten more screen time, especially involving
+        Rin, but their interactions were a lot of fun as well.\\n\\n\r\nI''m not an
+        outdoor person, I personally hate the cold, but this series actually made
+        me want to go camping. \\n\\n\r\nI adored the characters, the characters interactions
+        were a lot of fun to watch. I felt so comfy and had a big smile the majority
+        of the time I watched it.\\n\\n\r\nThe series had a normal length time in
+        episodes, but it felt like just 5-10 minutes had passed instead of the 22+
+        minutes. Not saying that''s how you''ll feel of course , that''s just how
+        I personally felt with the series.\\n\\n\r\nIf you are a slice of life fan,
+        than you will likely enjoy this series, if you aren''t a slice of life fan
+        and are wanting to try slice of life series, maybe try something else first?
+        And then work your way here? If you''re just starting out in the slice of
+        life genre this might be too slice of life for you, but maybe not, the only
+        one who will really know is you.\\n"},{"mal_id":274579,"url":"https:\/\/myanimelist.net\/reviews.php?id=274579","helpful_count":7,"date":"2018-03-22T13:33:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/VISH_SRT","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/5622943.jpg","username":"VISH_SRT","episodes_seen":12,"scores":{"overall":9,"story":8,"animation":8,"sound":8,"character":10,"enjoyment":10}},"content":"Cute
+        series makes you forget your daily stress after watching it. Amazing voice
+        acting specially for Nadeshiko. I love the Nadeshiko character due to her
+        voice. The series is about camping. But it also reveals the enjoyment did
+        you during the journey which is priceless. \r\nIt''s make you feel to leave
+        your busy life and enjoy the bliss of nature. \r\nIt''s a comfy anime to enjoy.
+        It''s make you realise the fun involving spending nights under the stars.
+        The background music is also very soothing. It''s also provide little knowledge
+        about camping. This is my first review so forgive me if I done any mistakes"},{"mal_id":274548,"url":"https:\/\/myanimelist.net\/reviews.php?id=274548","helpful_count":7,"date":"2018-03-22T08:28:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/rawrXtina","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/4814791.jpg","username":"rawrXtina","episodes_seen":12,"scores":{"overall":9,"story":8,"animation":9,"sound":10,"character":9,"enjoyment":10}},"content":"Sometimes,
+        it\u2019s nice to relax. Maybe you\u2019ve been burned out on intense, energetic
+        shows and need a change of pace. Maybe you\u2019ve come from a long day of
+        work and need something to relieve the stress. Whatever the reason, you\u2019re
+        looking for something a bit more laid-back that you can take in without having
+        to pay too much attention to convoluted plots or segments with extended dialogue.
+        This is the Iyashikei genre in a nutshell, often characterised by works like
+        Mushishi and Flying Witch, shows in which comparatively little actually happen
+        but which managed to be soothing through the beautiful ambience of their setting
+        orthrough the joy of experiencing the simpler pleasures in life. In this regard,
+        Yuru Camp is an Iyashikei through-and-through. \\n\\n\r\nWe\u2019re treated
+        to a series of gorgeous establishing shots of the scenery from the very beginning.
+        While these shots aren\u2019t as detailed or vivid as you might get from a
+        Shinkai film or a KyoAni series, they\u2019re still very impressive and immersed
+        me in the series almost immediately. The environment is coloured with soft
+        tones that blend with each other almost seamlessly. This contrasts with the
+        designs for the characters themselves, which are much more vibrant in a way
+        that perhaps reflects their lively nature, particularly for the bundle of
+        joy that is Nadeshiko with her bright, pink hair. \\n\\n\r\nThe soundtrack
+        to this anime is stellar, with many of the tracks having a style that I can
+        only describe as being a cross between celtic and traditional japanese folk.
+        It''s a distinct sound that you''d recognise immediately upon hearing, but
+        also low-key and pleasant to listen to. Other sound effects, such as the the
+        breaking of sticks, fire, and even slapstick moments like Nadeshiko''s face
+        sliding down a window all sound completely authentic and help pull you into
+        the experience. \\n\\n\r\nCharacter-wise, you have the stoic, reserved Rin
+        who\u2019s most comfortable by herself, contrasting with the hyperactive bundle
+        of energy that is Nadeshiko. It\u2019s one of my favourite character dynamics
+        to witness in anime and it\u2019s almost always entertaining and incredibly
+        cute to watch. There''s a number of side characters as well, all with personalities
+        that make them a joy to watch even if they don''t get nearly as much development
+        as the main pair. \\n\\n\r\nOn the surface there\u2019s not really much of
+        a story here, being a show about girls going camping and doing camping things.
+        I would say that the core of the story is in how each girl develops as a person;
+        how Nadeshiko discovers a new hobby through a chance encounter with Rin, and
+        how Rin\u2019s interactions with different kinds of people changes her perspective
+        on friendship and brings her out of her cold, seemingly impenetrable shell.
+        \\n\\n\r\nThis show is an absolute pleasure to watch and very quickly became
+        the highlight of my week. Whether you\u2019re watching this just after coming
+        home from a long day at work or late at night before going to sleep, I think
+        you\u2019ll really love this. It''s by far the comfiest show of the Winter
+        2018 season.\\n\\n\r\nI can definitely see Yuru Camp becoming a new benchmark
+        in the Iyashikei genre, much in the way Flying Witch and Aria were. Here''s
+        hoping for a second season!"},{"mal_id":278268,"url":"https:\/\/myanimelist.net\/reviews.php?id=278268","helpful_count":6,"date":"2018-04-16T17:02:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/jal90","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/402245.jpg","username":"jal90","episodes_seen":12,"scores":{"overall":10,"story":10,"animation":9,"sound":10,"character":10,"enjoyment":10}},"content":"Yuru
+        Camp was a strange phenomenon to witness. An anime produced by a newish studio
+        and an inexperienced staff, with a premise that looked about as basic and
+        niche as it could, adapting a fairly unknown manga. Very few people looked
+        forward to this show, and I was certainly not one of them as it didn''t look
+        particularly appealing at first.\r\nAnd yet, it remains as the third highest-rated
+        non-sequel show of its season, only behind two series that rely on more visceral
+        and spectacular storytelling (Sora yori mo tooi basho and Violet Evergarden),
+        with heavier themes and mood shifts. It is one of the best-sellingshows of
+        the season as well, increasing manga sales, selling a lot of merchandise and,
+        as of today, tripling the amount of visitors to the campsites located at the
+        Yamanashi Prefecture the series focuses on.\\n\\n\r\nThe thing is, Yuru Camp
+        is a show about camping. And not even about camping as a side element or room
+        for more potentially exciting character quirks. About camping in itself as
+        an experience, with a cast of characters that develop an interest and are
+        always looking forward to, and grow, and set their focus on the activity.
+        For twelve episodes. With no tension, no character drama, no external elements
+        getting in the way and certainly not a sense of danger or heavy uncertainty.
+        It is strict in what it covers and straightforward in what it wants to evoke.\\n\\n\r\nIn
+        a way, that was an advantage to the show. Week after week, this was a safe
+        choice with a clear attached mood that people could get into knowing what
+        they''d expect and the exact kind of reaction they''d get from it. Some people
+        probably didn''t like it, but they weren''t vocal: it''s not the kind of show
+        that can lead to visceral hate. Not having any element that could generate
+        controversy, it was only natural that the series grew through the season with
+        very little negativity around it. The scenario for this backfiring was also
+        clear: after all, what kind of appeal does this harmless fun provide compared
+        with the more spectacular and memorable narratives of emotional struggle in
+        its season?\\n\\n\r\nIt is hard to answer, and yet, it becomes so clear when
+        you are watching it. Selling Yuru Camp is difficult, as one would need to
+        rely on vague statements about its mood. It''s quiet, it''s soothing, watch
+        it whenever you need to chill. That''s it. I could end my review here and
+        it would be the most straightforward recommendation because that is what this
+        show is about: pure and unadulterated calmness and peace of mind. No more
+        no less.\\n\\n\r\nBut that would be too easy and misleading. Because it''s
+        not the simplicity and straightforwardness what makes this series work, but
+        an execution that depends on a careful combination of directorial, cast, music
+        and writing choices that shouldn''t be dismissed just because the aim of the
+        show is humble and simplistic. It is masterfully crafted in each of these
+        elements and almost nothing in it feels random or inappropriate for the overall
+        mood.\\n\\n\r\nLet''s talk first about the visual aspects of the show. A lot
+        of things have been said about the sheer beauty and detail of the backgrounds,
+        the use of a subdued color palette that makes everything look more relaxed
+        and soothing, the clever use of lighting and so on. Each episode provides
+        a good amount of wallpaper material and they do a great work at enhancing
+        the beauty of the landscapes. But I would like to focus on something this
+        series really excels at and makes everything work even better from a visually
+        evocative point of view: framing. Yuru Camp is a series about outdoor activities
+        and one of the things it does better at representing their appeal is reflecting
+        with its visual language how vast and surrounding its scenarios are, in comparison
+        with, say, confined rooms. Even more difficult if you take into account that
+        it has to convey these feelings through characters that are part, and are
+        reacting to that environment at that same time. By placing the characters
+        at the right spot of the frame and by showing an astonishing sense of space
+        and depth of field, the series manages to effectively transmit to the viewer
+        a feeling of belonging there, and observing the environment along with, and
+        not separately from the characters. It doesn''t feature any particularly elaborate
+        or flashy cinematographic trick but it does everything well in a way that
+        I think very few have. A zoom-out that reveals a wonderful night view, a panoramic
+        shot with the character surrounded by the immense beauty of her environment,
+        a character moving towards the camera to properly reflect the depth of field.
+        It is consistently clever and efficient at this and increases exponentially
+        the appeal of its scenarios.\\n\\n\r\nThe character designs leave more room
+        for nitpicking. They have rather simple features, some kind of... questionable
+        ones (what is up with those extra thin necks?) and overall they are designs
+        that appeal to a fitting yet standard cutesy style. Past that level of simplicity,
+        the thing is that they are actually very spot on in pretty much everything.
+        They wear mundane and appropriate clothes, and the show has a surprising variety
+        of outfits and styles for each of them. Particularly noteworthy is the big
+        amount of aesthetic choices thrown around the character of Rin throughout
+        the series, that make her quite visually dynamic and even leads to some running
+        jokes with her hairstyles. Either way, I would not like to oversell the complexity
+        of these character designs, since I think part of their appeal and also a
+        very relevant fraction in the visual comedy of the show lie precisely in their
+        simple and recognizable traits.\\n\\n\r\nThese general aspects aside, the
+        show itself has a number of little issues in its visuals that depending on
+        the person and the focus may look more or less serious. The animation in particular.
+        It is clean, fluid and average or above average, always serviceable enough;
+        but there''s not much focus on movement and the series can look quite static
+        at times. It has some surprisingly complex and detailed animation but it is
+        not consistent with that and specially in its latter half it abuses montages
+        of static and frozen panning shots instead. The CG animation of the vehicles
+        feels kind of off-putting, even with the attempts of the series to make up
+        for it by focusing on the depth of field of the shot; thankfully none of these
+        moments last very long. However the biggest issue comes with episode 8. It
+        is pretty much universally agreed that this episode is an aesthetic low in
+        the series with clumsy animation and characters going off model way too often
+        throughout.\\n\\n\r\nLuckily, at least in my case, the flaws feel so irrelevant
+        compared to all the great visual choices it makes that this aspect of the
+        show remains impressive overall, with only a few occasional nitpicks here
+        and there. What I''d like to emphasize the most here is that the visual language
+        in this series is crucial and it is effectively conveyed with clever decisions
+        and execution. The series manages to nail the cathartic and the mundane equally
+        and is one of the most purely aesthetic anime experiences I''ve seen. And
+        if you think that my views on the art are too positive, wait for the next
+        section.\\n\\n\r\nThe sound. Oh, how do I even start with this. It''s absolute
+        brilliance from start to finish. The soundtrack is quiet and fluffy, even
+        at its most playful it''s just plain laid-back. Entirely instrumental except
+        for the opening and ending, it constantly evokes the atmosphere of relax and
+        uneventful fun that permeates through the entire series. However what truly
+        makes this series stand out in this department is not in the tracks themselves,
+        but in their use in context. It understands the music not as an accompaniment,
+        but as an essential element of its aesthetics and narrative. And this is specially
+        relevant in a season that, overall, did not stand out much in this aspect
+        and took a lot of my nitpicks for otherwise great shows. \\n\\n\r\nWhat Yuru
+        Camp understands so well is that, yes, the music is fitting and sets a mood,
+        but that shouldn''t stop you from playing and being active and dynamic with
+        it. You can''t expect to play a beautiful song in the background, stop caring,
+        and proceed to focus on the visual narrative and the dialogue, because no
+        matter how good it sounds, it will end up creating an aesthetic dissonance.
+        This series takes its effort to match the images, the frames and the timing
+        of the narration with the soundtrack. It quite often makes use of sudden and
+        accurately timed interruptions for comedic effect, it saves the most emphasized
+        parts of the track for the single moments of catharsis and it perfectly captures
+        the mundane. It knows when to stop and it knows when to start again, what
+        track to use for each moment and how to make proper and emotionally (or comedically)
+        effective transitions. If all of this sounds basic, imagine my frustration
+        while watching other shows in its same season failing to understand this fundamental
+        approach.\\n\\n\r\nAnd damn if it''s effective. The love and care put in this
+        aspect of the show is astounding. Heck, if it even went through the trouble
+        of creating a separate and fitting soundtrack for each of the campsite locations.
+        That''s some level of dedication out there. Seriously, the music in this show
+        is something else. Even for its generally excellent delivery this is an easy
+        standout.\\n\\n\r\nThe rest of the aspects of its sound design are also spot
+        on. I love the effects, particularly those used to create atmosphere like
+        the little ambient sounds, the wind breezing... that make the experience more
+        immediate and relatable. As for the voice acting, the series has a very solid
+        cast with a clear standout in Yumiri Hanamori''s Nadeshiko. The way she nails
+        the voice of her character, her sounds and her overall performance is essential
+        to make Nadeshiko the cinnamon roll of unadulterated cuteness she is, and
+        to do it with a character that was so easy to drive wrong has a lot of merit.
+        Almost equal in merit and execution is Nao Touyama''s Rin, a quiet type that
+        is still perfectly empathic and entertaining to listen to, and knows how to
+        add relatable nuances of emotion to a character that acts cold and restrained
+        towards the rest. The rest of the cast all have fitting voices and add to
+        the overall mood and the comedic effect of the characters, with another favorite
+        of mine being Rie Takahashi''s laid-back and playful role as Saitou. The energy
+        of Chiaki and the soothing nature of Aoi are nailed as well and perfectly
+        add to their style of humor. My only nitpick aside from some minor characters
+        having more meh voices is with some little moments of Aki Toyosaki''s Aoi.
+        The character seems to have more creative freedom than the rest of the cast
+        when it comes to the way she sounds, and at some points, episode 10 in special,
+        that sort of rubbed me the wrong way.\\n\\n\r\nWith the visual and sound aspects
+        covered, we can move on to the writing. And since this is just cute girls
+        doing cute camping things for twelve episodes this should be fast, right?\\n\\n\r\nRight?\\n\\n\r\nYou
+        know it won''t. I''m afraid you have to stay for a little while yet.\\n\\n\r\nOne
+        of my biggest pet peeves with anime criticism is the, in my opinion, excessive
+        reliance on themes. When it comes to a story focused on the mundane, that
+        uses observational and incidental narrative and doesn''t focus in a central
+        point, prioritizing in your speech the talk about transcendence and depth
+        of themes is artificial and uncalled for. And I have even seen it with this
+        show. It''s not like Yuru Camp doesn''t offer valuable insight on certain
+        topics, I''ll get there a bit later, but to make it the main point of appeal
+        of the series is, to me, missing the point and applying standards it doesn''t
+        aim for. And the solution is not to dismiss the efforts of this show based
+        on the simple immediacy of its premise either, specially if such immediacy
+        is carried through an observant perspective that has its inherent difficulty.\\n\\n\r\nWhy
+        am I bringing this up? Because the writing of Yuru Camp is excellent. It is
+        a definitive standout in its genre, and it is easily the most solid I could
+        find in its season. The way it understands and applies character interactions
+        through its entire run is nothing short of brilliant in its apparent simplicity
+        and naturality.\\n\\n\r\nThe first element I''d like to tackle is the storyline.
+        What I am about to say may sound surprising, but compared to other slice of
+        life shows, I think the pure story aspect in this series is actually quite
+        sophisticated, or perhaps I should say tightly structured. Contrarily to what
+        one could think in a show that lives up to its premise of cute girls camping
+        and having harmless fun, it has a clear narrative with perfect continuity
+        throughout. All the characters undergo some sort of development regarding
+        their interest on camping; some become more profficient, some start to contemplate
+        other alternatives... The point I want to make with this is that in this show
+        the narration is, above all, consequential. It constantly refers to previous
+        events or circumstances, the attachment of the characters grows throughout
+        and this development is kept as a basis for future interactions, both in the
+        bigger picture and in slight and seemingly irrelevant details. This is true
+        for all of them but particularly, as it''s the main narrative focus, for the
+        dynamics of Rin and Nadeshiko. Both learn from each other and we see how they
+        gradually form an increasingly close relationship with some relevant transitions
+        that have their emphasis in the narrative.\\n\\n\r\nThe main focus of the
+        show is the experience of camping and the attachment to what it has to offer.
+        Some people have said, not without reason, that the characters and the events
+        are way too focused on camping, and that it is difficult to obtain a bigger
+        picture of them when their lives and conversations are so conveniently reduced
+        to their hobby. This never bothered me personally because I think the running
+        theme of camping is more than enough to create a significant introspection
+        to the characters, particularly because the very nature of this activity leads
+        to a lot of quiet observation and naturalistic depiction, but I can understand
+        this being an issue, particularly if you want to observe the characters in
+        other situations or frames of mind, or if you get bored by the lack of variety
+        of focus.\\n\\n\r\nSpeaking of its camping themes and focus, it also seems
+        that a common issue among people who either disliked or don''t share the enthusiasm
+        for this show lies in the presence of a voiceover narrator who tells things
+        to the viewer, serving as a tutorial for camping and giving advice. This is
+        something I myself feel conflicted about, not because it bothers me personally,
+        but because I honestly don''t know how to draw the line and why do I find
+        it acceptable and perfectly fine while other people feel completely unattached
+        when it appears. To me I guess it has to do with how soothing the voice itself
+        is, how it''s strategically placed in the narration to avoid unnecessary interference
+        with the natural interactions of the characters, or how at times it plays
+        along with the characters and their mood.\\n\\n\r\nThrough its running theme
+        of camping the show talks as well about friendship and opening up to new experiences.
+        And where it excels at is not so much the inherent complexity of its themes,
+        but the execution and particularly in the amount of right narrative decisions
+        taken throughout to build a conclusion that is constructive and inspiring.
+        One of the greatest merits of the writing in this series is how it never puts
+        the characters in a situation where they are stated to be in the wrong or
+        need to be fixed, despite the obvious contrast in their personalities and
+        approaches. This is specially true for Rin, who is introduced as an introvert
+        and loves camping alone at the beginning, and through the series she develops
+        a liking for camping with people. But the loner Rin is still there for the
+        entire series. And her introversion is not fixed either: it is an essential
+        character trait of her and the other characters respect her boundaries. A
+        good deal of the laid-back atmosphere in this show is achieved through the
+        mutual respect the girls feel for each other. Nadeshiko, the initially hyperactive
+        and potentially invasive personality that would force Rin to change, quickly
+        understands that pressuring her is wrong, and lets her grow at her own pace.
+        At the same time, she learns from Rin too, while not changing a bit of her
+        outgoing and enthusiastic personality. It is very refreshing to see this sort
+        of development, and it speaks volumes not only to the mutual understanding
+        and empathy displayed by the characters, but to the narrative focus itself
+        and the respect the writing shows for their agency and individuality.\\n\\n\r\nSpeaking
+        of the characters, they could be defined by basic personality archetypes.
+        As said, Rin is the loner introvert and Nadeshiko the outgoing enthusiast.
+        This is also true for the rest of the characters who all have a set personality
+        and defined traits. While some people have mentioned this as a negative, I
+        don''t think Yuru Camp suffers from having characters that meet an archetype
+        or *sigh* \"can be defined in a single phrase\". This is mostly because the
+        writing stays refreshing and keeps finding new ways to explore the set traits
+        of the characters throughout. And above all, it puts a lot of care in their
+        interactions and chemistry together and with the surrounding environment.\\n\\n\r\nThe
+        key word here is spontaneity. Everything in this series is built around this
+        premise. The dialogues are filled with casual banter, they have some exposition
+        here and there without feeling like infodumps, but the conversations feel
+        perfectly down-to-earth and relatable, which is even more fascinating if one
+        takes into account how quirky and differentiable their basic character types
+        are. And as a result of this comes one of the greatest, and probably one of
+        the most unsung, merits of this series.\\n\\n\r\nTake the scene with Saitou
+        drawing a \"funny face\" in Chikuwa''s photo. Take the Outdoors Club girls''
+        silly imitations of camping objects and activities. Take the Santa Clangers,
+        the \"intense\" chats between Rin and Saitou, Chiaki the evil kidnapper, Nadeshiko
+        the granny and so on and on and on. There is something relevant around all
+        of these moments. They are funny, but they don''t need to. You don''t need
+        to find these jokes amusing in order for them to make sense because the ones
+        they need to make sense to are the characters themselves. This lack of pandering
+        is one of the things that put this show above so many of its competitors,
+        particularly in the portrayal of friendships that, like any relationship,
+        have their own codes and only make perfect sense to those who share them.
+        Understanding this and not trying to tell the viewer \"hey, this is funny,
+        that''s why they are laughing\" but ultimately transmitting that the characters
+        laugh because they genuinely, and no matter what you think, find this funny,
+        is something I can never praise enough in this show. This is true even for
+        Rin alone and her solitary interactions with her environment, filled with
+        genuine moments of silliness and fun that are presented in the most natural
+        way possible.\\n\\n\r\nA running theme with these girls and their relationships
+        is the use of technology and this is another little aspect that I think deserves
+        to be further emphasized. Where most other narratives either try to establish
+        a contrast or never give enough importance to technology compared to \"real\",
+        face-to-face interactions, Yuru Camp understands and applies both as a continuum
+        of each other. They use their phones to communicate, to have fun together,
+        to organize plans and etc. Rin and Saitou for instance understand each other
+        extremely well, and yet, most of their interactions in the show happen through
+        a phone chat. You don''t need to see them together in a room to figure out
+        how strong their friendship and mutual confidence is, and when it happens
+        it only confirms what we already knew. Another example is in the relationship
+        of Rin and Nadeshiko and how they connect deeply with each other even when
+        they are hundreds of kilometers away, to the point that at one scene Nadeshiko
+        literally wants to chat with Rin and serve as a remote travel guide to her
+        solo camping adventure because that way she feels connected to Rin''s journey.\\n\\n\r\nLast
+        but not least in this talk about characters and writing, going back to the
+        importance of spontaneity, comes the comedy. Now, we all know the issue about
+        comedy so it''s not worth mentioning it again. What makes me laugh won''t
+        necessarily make you laugh and so on. But I can''t deny that I laugh a lot
+        with this series. Maybe even more than I could expect, considering how little
+        it does to try to structure its jokes as, well, jokes. In fact, this may actually
+        work in its advantage and it''s absolutely worth mentioning the lack of a
+        consistent straight man routine in this series. Whenever the characters do
+        something silly, they seem to prefer playing along than reacting in disbelief
+        or pointing out where the joke exactly is. As a result, a lot of these comedic
+        moments feel spontaneous and lacking a separated structure, and above all,
+        they don''t overstay their welcome.\\n\\n\r\nUltimately however, what makes
+        Yuru Camp work and what explains its appeal to me is the synergy of all the
+        individual elements mentioned above. Visual emphasis, soundtrack, character
+        writing and storytelling combine to form a single and inseparable entity,
+        which could only be achieved by putting individual care on each of them but
+        also factoring a clear overall vision. The perfect embodiment of this lies
+        in its conclusion, one of the most solid and appropriate I have ever seen
+        in the medium, and which I don''t think could even be possible had the show
+        not been as carefully planned and integrated as it was during its whole run.\\n\\n\\n\r\nWow,
+        this review went a long way. I had a lot of fun writing this, but think I
+        owe you all an apology if you reached this point, specially considering that
+        I haven''t even used the word \"comfy\" yet in this review of Yuru Camp. Either
+        way, thanks for taking your time to read this absurdly huge piece of enthusiastic
+        rambling, if you have any feedback or commentary on what I wrote feel free
+        to tell me."},{"mal_id":275688,"url":"https:\/\/myanimelist.net\/reviews.php?id=275688","helpful_count":6,"date":"2018-03-29T23:42:00+00:00","reviewer":{"url":"https:\/\/myanimelist.net\/profile\/toatsnormal","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/6753730.jpg","username":"toatsnormal","episodes_seen":12,"scores":{"overall":5,"story":2,"animation":8,"sound":7,"character":5,"enjoyment":3}},"content":"Do
+        you like to see a bunch of kawaii girls overreacting to everything?  If you
+        do, you''ll love Yuru Camp.  If you don''t, you probably won''t like it because
+        there is nothing else.  The only \"conflicts\" in the show are generally caused
+        by the overreactions, are easily resolved, and result in little permanent
+        change.  The humor is also a major problem in the show.  Some of the visual
+        gags and blunt deliveries of dialogue are funny, but it often disrupts the
+        pacing, and most of the jokes just aren''t funny.  \r\nAnother problem is
+        the constant narration.  I cansee they like the food they are all smiling,
+        I don''t need all 4 characters to independently say it.  There is literally
+        a narrator character for no reason who decides to interject at random points
+        and completely disrupt the flow.  There are some decent characters and some
+        incredibly annoying ones.  At times the music works and at times is extremely
+        repetitive and distracting. The opening and ending themes are very good.\\n\r\nThe
+        show does what it is supposed to do well though.  The scenery is pretty, the
+        food looks tasty, and at times is relaxing.  Overall 5\/10"}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jan 2019 00:55:07 GMT
+recorded_with: VCR 4.0.0

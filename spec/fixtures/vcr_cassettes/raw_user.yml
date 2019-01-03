@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.moe/v3/user/ZerOne01/profile
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.moe
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.10
+      Date:
+      - Thu, 03 Jan 2019 03:47:24 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7116'
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - private, must-revalidate
+      Etag:
+      - '"116c336b9f7c37b33cb7c377c3bc052f"'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request_hash":"request:user:3990096d72bf12025d91414c4ce13f91aadd778b","request_cached":true,"request_cache_expiry":164,"username":"ZerOne01","url":"https:\/\/myanimelist.net\/profile\/ZerOne01","image_url":"https:\/\/cdn.myanimelist.net\/images\/userimages\/97832.jpg","last_online":"2018-12-25T00:53:00+00:00","gender":"Male","birthday":"1992-03-15T00:00:00+00:00","location":"Malaysia","joined":"2008-09-24T00:00:00+00:00","anime_stats":{"days_watched":19.6,"mean_score":7.71,"watching":18,"completed":72,"on_hold":32,"dropped":27,"plan_to_watch":77,"total_entries":226,"rewatched":1,"episodes_watched":1215},"manga_stats":{"days_read":3,"mean_score":7.69,"reading":31,"completed":6,"on_hold":0,"dropped":6,"plan_to_read":9,"total_entries":52,"reread":0,"chapters_read":371,"volumes_read":60},"favorites":{"anime":[{"mal_id":4224,"url":"https:\/\/myanimelist.net\/anime\/4224\/Toradora","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/13\/22128.jpg?s=40d10908b36a2da9508b844cfb3c4e05","name":"Toradora!"},{"mal_id":11433,"url":"https:\/\/myanimelist.net\/anime\/11433\/Ano_Natsu_de_Matteru","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/59405.jpg?s=dab8e6e93aa5f32ed041ff544a1d9f50","name":"Ano
+        Natsu de Matteru"},{"mal_id":6098,"url":"https:\/\/myanimelist.net\/anime\/6098\/Sora_no_Manimani","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/75491.jpg?s=e4d53323aadc2955ed9a19af2aeab847","name":"Sora
+        no Manimani"},{"mal_id":256,"url":"https:\/\/myanimelist.net\/anime\/256\/Hoshi_no_Koe","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1\/2389.jpg?s=37f781cfbd8ffd7abf639be106f96e3c","name":"Hoshi
+        no Koe"},{"mal_id":14813,"url":"https:\/\/myanimelist.net\/anime\/14813\/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/11\/49459.jpg?s=37bd699b66f9f802d2b618b693562e2f","name":"Yahari
+        Ore no Seishun Love Comedy wa Machigatteiru."}],"manga":[{"mal_id":14710,"url":"https:\/\/myanimelist.net\/manga\/14710\/Ane_Doki","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/1\/172900.jpg?s=039afb0c5447d55d9af882be4182b764","name":"Ane
+        Doki"},{"mal_id":1061,"url":"https:\/\/myanimelist.net\/manga\/1061\/Detective_Conan","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/1\/97267.jpg?s=365b4d43226c0b6646629c9c6d31564c","name":"Detective
+        Conan"},{"mal_id":4368,"url":"https:\/\/myanimelist.net\/manga\/4368\/Toradora","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/2\/174090.jpg?s=070967c64e5fd76fae3aec1e8f4fce83","name":"Toradora!"},{"mal_id":12137,"url":"https:\/\/myanimelist.net\/manga\/12137\/Sora_no_Manimani","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/141107.jpg?s=a6ceb46f719a7f9c636b469105b8566a","name":"Sora
+        no Manimani"}],"characters":[{"mal_id":13701,"url":"https:\/\/myanimelist.net\/character\/13701\/Mikoto_Misaka","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/3\/78211.jpg?s=84f0c971a60e173fe390dd3ab7a25c3b","name":"Misaka,
+        Mikoto"},{"mal_id":87505,"url":"https:\/\/myanimelist.net\/character\/87505\/Ritsu_Kawai","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/14\/240271.jpg?s=1956c6fda0ff71f23985a58357cbedab","name":"Kawai,
+        Ritsu"},{"mal_id":54007,"url":"https:\/\/myanimelist.net\/character\/54007\/Kanna_Tanigawa","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/2\/148207.jpg?s=70c4050a67754c6e7780e619d80cfcc6","name":"Tanigawa,
+        Kanna"},{"mal_id":31505,"url":"https:\/\/myanimelist.net\/character\/31505\/Ryouko_Ookami","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/11\/90992.jpg?s=7814ad71f9f78db1b290d240c10b21d9","name":"Ookami,
+        Ryouko"},{"mal_id":12064,"url":"https:\/\/myanimelist.net\/character\/12064\/Taiga_Aisaka","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/10\/46644.jpg?s=4fff33a465521d01a145e77e58774c40","name":"Aisaka,
+        Taiga"},{"mal_id":14941,"url":"https:\/\/myanimelist.net\/character\/14941\/Misaki_Ayuzawa","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/14\/87812.jpg?s=c13c760605098a6630d0acdf2a901204","name":"Ayuzawa,
+        Misaki"},{"mal_id":22702,"url":"https:\/\/myanimelist.net\/character\/22702\/Mihoshi_Akeno","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/3\/58717.jpg?s=431ac8b423ba04304d160f4ee822c53e","name":"Akeno,
+        Mihoshi"},{"mal_id":24419,"url":"https:\/\/myanimelist.net\/character\/24419\/Mahiru_Inami","image_url":"https:\/\/cdn.myanimelist.net\/images\/characters\/16\/86802.jpg?s=9f5f7fca9c7bfb18bede63792519c58d","name":"Inami,
+        Mahiru"}],"people":[{"mal_id":8,"url":"https:\/\/myanimelist.net\/people\/8\/Rie_Kugimiya","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/2\/54599.jpg?s=d349299673cb51546a49772a5a4cdaf1","name":"Kugimiya,
+        Rie"},{"mal_id":890,"url":"https:\/\/myanimelist.net\/people\/890\/Haruka_Tomatsu","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/2\/54591.jpg?s=631b0a44b63b9856396dc1b164f32d29","name":"Tomatsu,
+        Haruka"},{"mal_id":5087,"url":"https:\/\/myanimelist.net\/people\/5087\/Mami_Kawada","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/2\/54238.jpg?s=7922c752b547cc5f93ee5f3e4df9f2e0","name":"Kawada,
+        Mami"},{"mal_id":8636,"url":"https:\/\/myanimelist.net\/people\/8636\/Sphere","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/1\/40972.jpg?s=50efc1cf049b3a9dfcfa4d3c5aea6500","name":"Sphere"},{"mal_id":8913,"url":"https:\/\/myanimelist.net\/people\/8913\/supercell","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/1\/40136.jpg?s=478b1ef269aaf0f9d674ed31c181d119","name":"supercell"},{"mal_id":10561,"url":"https:\/\/myanimelist.net\/people\/10561\/LiSA","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/2\/36293.jpg?s=b948f7ae86985a8483c4b0289df67eb2","name":"LiSA"},{"mal_id":8544,"url":"https:\/\/myanimelist.net\/people\/8544\/fripSide","image_url":"https:\/\/cdn.myanimelist.net\/images\/voiceactors\/3\/24579.jpg?s=5ac632d07d5335b7eb536e74a393cd8e","name":"fripSide"}]},"about":"<div
+        style=\"text-align: center;\"><\/div>\n<br><br><div style=\"text-align: center;\">My
+        Profile status: Under major construction<\/div>\n<br><br><div style=\"text-align:
+        center;\">\n<br>\r\nFind me on: <a href=\"https:\/\/twitter.com\/AhoZero\"
+        target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span style=\"color:
+        blue\">Twitter<\/span><\/a> | <a href=\"https:\/\/github.com\/Zerocchi\" target=\"_blank\"
+        rel=\"nofollow noopener noreferrer\"><span style=\"color: green\">GitHub<\/span><\/a>
+        | <span style=\"color: red\">Discord: Zerocchi#2002<\/span><br>\n<\/div>\n<br><div
+        style=\"text-align: center;\"><a href=\"http:\/\/myanimelist.net\/clubs.php?cid=8652\"
+        rel=\"nofollow\"><img class=\"userimg\" src=\"https:\/\/image.myanimelist.net\/ui\/CfdoO8cQoYy0a_5THyq89Cc8_RBnxkGKM8axPB0SV5zOjpJ6dxJiJ-OiVlLc5evY\"><\/a><\/div>\n<br><br><div
+        style=\"text-align: center;\"><span style=\"color: green\"><i>Instant noodles
+        are tsundere. They are hard and cold but after you put some hot water (3 mins)
+        they become soft and delicious.<\/i><\/span><\/div>"}'
+    http_version: 
+  recorded_at: Thu, 03 Jan 2019 03:47:24 GMT
+recorded_with: VCR 4.0.0

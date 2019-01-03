@@ -23,5 +23,7 @@ module Jikan
 		def details(flag=nil)
 			Jikan::manga id, flag
 		end
-	end
+  end
+  
+  class BasicManga < Entityography; end
 end

@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.moe/v3/anime/34798/news
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.moe
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.10
+      Date:
+      - Thu, 03 Jan 2019 01:10:47 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5990'
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - private, must-revalidate
+      Etag:
+      - '"0c267a23c25af4851d89bf082dc92a1c"'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request_hash":"request:anime:0942d59023b09ff82f1440124df3e63abdec7f66","request_cached":true,"request_cache_expiry":42911,"articles":[{"url":"https:\/\/myanimelist.net\/news\/55911433","title":"Winners
+        of the Newtype Anime Awards 2018","date":"2018-10-07T12:27:00+00:00","author_name":"Sakana-san","author_url":"https:\/\/myanimelist.net\/profile\/Sakana-san","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1744426","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1538940034-e3cb48e630691d498c99d4d990866e9e.jpeg?s=fcbcaed3359277b3c80ca3fcab3058e1","comments":58,"intro":"Winners
+        of the 2018 Newtype Anime Awards were announced at the Machi\u2605Asobi event.
+        The winners were selected by fans in magazine and online polls. The participants
+        we..."},{"url":"https:\/\/myanimelist.net\/news\/55905759","title":"''Yuru
+        Camp\u25b3'' Receives Second Season [Update 10\/7]","date":"2018-10-07T00:59:00+00:00","author_name":"Vindstot","author_url":"https:\/\/myanimelist.net\/profile\/Vindstot","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1744277","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1538898930-882a0482e2925b25a4cf94794189663c.jpeg?s=eac1faa4a857f7f8adc2a852a0350832","comments":64,"intro":"The
+        Yuru Camp\u25b3 Secret Society Blanket Enrollment Briefing event announced
+        a second season for the anime series on Sunday. Yuru Camp\u25b3 adapts Afro''s
+        comedy slice ..."},{"url":"https:\/\/myanimelist.net\/news\/53555937","title":"Winter
+        2018 Simulcast List [Update 1\/24]","date":"2018-01-01T07:10:00+00:00","author_name":"Snow","author_url":"https:\/\/myanimelist.net\/profile\/Snow","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1696216","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1514819325-e01a3212ffedb30f1458fcf88af6efed.jpeg?s=fa95c309da6e9a99fa97bbaecaac2239","comments":77,"intro":"In
+        this thread, you''ll find a comprehensive list of anime acquired for simulcast
+        release during the Winter 2018 season. Anime series licensed for home video
+        rel..."},{"url":"https:\/\/myanimelist.net\/news\/53374876","title":"Winter
+        2018 Preview","date":"2017-12-15T13:58:00+00:00","author_name":"Snow","author_url":"https:\/\/myanimelist.net\/profile\/Snow","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1692599","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1513374911-d31bb37e3807ac62f0bff77210fb0717.jpeg?s=4b950088b48c6b38a93ea5ccc5b266c2","comments":59,"intro":"In
+        this thread, you''ll find a comprehensive list of Winter 2018 titles with
+        an accompanying promotional video (PV), commercial (CM), or trailer. This
+        post will ..."},{"url":"https:\/\/myanimelist.net\/news\/53222293","title":"Upcoming
+        Mountain Climbing Anime ''Yuru Camp\u25b3'' Announces Additional Cast Members,
+        Bundles Specials","date":"2017-12-01T03:35:00+00:00","author_name":"tsubasalover","author_url":"https:\/\/myanimelist.net\/profile\/tsubasalover","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1688329","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1512128111-51033f1181f8e91dcddc0504182c0a59.jpeg?s=d39a9199a906a84dfd2470937e0c65c9","comments":18,"intro":"The
+        official website for the upcoming Yuru Camp\u25b3 TV anime has announced additional
+        cast members. The anime is slated for Winter 2018. In addition to the cast,
+        the we..."},{"url":"https:\/\/myanimelist.net\/news\/53018408","title":"PV
+        Collection for Nov 6 - 12","date":"2017-11-12T15:39:00+00:00","author_name":"Sakana-san","author_url":"https:\/\/myanimelist.net\/profile\/Sakana-san","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1683227","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1510529967-3812ee5a04df9a71a40f11b2176c58f0.jpeg?s=62f68753eba844d8e4fb0c17f91398cd","comments":13,"intro":"Here
+        is a collection of promotional videos (PVs), TV ads (CMs), and trailers for
+        the last week. This thread excludes videos that have already been featured
+        in an art..."},{"url":"https:\/\/myanimelist.net\/news\/51851313","title":"TV
+        Anime ''Yuru Camp\u25b3'' Additional Cast Member Announced","date":"2017-08-08T02:28:00+00:00","author_name":"tsubasalover","author_url":"https:\/\/myanimelist.net\/profile\/tsubasalover","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1647402","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1502184478-398a06be0590e08ad1c7af7588304e9d.jpeg?s=2c9da31d470817ecfa7946a1169e93d7","comments":6,"intro":"The
+        official website for previously announced Yuru Camp\u25b3 TV anime has announced
+        additional cast members. A new key visual with the characters facing front
+        has been ..."},{"url":"https:\/\/myanimelist.net\/news\/51228372","title":"TV
+        Anime ''Yuru Camp\u25b3'' Staff Members Announced [Update 6\/25]","date":"2017-06-23T02:22:00+00:00","author_name":"tsubasalover","author_url":"https:\/\/myanimelist.net\/profile\/tsubasalover","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1630608","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1498419399-dab89973d567682a97aa0bebc79a7d5b.jpeg?s=0e0bfcf3eb4483584011e6839dc5b114","comments":20,"intro":"The
+        August Issue of Manga Time Kirara Forward magazine has announced main staff
+        members for Yuru Camp\u25b3 TV anime adaptation. The anime is slated for Winter
+        2018. The..."},{"url":"https:\/\/myanimelist.net\/news\/49397864","title":"Manga
+        ''Yuru Camp\u25b3'' Receives Anime Adaptation","date":"2017-01-21T04:39:00+00:00","author_name":"sevenPocky","author_url":"https:\/\/myanimelist.net\/profile\/sevenPocky","forum_url":"https:\/\/myanimelist.net\/forum\/?topicid=1586287","image_url":"https:\/\/cdn.myanimelist.net\/s\/common\/uploaded_files\/1489437420-b6f421877cd4b914a56d2bd498c4db97.jpeg?s=721978bd7d0fbc7957321228c07b5496","comments":15,"intro":"The
+        cover of the March 2017 issue of Houbunsha''s Manga Time Kirara Forward magazine
+        will announce on its release on Tuesday that Afro''s comedy manga Yuru C..."}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jan 2019 01:10:47 GMT
+recorded_with: VCR 4.0.0

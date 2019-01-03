@@ -83,6 +83,10 @@ Or install it yourself as:
       "10 years old and the youngest of the Ikaruga sisters. She has bigger breast than Ayame so she covers them. She seems to like Masashi.",
     ...
   }
+
+# as of v0.0.6 you can use Person and Character object methods
+>> ikaruga.name
+=> "Kagome Ikaruga"
 ```
 
 **Search**
@@ -155,13 +159,18 @@ development program. The seven \"Level 5\" espers are the most powerful in Acade
 ## RESTv3 Features
 - [X] Anime
 - [X] Manga
-- [X] Person 
+- [X] Person
 - [X] Character
 - [X] Search
   - [ ] Advanced Search
 - [X] Season
 - [ ] User
-- [ ] Club
+  - [X] Profile
+  - [ ] Animelist <sup>raw</sup>
+  - [ ] Mangalist <sup>raw</sup>
+  - [ ] History <sup>raw</sup>
+  - [ ] Friends <sup>raw</sup>
+- [X] Club
 - [ ] Schedule
 - [ ] Top
 - [ ] Genre

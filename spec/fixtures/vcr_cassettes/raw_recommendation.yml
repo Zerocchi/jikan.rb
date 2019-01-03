@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.jikan.moe/v3/anime/34798/recommendations
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.jikan.moe
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.10
+      Date:
+      - Thu, 03 Jan 2019 01:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Cache-Control:
+      - private, must-revalidate
+      Etag:
+      - '"7a42fd7e0eefc1f87395c3b09a205378"'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Loli
+      X-D-V-N:
+      - INIT-AC644301AWS [C-S-W]
+    body:
+      encoding: ASCII-8BIT
+      string: '{"request_hash":"request:anime:525d7be3b072f3311789e1a9a25854f7b2ef340a","request_cached":true,"request_cache_expiry":42926,"recommendations":[{"mal_id":14355,"url":"https:\/\/myanimelist.net\/anime\/14355\/Yama_no_Susume","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/7\/75525.jpg?s=b2d87d7de4ee0467edd603810d0c1f09","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/14355-34798","title":"Yama
+        no Susume","recommendation_count":9},{"mal_id":17549,"url":"https:\/\/myanimelist.net\/anime\/17549\/Non_Non_Biyori","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/51581.jpg?s=7e3d34be5f8fcced34e999b865de123a","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/17549-34798","title":"Non
+        Non Biyori","recommendation_count":8},{"mal_id":35839,"url":"https:\/\/myanimelist.net\/anime\/35839\/Sora_yori_mo_Tooi_Basho","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/89879.jpg?s=273f1505d409ac20eed3e0c255a2f903","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-35839","title":"Sora
+        yori mo Tooi Basho","recommendation_count":6},{"mal_id":30652,"url":"https:\/\/myanimelist.net\/anime\/30652\/Long_Riders","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/3\/82255.jpg?s=387c3f0d7bfe627c25e7a9232fbda622","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/30652-34798","title":"Long
+        Riders!","recommendation_count":4},{"mal_id":477,"url":"https:\/\/myanimelist.net\/anime\/477\/Aria_The_Animation","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/77620.jpg?s=5c694f2a87af08c8954cd89f67ba38b7","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/477-34798","title":"Aria
+        The Animation","recommendation_count":3},{"mal_id":35838,"url":"https:\/\/myanimelist.net\/anime\/35838\/Shoujo_Shuumatsu_Ryokou","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/88321.jpg?s=3a72723dfe33907e390a98633fc41f9d","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-35838","title":"Shoujo
+        Shuumatsu Ryokou","recommendation_count":3},{"mal_id":5680,"url":"https:\/\/myanimelist.net\/anime\/5680\/K-On","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/10\/76120.jpg?s=77fa4793e80f2be71f6996736e81636b","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/5680-34798","title":"K-On!","recommendation_count":3},{"mal_id":31771,"url":"https:\/\/myanimelist.net\/anime\/31771\/Amanchu","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/80810.jpg?s=8e6817e3c51fef4741390a7649882f81","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/31771-34798","title":"Amanchu!","recommendation_count":3},{"mal_id":31376,"url":"https:\/\/myanimelist.net\/anime\/31376\/Flying_Witch","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/80039.jpg?s=db901cd0f96134fddea6ea3da6fdb530","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/31376-34798","title":"Flying
+        Witch","recommendation_count":3},{"mal_id":35672,"url":"https:\/\/myanimelist.net\/anime\/35672\/Yama_no_Susume__Third_Season","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1070\/93809.jpg?s=de80d7d5744a560c72c5d595aa1b7c84","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-35672","title":"Yama
+        no Susume: Third Season","recommendation_count":2},{"mal_id":1852,"url":"https:\/\/myanimelist.net\/anime\/1852\/Hidamari_Sketch","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1\/1852.jpg?s=34e97fd5b8b1b27af066d5ade06e883d","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/1852-34798","title":"Hidamari
+        Sketch","recommendation_count":2},{"mal_id":457,"url":"https:\/\/myanimelist.net\/anime\/457\/Mushishi","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/73862.jpg?s=d976f75f480430a0c9fde4455696131d","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/457-34798","title":"Mushishi","recommendation_count":2},{"mal_id":23225,"url":"https:\/\/myanimelist.net\/anime\/23225\/Yuru_Yuri_Nachuyachumi","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/73281.jpg?s=482ef77247fa8bdfd2a0e52455215df2","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/23225-34798","title":"Yuru
+        Yuri Nachuyachumi!","recommendation_count":2},{"mal_id":7791,"url":"https:\/\/myanimelist.net\/anime\/7791\/K-On","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/76121.jpg?s=0b734a44ed13694c2396e1eb8260e0bf","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/7791-34798","title":"K-On!!","recommendation_count":2},{"mal_id":36094,"url":"https:\/\/myanimelist.net\/anime\/36094\/Hakumei_to_Mikochi","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1250\/91694.jpg?s=958eb4cb26e0307069a0550879db04ad","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-36094","title":"Hakumei
+        to Mikochi","recommendation_count":2},{"mal_id":488,"url":"https:\/\/myanimelist.net\/anime\/488\/Ichigo_Mashimaro","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/10\/11042.jpg?s=5aba4b7758cd1d1702607c104f025562","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/488-34798","title":"Ichigo
+        Mashimaro","recommendation_count":1},{"mal_id":36800,"url":"https:\/\/myanimelist.net\/anime\/36800\/Amanchu_Advance","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1095\/95063.jpg?s=65e14f0fe4763542cebcbb7944c7bb5b","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-36800","title":"Amanchu!
+        Advance","recommendation_count":1},{"mal_id":30355,"url":"https:\/\/myanimelist.net\/anime\/30355\/WakabaGirl","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/74878.jpg?s=54c65004d71abe0a11ac728e3bfefd15","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/30355-34798","title":"Wakaba*Girl","recommendation_count":1},{"mal_id":34618,"url":"https:\/\/myanimelist.net\/anime\/34618\/Blend_S","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/88286.jpg?s=c6c51d0f65e1799b5c545567cd773de4","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34618-34798","title":"Blend
+        S","recommendation_count":1},{"mal_id":2966,"url":"https:\/\/myanimelist.net\/anime\/2966\/Ookami_to_Koushinryou","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/5\/59401.jpg?s=1c81971daf350f8e99fe00fe3bbd0f95","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/2966-34798","title":"Ookami
+        to Koushinryou","recommendation_count":1},{"mal_id":32093,"url":"https:\/\/myanimelist.net\/anime\/32093\/Tanaka-kun_wa_Itsumo_Kedaruge","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/13\/78565.jpg?s=256eba9d526bc3871f3f7da0d1ac7b4b","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/32093-34798","title":"Tanaka-kun
+        wa Itsumo Kedaruge","recommendation_count":1},{"mal_id":16732,"url":"https:\/\/myanimelist.net\/anime\/16732\/Kiniro_Mosaic","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/8\/51379.jpg?s=f37f8180bfb19240dfa8a0307fdb1190","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/16732-34798","title":"Kiniro
+        Mosaic","recommendation_count":1},{"mal_id":10495,"url":"https:\/\/myanimelist.net\/anime\/10495\/Yuru_Yuri","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/75173.jpg?s=45933ee5442177e74c3fbc848b127752","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/10495-34798","title":"Yuru
+        Yuri","recommendation_count":1},{"mal_id":32924,"url":"https:\/\/myanimelist.net\/anime\/32924\/Urara_Meirochou","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/84119.jpg?s=ce6673b8453d9e28e635aff9c73ae9e5","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/32924-34798","title":"Urara
+        Meirochou","recommendation_count":1},{"mal_id":32555,"url":"https:\/\/myanimelist.net\/anime\/32555\/Stella_no_Mahou","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/3\/81471.jpg?s=3488c109bc3488ced9942ec050270370","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/32555-34798","title":"Stella
+        no Mahou","recommendation_count":1},{"mal_id":13283,"url":"https:\/\/myanimelist.net\/anime\/13283\/One_Off","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/39661.jpg?s=b13338cc0e552addd9e226206b11aa29","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/13283-34798","title":"One
+        Off","recommendation_count":1},{"mal_id":9055,"url":"https:\/\/myanimelist.net\/anime\/9055\/Tamayura","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/28362.jpg?s=568b91332af0d5bdbf3c3a50ac133231","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/9055-34798","title":"Tamayura","recommendation_count":1},{"mal_id":33948,"url":"https:\/\/myanimelist.net\/anime\/33948\/Hinako_Note","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/84858.jpg?s=a57a37ab816a4e5b266a98524b46c520","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/33948-34798","title":"Hinako
+        Note","recommendation_count":1},{"mal_id":35756,"url":"https:\/\/myanimelist.net\/anime\/35756\/Comic_Girls","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/1207\/91794.jpg?s=05652493290f3cdd6e8769f98b0dec25","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/34798-35756","title":"Comic
+        Girls","recommendation_count":1},{"mal_id":22789,"url":"https:\/\/myanimelist.net\/anime\/22789\/Barakamon","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/65427.jpg?s=fa2f22ba147730525acb265769e568ab","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/22789-34798","title":"Barakamon","recommendation_count":1},{"mal_id":17082,"url":"https:\/\/myanimelist.net\/anime\/17082\/Aiura","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/60699.jpg?s=c6d0272a2572aeef8576468a53a1776f","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/17082-34798","title":"Aiura","recommendation_count":1},{"mal_id":33489,"url":"https:\/\/myanimelist.net\/anime\/33489\/Little_Witch_Academia_TV","image_url":"https:\/\/cdn.myanimelist.net\/images\/anime\/13\/83934.jpg?s=de76306a5e67d43ffefe96cebf20218c","recommendation_url":"https:\/\/myanimelist.net\/recommendations\/anime\/33489-34798","title":"Little
+        Witch Academia (TV)","recommendation_count":1}]}'
+    http_version: 
+  recorded_at: Thu, 03 Jan 2019 01:04:52 GMT
+recorded_with: VCR 4.0.0

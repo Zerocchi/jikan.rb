@@ -10,7 +10,7 @@ module Jikan
     end
 
     def anime_id(id, flag=nil)
-      @json = Jikan::API.new.get("anime", id, flag)
+      @json = Jikan::API.new.get(endpoint: "anime", id: id, flag: flag)
       if flag == nil
         Jikan::Anime.new(@json)
       elsif flag == :episodes
@@ -46,7 +46,7 @@ module Jikan
     end
 
     def manga_id(id, flag=nil)
-      @json = Jikan::API.new.get("manga", id, flag)
+      @json = Jikan::API.new.get(endpoint: "manga", id: id, flag: flag)
       if flag == nil
         Jikan::Manga.new(@json)
       elsif flag == :reviews
@@ -75,7 +75,7 @@ module Jikan
     end
 
     def character_id(id, flag=nil)
-      @json = Jikan::API.new.get("character", id, flag)
+      @json = Jikan::API.new.get(endpoint: "character", id: id, flag: flag)
       if flag == nil
         Jikan::Character.new(@json)
       elsif flag == :pictures
@@ -86,7 +86,7 @@ module Jikan
     end
 
     def person_id(id, flag=nil)
-      @json = Jikan::API.new.get("person", id, flag)
+      @json = Jikan::API.new.get(endpoint: "person", id: id, flag: flag)
       if flag == nil
         Jikan::Person.new(@json)
       elsif flag == :pictures
@@ -96,17 +96,42 @@ module Jikan
       end
     end
 
+    def club_id(id, flag=nil)
+      @json = Jikan::API.new.get(endpoint: "club", id: id, flag: flag)
+      if flag == nil
+        Jikan::Club.new(@json)
+      elsif flag == :members
+        @json['members'].map do |member|
+          Jikan::ClubMember.new(member)
+        end
+      end
+    end
+
+    def user(name, flag=:profile)
+      @json = Jikan::API.new.get(endpoint: "user", query: name, flag: flag)
+      if flag == :profile
+        Jikan::User.new(@json)
+      elsif(flag == :animelist)
+        Jikan::BaseEntity.new(@json)
+      elsif(flag == :mangalist)
+        Jikan::BaseEntity.new(@json)
+      elsif(flag == :friends)
+        Jikan::BaseEntity.new(@json)
+      elsif(flag == :history)
+        Jikan::BaseEntity.new(@json)
+      end
+    end
+
     def search(title, type=:anime, page=1)
-      @json = Jikan::API.new.get("search", page, type, title)
+      @json = Jikan::API.new.get(endpoint: "search", page: page, flag: type, query: title)
       Jikan::Search.new(@json, type)
     end
 
     def season(season, year=Date.today.year)
-      @json = Jikan::API.new.get("season", year, season)
+      @json = Jikan::API.new.get(endpoint: "season", year: year, flag: season.to_sym)
       @json['anime'].map do |a|
         Jikan::Anime.new(a)
       end
     end
-    
 	end
 end

@@ -9,14 +9,19 @@ module Jikan
 			@endpoint = ""
 			@id = nil
 			@flag = nil
+			@year = nil
+			@page = nil
+			@query = nil
 			@selected_base = if use_ssl then Jikan::BASE_URL_V3_SSL else Jikan::BASE_URL_v3 end
 		end
 
-		def get(endpoint, id, flag=nil, qry='')
+		def get(endpoint:, flag: nil, id: 0, query: nil, year: Date.today.year, page: 1)
 			@endpoint = endpoint
 			@id = id
 			@flag = flag
-      @query = qry
+			@query = query
+			@year = year
+			@page = page
 
 			construct_url
 			get_data
@@ -26,33 +31,26 @@ module Jikan
 
 		def construct_url
 			@end_url = "#{@selected_base}/#{@endpoint}"
-      @url = "#{@end_url}/#{@id}"
+
+			unless @flag.nil? || Jikan::FLAGS[@endpoint].include?(@flag)
+				raise Jikan::FlagError, 'Flag not supported'
+			end
 
       if @endpoint.eql?('season')
-				unless Jikan::FLAGS[@endpoint].include? @flag
-					raise Jikan::FlagError, 'Flag not supported'
-				end
-				
-				if Jikan::FLAGS[@endpoint].include? :later
-					@url = URI.encode("#{@end_url}")
+				if @flag.eql?(:later)
+					@url = URI.encode("#{@end_url}/#{@flag}")
 				elsif
-					@url = URI.encode("#{@end_url}/#{@id}")
+					@url = URI.encode("#{@end_url}/#{@year}/#{@flag}")
 				end
-			end
-			
-			if @endpoint.eql?('search')
-				unless Jikan::FLAGS[@endpoint].include? @flag
-					raise Jikan::FlagError, 'Flag not supported'
-				else
-					@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@id}")
+			elsif @endpoint.eql?('search')
+				@url = URI.encode("#{@end_url}/#{@flag.to_s}?q=#{@query}&page=#{@page}")
+			elsif @endpoint.eql?('user')
+				@url = URI.encode("#{@end_url}/#{@query}/#{@flag.to_s}")
+			else
+				@url = "#{@end_url}/#{@id}"
+				unless @flag.nil?
+					@url << "/#{@flag.to_s}"
 				end
-			end
-
-			unless @flag.nil? || @endpoint.eql?('search')
-				unless Jikan::FLAGS[@endpoint].include? @flag
-					raise Jikan::FlagError, 'Flag not supported'
-				end
-				@url << "/#{@flag.to_s}"
 			end
 		end
 
