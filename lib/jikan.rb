@@ -11,7 +11,7 @@ module Jikan
 
   FLAGS = {
     'anime' => [ :episodes, :characters_staff, :news, :pictures, :videos, :stats, :reviews, :recommendations, :userupdates ],
-    'manga' => [ :character, :news, :pictures, :stats, :reviews, :recommendations, :userupdates ],
+    'manga' => [ :characters, :news, :pictures, :stats, :reviews, :recommendations, :userupdates ],
     'character' => [ :pictures ],
     'person' => [ :pictures ],
     'search' => [:anime, :manga, :person, :character],
