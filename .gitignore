@@ -12,3 +12,6 @@
 
 # swap files
 *.swp
+
+# gem files
+*.gem
