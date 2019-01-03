@@ -49,6 +49,10 @@ module Jikan
       @json = Jikan::API.new.get(endpoint: "manga", id: id, flag: flag)
       if flag == nil
         Jikan::Manga.new(@json)
+      elsif flag == :characters
+        @json['characters'].map do |char|
+          Jikan::BasicManga.new(char)
+        end
       elsif flag == :reviews
         @json['reviews'].map do |review|
           Jikan::Review.new(review)

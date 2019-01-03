@@ -165,7 +165,7 @@ development program. The seven \"Level 5\" espers are the most powerful in Acade
   - [X] Recommendations <sup>v3.2</sup>
   - [X] User Updates <sup>v3.2</sup>
 - [X] Manga
-  - [ ] Characters
+  - [X] Characters
   - [X] News
   - [X] Pictures
   - [X] Stats 
