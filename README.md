@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/Zerocchi/jikan.rb.svg)](https://github.com/Zerocchi/jikan.rb/tree/master) [![Gem Version](https://img.shields.io/gem/v/jikan.rb.svg)](https://rubygems.org/gems/jikan.rb) [![Total Downloads](https://img.shields.io/gem/dt/jikan.rb.svg?colorB=6495ed)](https://rubygems.org/gems/jikan.rb) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![Dart](https://img.shields.io/badge/language-Ruby-red.svg)](https://www.ruby-lang.org/)
 
-This is a thin Ruby wrapper for [jikan.moe](http://jikan.moe) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan.ME documentation](https://jikan.me/docs).
+This is a thin Ruby wrapper for [jikan.moe](http://jikan.moe) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan documentation](https://jikan.docs.apiary.io/).
 
 ## Installation
 
@@ -156,12 +156,28 @@ development program. The seven \"Level 5\" espers are the most powerful in Acade
 
 ## RESTv3 Features
 - [X] Anime
+  - [X] Characters Staff
+  - [X] Episodes
+  - [X] News
+  - [X] Pictures
+  - [X] Stats 
+  - [X] Reviews <sup>v3.2</sup>
+  - [X] Recommendations <sup>v3.2</sup>
+  - [X] User Updates <sup>v3.2</sup>
 - [X] Manga
+  - [ ] Characters
+  - [X] News
+  - [X] Pictures
+  - [X] Stats 
+  - [X] Reviews <sup>v3.2</sup>
+  - [X] Recommendations <sup>v3.2</sup>
+  - [X] User Updates <sup>v3.2</sup>
 - [X] Person
 - [X] Character
 - [X] Search
   - [ ] Advanced Search
 - [X] Season
+  - [X] Later <sup>v3.2</sup>
 - [ ] User
   - [X] Profile
   - [ ] Animelist <sup>raw</sup>
