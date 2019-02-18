@@ -1,5 +1,5 @@
 require 'require_all'
-require_all 'lib/jikan/models'
+require_rel 'models'
 require 'jikan/api'
 
 module Jikan
@@ -42,7 +42,7 @@ module Jikan
       elsif flag == :stats
         Jikan::Stat.new(@json)
       end
-      
+
     end
 
     def manga_id(id, flag=nil)
