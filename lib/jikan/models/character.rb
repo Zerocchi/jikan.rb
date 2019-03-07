@@ -52,4 +52,14 @@ module Jikan
   end
   
   class BasicCharacter < Entityography; end
+
+  class CharacterResult < BasicCharacter
+    def alternative_names
+      raw['alternative_names']
+    end
+
+    def details(flag=nil)
+      Jikan::character_id id, flag
+    end
+  end
 end

@@ -31,19 +31,23 @@ module Jikan
       when :manga
         iter { |i| Jikan::MangaResult.new(i) }
       when :character
-        raise NoMethodError, "Character only return raw result for now."
+        iter { |i| Jikan::CharacterResult.new(i) }
       when :person
-        raise NoMethodError, "Person only return raw result for now."
+        iter { |i| Jikan::PersonResult.new(i) }
       end
     end
 
     private
 
     def iter
-      @raw['results'].map do |item|
-        if block_given?
-          yield item
+      if @raw.respond_to? 'each'
+        @raw['results'].map do |item|
+          if block_given?
+            yield item
+          end
         end
+      else
+        raise ClientError, "#{@raw['error']}"
       end
     end   
   end

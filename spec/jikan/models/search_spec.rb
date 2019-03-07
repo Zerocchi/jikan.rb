@@ -18,10 +18,10 @@ RSpec.describe Jikan::Search do
       @character_search = Jikan::Search.new(@character_query.raw, :character)
     end
 
-    #VCR.use_cassette "search person" do
-    #  @person_query = Jikan::Query.new.search("Satou Rina", :person)
-    #  @person_search = Jikan::Search.new(@person_query, :person)
-    #end
+    VCR.use_cassette "search person" do
+      @person_query = Jikan::Query.new.search("satou rina", :person)
+      @person_search = Jikan::Search.new(@person_query.raw, :person)
+    end
   end
 
   describe ".search" do
@@ -67,9 +67,16 @@ RSpec.describe Jikan::Search do
         expect(@manga_search.result[0].title).to eq "Toaru Majutsu no Index Gaiden: Toaru Kagaku no Railgun"
       end
 
-      it "raise exception for :character and :person results" do
-        expect { @character_search.result }.to raise_error(NoMethodError)
-        expect { @person_search.result }.to raise_error(NoMethodError)
+      it "wrap :character search result into Jikan::CharacterResult objects" do
+        expect(@character_search.result).to be_a_kind_of Array
+        expect(@character_search.result[0]).to be_a_kind_of Jikan::CharacterResult
+        expect(@character_search.result[0].name).to eq "Misaka, Mikoto"
+      end
+
+      it "wrap :person search result into Jikan::PersonResult objects" do
+        expect(@person_search.result).to be_a_kind_of Array
+        expect(@person_search.result[0]).to be_a_kind_of Jikan::PersonResult
+        expect(@person_search.result[0].name).to eq "Rina Satou"
       end
     end
   end

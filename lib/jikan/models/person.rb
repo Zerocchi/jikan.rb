@@ -58,4 +58,26 @@ module Jikan
   end
   
   class BasicPerson < Entityography; end
+
+  class PersonResult < BasicPerson
+    def alternative_names
+      raw['alternative_names']
+    end
+
+    def details(flag=nil)
+      Jikan::person_id id, flag
+    end
+    
+    def anime
+      raw['anime'].map do |a|
+        Jikan::BasicAnime(a)
+      end
+    end
+
+    def manga
+      raw['manga'].map do |m|
+        Jikan::BasicManga(m)
+      end
+    end
+  end
 end

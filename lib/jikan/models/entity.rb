@@ -89,7 +89,7 @@ module Jikan
   end
 
   class Entityography < BaseEntity
-    def mal_id
+    def id
       raw['mal_id']
     end
 
@@ -101,7 +101,7 @@ module Jikan
       raw['url']
     end
 
-    def image_url
+    def image
       raw['image_url']
     end
 
