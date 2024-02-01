@@ -4,6 +4,8 @@
 
 This is a thin Ruby wrapper for [jikan.moe](http://jikan.moe) inspired by [JikanPy](https://github.com/AWConant/jikanpy).  For more information, please refer to [Jikan documentation](https://jikan.docs.apiary.io/).
 
+### :warning: This project is no longer maintained. If there are alternatives, do open issue so I can link them here. :warning:
+
 ## Installation
 
 Add this line to your application's Gemfile:
